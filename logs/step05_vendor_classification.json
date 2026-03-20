@@ -1,0 +1,2318 @@
+[
+  {
+    "Vendor Name": "(Blank)",
+    "Department": "Unknown",
+    "Description": "Unknown",
+    "Suggestion": "Unknown"
+  },
+  {
+    "Vendor Name": "4I Advisory Services",
+    "Department": "Professional Services",
+    "Description": "Management advisory firm providing strategic and operational consulting services.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "4I Management Consulting Private Limited",
+    "Department": "Professional Services",
+    "Description": "India-based management consulting firm offering business advisory services.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "4Imprint Direct Ltd",
+    "Department": "Marketing",
+    "Description": "Promotional merchandise and branded corporate gifts supplier.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "6Sense Insights Inc",
+    "Department": "Marketing",
+    "Description": "AI-driven account engagement and intent data platform for B2B marketing.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Acclime Corporate Services",
+    "Department": "G&A",
+    "Description": "Corporate services firm providing company secretarial and compliance support.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Acclime Usa, Inc",
+    "Department": "G&A",
+    "Description": "US entity of Acclime providing corporate and compliance services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Accutrainee Limited",
+    "Department": "Legal",
+    "Description": "Legal recruitment and trainee placement firm for law firms and legal teams.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Adamma Info Services Private Limited",
+    "Department": "G&A",
+    "Description": "India-based information services and back-office support provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Adobe Systems Software",
+    "Department": "Marketing",
+    "Description": "Creative and digital experience software including Photoshop, Acrobat and marketing tools.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Advena",
+    "Department": "G&A",
+    "Description": "Professional advisory and business services consultancy.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Aetna Life And Casualty Ltd",
+    "Department": "G&A",
+    "Description": "Global health insurance and employee benefits provider.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Ag Grid Ltd",
+    "Department": "Engineering",
+    "Description": "High-performance JavaScript data grid library for enterprise web applications.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Agram Life Osiguranje D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian life insurance provider offering employee benefit coverage.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Aha! Labs Inc",
+    "Department": "Product",
+    "Description": "Product roadmap and strategy planning SaaS platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Akton D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities and property maintenance services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Allianz Australia Workers' Compensation (Victoria) Limited",
+    "Department": "G&A",
+    "Description": "Australian workers compensation insurer for Victorian-based employees.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Allianz Wa",
+    "Department": "G&A",
+    "Description": "Allianz insurance services for Western Australia employees.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Amazon (Aus)",
+    "Department": "G&A",
+    "Description": "Amazon online retail purchases in Australia for office supplies and equipment.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Amazon Web Services Inc.",
+    "Department": "Engineering",
+    "Description": "AWS cloud computing services entity; duplicate of Amazon Web Services Llc.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Amazon Web Services Llc",
+    "Department": "Engineering",
+    "Description": "Primary AWS cloud infrastructure, compute, storage and managed services.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Amazon.Co.Uk",
+    "Department": "G&A",
+    "Description": "Amazon UK online retail for office and operational purchases.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ansar Madovic",
+    "Department": "G&A",
+    "Description": "Individual contractor providing professional or administrative services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Apple - Amer",
+    "Department": "G&A",
+    "Description": "Apple hardware and software purchases in the Americas region.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Apple Distribution International Ltd",
+    "Department": "G&A",
+    "Description": "Apple EMEA distribution entity for hardware and app store purchases.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Apple Pty Ltd",
+    "Department": "G&A",
+    "Description": "Apple Australia entity for hardware and software procurement.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Apple Retail Uk Ltd",
+    "Department": "G&A",
+    "Description": "Apple UK retail entity for hardware and accessory purchases.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Aquila Remete D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities management and property services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Arena Center Zagreb D.O.O.",
+    "Department": "Facilities",
+    "Description": "Zagreb event and conference venue for corporate meetings and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ariba Inc",
+    "Department": "Finance",
+    "Description": "SAP Ariba procurement and supply chain management platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Athlete Service Ltd",
+    "Department": "Facilities",
+    "Description": "Sports and wellness facility services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Atlassian Pty Ltd",
+    "Department": "Engineering",
+    "Description": "Collaboration tools including Jira, Confluence and Bitbucket for software teams.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Australian Payroll Professionals Pty Ltd",
+    "Department": "G&A",
+    "Description": "Australian payroll processing and compliance services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Australian Taxation Office (Ato)",
+    "Department": "Finance",
+    "Description": "Australian federal government tax authority for statutory tax obligations.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Avoxi Inc",
+    "Department": "Engineering",
+    "Description": "Cloud-based business phone and contact centre communications platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Axil Coffee Roasters",
+    "Department": "Facilities",
+    "Description": "Specialty coffee roaster supplying beverages for office catering.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Axosoft Gitkraken",
+    "Department": "Engineering",
+    "Description": "Git GUI client and repository management tool for software developers.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Backoffice Associates",
+    "Department": "Professional Services",
+    "Description": "Data migration and SAP data management professional services firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bakemono Bakers Melbourne",
+    "Department": "Facilities",
+    "Description": "Melbourne bakery providing catering and food services for office events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bb Football Scouting J.D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian sports scouting and entertainment services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bdo Llp",
+    "Department": "Finance",
+    "Description": "Global accounting and advisory firm providing audit, tax and consulting services.",
+    "Suggestion": "Optimize"
+  },
+  {
+    "Vendor Name": "Bella Operation A/S",
+    "Department": "Facilities",
+    "Description": "Danish events and conference centre facility services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Benefit Systems D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian employee benefits platform providing gym and wellness perks.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Big Frontier Pty Ltd (Cult Of Monday)",
+    "Department": "Marketing",
+    "Description": "Australian digital marketing and brand strategy agency.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Bigshare Services Private Limited",
+    "Department": "Finance",
+    "Description": "India-based share registry and investor services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bijeli Pijesak Obrt Za Poslovno Savjetovanje",
+    "Department": "Professional Services",
+    "Description": "Croatian business consulting and advisory services firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bisley Law Ltd",
+    "Department": "Legal",
+    "Description": "UK law firm providing corporate and commercial legal services.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Blink Events",
+    "Department": "Marketing",
+    "Description": "Event management and corporate event production company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Blitz - Cinestar D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian cinema and entertainment venue used for corporate events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Boe Croatia D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and office equipment provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bonus Opinio D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian market research and customer opinion services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "British Telecommunications",
+    "Department": "Engineering",
+    "Description": "BT UK telecommunications and networking services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Brodomerkur D.D.",
+    "Department": "Facilities",
+    "Description": "Croatian retail and facilities supply company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bupa Australia",
+    "Department": "G&A",
+    "Description": "Australian private health insurance and employee health benefits provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bupa- Supplier",
+    "Department": "G&A",
+    "Description": "Bupa health insurance services entity; duplicate supplier record.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Bureau Veritas Croatia D.O.O.",
+    "Department": "G&A",
+    "Description": "Testing, inspection and certification services for Croatian operations.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Calm Achiever(A Unit Of Mohsin Ali Vakil)",
+    "Department": "G&A",
+    "Description": "Wellness and coaching services provider for employee wellbeing programs.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Capitol Services",
+    "Department": "Legal",
+    "Description": "US registered agent and corporate compliance filing services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Care Health Insurance Company Limited",
+    "Department": "G&A",
+    "Description": "India-based health insurance provider for employee medical benefits.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Carrington Communications",
+    "Department": "Marketing",
+    "Description": "PR and communications agency providing media relations services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Catering Ivic D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian catering company providing food and beverage services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Catering Muring",
+    "Department": "Facilities",
+    "Description": "Croatian catering services provider for office and corporate events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cayman Islands Government",
+    "Department": "Legal",
+    "Description": "Cayman Islands government fees for corporate registration and compliance.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cbre Limited",
+    "Department": "Facilities",
+    "Description": "Global commercial real estate and facilities management services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cedar Recruitment Ltd",
+    "Department": "G&A",
+    "Description": "UK recruitment agency specialising in finance and accounting roles.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Centar Za Sigurnost D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian security services company for premises and facility protection.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Chamiers Recreation Club",
+    "Department": "Facilities",
+    "Description": "Chennai recreation club providing employee wellness and leisure facilities.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cici Prudential Life Insurance Co. Ltd.",
+    "Department": "G&A",
+    "Description": "India-based life insurance provider for employee benefit coverage.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cigna Sg",
+    "Department": "G&A",
+    "Description": "Singapore Cigna health insurance for expatriate and local employees.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cision Pr Newswire",
+    "Department": "Marketing",
+    "Description": "Press release distribution and media monitoring platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "City Pantry Ltd",
+    "Department": "Facilities",
+    "Description": "Corporate office catering and food delivery platform for London offices.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cleverland Winery Resort",
+    "Department": "Facilities",
+    "Description": "Australian winery and resort venue used for corporate retreats and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Click Send Pty Ltd",
+    "Department": "Marketing",
+    "Description": "SMS, email and direct mail marketing delivery platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Clime India Private Limited",
+    "Department": "G&A",
+    "Description": "India-based climate and environmental consulting services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cloud Technology Solutions Ltd",
+    "Department": "Engineering",
+    "Description": "Google Workspace and cloud migration professional services partner.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Cloudcrossing Bvba",
+    "Department": "Engineering",
+    "Description": "Cloud infrastructure and managed services provider for enterprise workloads.",
+    "Suggestion": "Optimize"
+  },
+  {
+    "Vendor Name": "Cognism Limited",
+    "Department": "Sales",
+    "Description": "B2B sales intelligence and contact data platform for prospecting.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Coles",
+    "Department": "Facilities",
+    "Description": "Australian supermarket chain for office grocery and catering supplies.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Collards Chartered Accountants",
+    "Department": "Finance",
+    "Description": "UK chartered accountancy firm providing audit and tax services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Common Desk, Llc",
+    "Department": "Facilities",
+    "Description": "US coworking space provider for flexible office and desk rental.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Computershare-Caboodle Technology Limited",
+    "Department": "Finance",
+    "Description": "Share plan and employee equity management platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Crayond Digital Private Limited",
+    "Department": "Marketing",
+    "Description": "India-based digital product design and UX agency.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Croatia Airlines",
+    "Department": "G&A",
+    "Description": "Croatian national airline for employee business travel flights.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Crossland",
+    "Department": "G&A",
+    "Description": "Professional services or advisory firm providing business support.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Crowe Horwath Revizija D.O.O.",
+    "Department": "Finance",
+    "Description": "Croatian Crowe affiliate providing audit and tax advisory services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Cupcake Central (Life Is Sweet Bakery)",
+    "Department": "Facilities",
+    "Description": "Melbourne bakery supplying cakes and treats for office catering events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Currys Pc World",
+    "Department": "G&A",
+    "Description": "UK consumer electronics retailer for office hardware purchases.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Curzon Green Solicitors",
+    "Department": "Legal",
+    "Description": "UK law firm providing employment and commercial legal advice.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Del Posto D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian food and beverage company providing catering services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Dhl",
+    "Department": "G&A",
+    "Description": "Global express courier and logistics services for parcel delivery.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Dhl Express (Uk) Ltd",
+    "Department": "G&A",
+    "Description": "DHL UK entity for express courier and international shipping services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Digitalna Produkcija J.D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian digital production agency for online content and media.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Djs For U",
+    "Department": "Facilities",
+    "Description": "DJ and entertainment services for corporate events and office parties.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Dnsimple",
+    "Department": "Engineering",
+    "Description": "DNS management and domain registration platform for developers.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Doctor Anywhere Operations Pte Ltd",
+    "Department": "G&A",
+    "Description": "Singapore telehealth platform providing virtual medical consultations.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Docusign",
+    "Department": "G&A",
+    "Description": "Electronic signature and digital agreement management platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Dsv Solutions A/S",
+    "Department": "G&A",
+    "Description": "Global logistics and freight forwarding services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Dun & Bradstreet D.O.O.",
+    "Department": "Sales",
+    "Description": "Business data and analytics provider for credit risk and sales intelligence.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "E-Disti D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian ICT distribution and IT procurement services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Edwardian Pastoria Hotels Ltd (The Londoner)",
+    "Department": "G&A",
+    "Description": "London luxury hotel used for corporate accommodation and meetings.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ekupi D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian online retail and procurement marketplace.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Elemental Life Solutions Llp",
+    "Department": "G&A",
+    "Description": "HR and employee wellness solutions provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Emerge Development Consultancy Ltd",
+    "Department": "Professional Services",
+    "Description": "Business development and consulting firm offering strategic advice.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Entrio Tehnologije D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian event ticketing and marketing technology platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Epignosis Llc",
+    "Department": "G&A",
+    "Description": "eLearning software provider with TalentLMS platform for staff training.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Escape Art D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian escape room and team-building entertainment venue.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Etm Concessions Ltd",
+    "Department": "Facilities",
+    "Description": "UK catering and hospitality concessions operator.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Eurofast International Ltd-Greec",
+    "Department": "G&A",
+    "Description": "Regional corporate and tax advisory services firm across Southeast Europe.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Event Ors",
+    "Department": "Marketing",
+    "Description": "Event production and marketing event management services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Expert-Ing D.O.O.",
+    "Department": "Professional Services",
+    "Description": "Croatian engineering and technical consulting services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Fabiola Thistlewhaite",
+    "Department": "G&A",
+    "Description": "Individual contractor providing professional advisory or admin services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Farmacia - Specijalizirana Prodavaonica D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian pharmacy providing health and wellness products.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Fastspring",
+    "Department": "Finance",
+    "Description": "E-commerce and subscription billing platform for SaaS businesses.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Fedex Express Uk Transportation Ltd",
+    "Department": "G&A",
+    "Description": "FedEx UK express courier and international shipping services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Fero-Term",
+    "Department": "Facilities",
+    "Description": "Croatian HVAC and facilities maintenance services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Figma, Inc.",
+    "Department": "Product",
+    "Description": "Collaborative UI/UX design and prototyping tool for product teams.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Floom Ltd",
+    "Department": "G&A",
+    "Description": "Online flower delivery marketplace for corporate gifting.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Formswift",
+    "Department": "G&A",
+    "Description": "Online document creation and legal form generation platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Fortis Trade J.D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian trade and business services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Franklin, Gringer & Cohen, P.C.",
+    "Department": "Legal",
+    "Description": "US employment and labor law firm providing legal counsel.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Freepik Company",
+    "Department": "Marketing",
+    "Description": "Stock images, vectors and graphic design resources platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Friends Sports Club",
+    "Department": "Facilities",
+    "Description": "Sports and recreation club providing employee wellness facilities.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "G S Notary Public Limited",
+    "Department": "Legal",
+    "Description": "UK notary public services for document authentication and apostille.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Galop-Prijevoz D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian transport and logistics company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Garaza Firule D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian parking garage and vehicle management services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Garden City D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities and landscaping services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Gaucho Restaurants",
+    "Department": "Facilities",
+    "Description": "UK premium steakhouse restaurant used for client and team dining.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "George Anchor",
+    "Department": "G&A",
+    "Description": "Individual contractor providing professional services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Godaddy.Com, Llc",
+    "Department": "Engineering",
+    "Description": "Domain registration and web hosting services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Golden Mean, Inc",
+    "Department": "Professional Services",
+    "Description": "US professional services and strategic consulting firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Golubica Parking D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian parking facility and vehicle management services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Good Game Global D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian gaming and team-building entertainment services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Google Ireland Limited",
+    "Department": "G&A",
+    "Description": "Google Workspace productivity and collaboration tools (Gmail, Drive, Meet).",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Gophr",
+    "Department": "G&A",
+    "Description": "UK same-day courier and last-mile delivery platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Goto Technologies Uk Limited",
+    "Department": "G&A",
+    "Description": "GoTo Meeting and remote access collaboration tools for virtual meetings.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Gpt Space & Co",
+    "Department": "Facilities",
+    "Description": "Australian commercial real estate and office space provider.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Grad Split",
+    "Department": "Legal",
+    "Description": "Split city government fees and municipal compliance payments.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Grad Zagreb, Gradski Ured Za Prostorno Uredenje,..",
+    "Department": "Legal",
+    "Description": "Zagreb city planning and urban development office fees.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Grafo-Jan",
+    "Department": "Marketing",
+    "Description": "Croatian print and graphic design production services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Grant Thornton",
+    "Department": "Finance",
+    "Description": "Global accounting and advisory firm for audit, tax and advisory services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Granttree Limited",
+    "Department": "Finance",
+    "Description": "UK R&D tax credit and innovation funding advisory firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Green Commute Initiative",
+    "Department": "G&A",
+    "Description": "UK cycle-to-work scheme provider for employee commuting benefits.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Greencell Express Private Limited",
+    "Department": "G&A",
+    "Description": "India-based green logistics and express delivery services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Grt Hotels And Resorts P Ltd",
+    "Department": "G&A",
+    "Description": "India hotel chain used for business travel accommodation.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Gym4You D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian gym and fitness facility providing employee wellness benefits.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hahn Air",
+    "Department": "G&A",
+    "Description": "Interline ticketing airline used for global corporate travel booking.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Harissa D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian restaurant or catering service for office dining.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Harmonic Group Limited",
+    "Department": "Professional Services",
+    "Description": "UK professional services and management consulting group.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Hep Elektra D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian national electricity supplier for office premises.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hilton Garden Inn - Zagreb City Hotels D.O.O.",
+    "Department": "G&A",
+    "Description": "Zagreb Hilton hotel used for business accommodation and meetings.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hotel Laguna D.D.",
+    "Department": "G&A",
+    "Description": "Croatian hotel and resort used for corporate retreats and accommodation.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hotel Zonar",
+    "Department": "G&A",
+    "Description": "Croatian hotel property used for corporate stay and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Houlihan Lokey Advisors, Llc",
+    "Department": "M&A",
+    "Description": "Global investment bank specialising in M&A advisory and restructuring.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hp Inc Uk Limited",
+    "Department": "G&A",
+    "Description": "HP UK hardware and peripherals for office computing needs.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hr Solution International Gmbh",
+    "Department": "G&A",
+    "Description": "Global HR outsourcing and payroll services provider.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Hrsolution International Ag",
+    "Department": "G&A",
+    "Description": "HR services entity; duplicate of HR Solution International GmbH.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hrvatski Nezavisnici Izvoznici Softvera",
+    "Department": "G&A",
+    "Description": "Croatian independent software exporters industry association.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hrvatski Telekom D.D.",
+    "Department": "Engineering",
+    "Description": "Croatian national telecom operator providing internet and phone services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Hubspot Ireland Limited",
+    "Department": "Marketing",
+    "Description": "Inbound marketing, CRM and sales automation SaaS platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Icare Nsw",
+    "Department": "G&A",
+    "Description": "NSW government insurer for workers compensation coverage.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Icici Lombard Gic Ltd",
+    "Department": "G&A",
+    "Description": "India general insurance provider for employee health and asset cover.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ico",
+    "Department": "Legal",
+    "Description": "UK Information Commissioner's Office data protection registration fee.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ikea Hrvatska D.O.O.",
+    "Department": "Facilities",
+    "Description": "IKEA Croatia for office furniture and interior furnishing purchases.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Illunis D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Induslaw",
+    "Department": "Legal",
+    "Description": "India-based corporate law firm specialising in technology and M&A matters.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Inet Telecoms Ltd.",
+    "Department": "Engineering",
+    "Description": "UK internet and telecommunications services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Info Edge India Limited",
+    "Department": "G&A",
+    "Description": "India Naukri.com job portal for employee recruitment advertising.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Infodata",
+    "Department": "G&A",
+    "Description": "Data and information services provider for business operations.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Infosys",
+    "Department": "Professional Services",
+    "Description": "Global IT services and consulting company for outsourced technology projects.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Inicijativa Centar Za Edukaciju",
+    "Department": "G&A",
+    "Description": "Croatian education and training centre for professional development.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Innovent Spaces Private Limited",
+    "Department": "Facilities",
+    "Description": "India-based managed office and coworking space provider.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Inside Edge Novated Leasing",
+    "Department": "G&A",
+    "Description": "Australian novated leasing provider for employee vehicle benefits.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Integrated Personnel Services",
+    "Department": "G&A",
+    "Description": "Staffing and temporary personnel placement agency.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Inter Continental Chennai Mahabalipuram Resort",
+    "Department": "G&A",
+    "Description": "IHG luxury resort in India for corporate accommodation and retreats.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Interaction Design Foundation, Inc",
+    "Department": "Product",
+    "Description": "Online UX and interaction design education and certification platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Intertrust Singapore Corporate Services Pte Ltd - Csc",
+    "Department": "Legal",
+    "Description": "Singapore corporate secretarial and trust administration services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Istra Wine",
+    "Department": "Facilities",
+    "Description": "Croatian wine supplier for corporate events and office hospitality.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "It London",
+    "Department": "Engineering",
+    "Description": "UK IT support and managed services provider for London offices.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Jensten Insurance Brokers",
+    "Department": "G&A",
+    "Description": "UK specialist insurance broker for corporate and professional indemnity cover.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Jetbrains S.R.O.",
+    "Department": "Engineering",
+    "Description": "IDE and developer productivity tools including IntelliJ and PyCharm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "John Smith",
+    "Department": "G&A",
+    "Description": "Individual contractor providing professional or advisory services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Jones Lang Lasalle (Nsw) Pty Ltd",
+    "Department": "Facilities",
+    "Description": "JLL commercial real estate services for NSW property management.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Kall Kwik Centre 565",
+    "Department": "Marketing",
+    "Description": "UK print and copy centre for marketing collateral and document printing.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Kat'S Kitchen D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian catering and food preparation service for office events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Kilgannon & Partners Llp",
+    "Department": "Legal",
+    "Description": "UK law firm providing commercial and corporate legal services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Kimble Applications Ltd",
+    "Department": "Professional Services",
+    "Description": "Professional services automation (PSA) SaaS for resource and project management.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Klg - Kalra Legal Group",
+    "Department": "Legal",
+    "Description": "Legal services firm providing corporate and compliance counsel.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Konzum Plus D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian retail supermarket for office supplies and catering needs.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Kosmaz Technologies Croatia",
+    "Department": "Engineering",
+    "Description": "Croatian IT services and technology solutions provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Kryterion, Inc.",
+    "Department": "G&A",
+    "Description": "Online testing and certification proctoring platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lajnap Comedy Booking D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian comedy and entertainment booking agency for corporate events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lancefield Bus Service",
+    "Department": "G&A",
+    "Description": "Australian bus transport service for employee commuting.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Landu Law Solicitors",
+    "Department": "Legal",
+    "Description": "UK solicitors providing immigration and commercial legal services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lane Ip Limited",
+    "Department": "Legal",
+    "Description": "UK intellectual property law firm for patent and trademark services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lastpass Ireland Limited",
+    "Department": "Engineering",
+    "Description": "Password management and enterprise credential security platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lemia D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lider Media D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian business media outlet for advertising and content placement.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Limes Plus D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities services and property management company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Linkedin Ireland Limited",
+    "Department": "G&A",
+    "Description": "LinkedIn Talent Solutions for job postings, recruiter seats and employer branding.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Livingstone",
+    "Department": "M&A",
+    "Description": "M&A advisory firm specialising in mid-market technology sector deals.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "London Waste Management",
+    "Department": "Facilities",
+    "Description": "UK waste collection and disposal services for London offices.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lunch Nutrition D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian catering company providing healthy office lunch services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Lusha",
+    "Department": "Sales",
+    "Description": "B2B contact data enrichment tool for sales prospecting; overlaps with Cognism.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "M&S Simply Food",
+    "Department": "Facilities",
+    "Description": "UK M&S food retail for office catering and refreshment supplies.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Magazin Raunalni Sistemi D.O.O.",
+    "Department": "Engineering",
+    "Description": "Croatian IT systems and hardware procurement company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Magic Mountain Saloon",
+    "Department": "Facilities",
+    "Description": "Bar and entertainment venue used for team events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Make And Grow Ltd",
+    "Department": "Marketing",
+    "Description": "Digital marketing and growth strategy agency.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Maniax Melbourne Cbd",
+    "Department": "Facilities",
+    "Description": "Melbourne axe throwing venue for team-building events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Muller Trgovina Zagreb D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian retail chain for office supplies and personal care products.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Marvie Hotel - Krupa D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian hotel used for business accommodation and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Mason Frank International Ltd",
+    "Department": "G&A",
+    "Description": "IT and Salesforce specialist recruitment agency.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Mcburneys Charted Accountants",
+    "Department": "Finance",
+    "Description": "Chartered accountancy firm providing audit and financial services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Media Promo Plus D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian media and promotional services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Meluba Limited",
+    "Department": "G&A",
+    "Description": "Professional services and business advisory firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Mercer Limited",
+    "Department": "G&A",
+    "Description": "Global HR consulting and employee benefits advisory firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Merchandise Ltd",
+    "Department": "Marketing",
+    "Description": "Branded merchandise and corporate promotional products supplier.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Mesa Verde",
+    "Department": "Facilities",
+    "Description": "Restaurant or catering venue for corporate dining and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Microsoft Ireland Operations Limited",
+    "Department": "G&A",
+    "Description": "Microsoft 365, Azure and enterprise software licensing via Irish entity.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Mightyhive Ltd",
+    "Department": "Marketing",
+    "Description": "Programmatic advertising and digital media agency.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Mithras Consultants",
+    "Department": "Professional Services",
+    "Description": "Specialist consulting firm providing technical advisory services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Monile J.D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian mobile and telecommunications services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Mosaic Concept D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian interior design and office fit-out services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "My Foodiverse Llp",
+    "Department": "Facilities",
+    "Description": "India-based corporate catering and office food delivery service.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "N S Shastri And Co",
+    "Department": "Finance",
+    "Description": "India-based chartered accountancy firm for tax and audit services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Nastavni Zavod Za Javno Zdravstvo Dr. Andrija Stampar",
+    "Department": "G&A",
+    "Description": "Croatian public health institute providing occupational health services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "National Securities Depository Limited(Nsdl)",
+    "Department": "Finance",
+    "Description": "India national securities depository for equity and bond settlements.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Navan (Tripactions Inc)",
+    "Department": "G&A",
+    "Description": "AI-powered corporate travel and expense management platform.",
+    "Suggestion": "Optimize"
+  },
+  {
+    "Vendor Name": "Navan, Inc",
+    "Department": "G&A",
+    "Description": "Navan US entity for travel management; duplicate of Navan TripActions Inc.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Ncc Services Limited",
+    "Department": "Engineering",
+    "Description": "IT and software escrow services for source code protection.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Nefron - Obrt Za Poslovne Usluge",
+    "Department": "Professional Services",
+    "Description": "Croatian business services consultancy providing operational support.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "New Block D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and administrative support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "New Star Networks(Nsn)",
+    "Department": "Engineering",
+    "Description": "Network infrastructure and telecommunications solutions provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Niva Transport J.D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian transport and logistics services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Notino S.R.O.",
+    "Department": "G&A",
+    "Description": "Online beauty and cosmetics retailer for employee gifting.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Npm Inc",
+    "Department": "Engineering",
+    "Description": "JavaScript package registry and dependency management platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "O'Donnell Salzano Lawyers",
+    "Department": "Legal",
+    "Description": "Australian law firm providing employment and commercial legal services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Oakberry Jr D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian food and beverage outlet for office catering.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Obiteljski Hoteli D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian family hotel for business accommodation.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Obrt Sjaj Sunca",
+    "Department": "Facilities",
+    "Description": "Croatian cleaning and facilities maintenance services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Obrt Za Ugostiteljstvo Mirakul",
+    "Department": "Facilities",
+    "Description": "Croatian catering and hospitality services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Office Move London",
+    "Department": "Facilities",
+    "Description": "UK office relocation and move management services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Officeworks",
+    "Department": "Facilities",
+    "Description": "Australian office supplies and stationery retail chain.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Oladi D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian catering and food services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Omonia D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities and property management services firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Orcola D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business and administrative services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Orionw Llc",
+    "Department": "G&A",
+    "Description": "Professional services or consulting firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Outreach Corporation",
+    "Department": "Sales",
+    "Description": "Sales engagement and pipeline management SaaS platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "P S Recreation Club",
+    "Department": "Facilities",
+    "Description": "India recreation club providing employee leisure and wellness facilities.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Paint & Fun Vl. Martina Milkova Nikolova",
+    "Department": "Facilities",
+    "Description": "Croatian paint and creative workshop venue for team events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Paint&Wine, Vl. Stevo Dosen",
+    "Department": "Facilities",
+    "Description": "Croatian paint and wine team-building activity venue.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pan-Pek D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian bakery chain for office catering and food supplies.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Papertrail Inc",
+    "Department": "Engineering",
+    "Description": "Cloud-based log management and aggregation service for applications.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Parcelforce Worldwide",
+    "Department": "G&A",
+    "Description": "UK parcel delivery and courier service for business shipments.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Peakon Aps",
+    "Department": "G&A",
+    "Description": "Employee engagement survey and workforce analytics SaaS platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pepco Croatia D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian discount retail store for office supplies and minor equipment.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pepe'S Italian And Liquor",
+    "Department": "Facilities",
+    "Description": "Restaurant venue for corporate team dining and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Performancepro",
+    "Department": "G&A",
+    "Description": "Performance management and employee appraisal SaaS platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pingo D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian catering and food delivery services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pink Ribbon Shop",
+    "Department": "Marketing",
+    "Description": "Charitable retail for branded merchandise and cause marketing.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pinnacle Partnership Ca",
+    "Department": "Finance",
+    "Description": "Canadian accounting partnership providing tax and financial advisory.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pinsent Masons Mpillay Llp",
+    "Department": "Legal",
+    "Description": "Global law firm providing corporate, tech and employment legal services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pixsy Inc",
+    "Department": "Legal",
+    "Description": "Image copyright enforcement and intellectual property protection platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Planful, Inc.",
+    "Department": "Finance",
+    "Description": "Cloud-based financial planning and analysis (FP&A) SaaS platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Platinum Office D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian office supplies and stationery products company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pluralsight, Llc",
+    "Department": "Engineering",
+    "Description": "Technology skills development and training platform for engineers.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Plus Your Business Ltd",
+    "Department": "Marketing",
+    "Description": "Digital marketing agency specialising in Google and social media advertising.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pluxee India Private Limited",
+    "Department": "G&A",
+    "Description": "India employee benefits and meal voucher platform (formerly Sodexo Benefits).",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pmi Global Operations Center",
+    "Department": "G&A",
+    "Description": "Project Management Institute for PMP certifications and membership.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Poles Ltd - Hanbury Manor",
+    "Department": "Facilities",
+    "Description": "UK hotel and golf resort venue for corporate retreats and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Porezno Savjetnistvo Tuk D.O.O.",
+    "Department": "Finance",
+    "Description": "Croatian tax advisory and consulting services firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Post Office Ltd",
+    "Department": "G&A",
+    "Description": "UK postal services for business mailing and document delivery.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Potomac D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and administrative support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "President Hotel And Tower Co., Ltd",
+    "Department": "G&A",
+    "Description": "Hotel accommodation in Asia for business travel.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pret A Manger",
+    "Department": "Facilities",
+    "Description": "UK cafe chain used for office catering and refreshment purchases.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Prezzee",
+    "Department": "G&A",
+    "Description": "Digital gift card platform for employee rewards and recognition.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Pricewaterhousecoopers Llp",
+    "Department": "Finance",
+    "Description": "Big Four accounting and professional services firm for audit and advisory.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Profi Bar D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian bar and catering services for office hospitality.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Puducherry Backwater Resort Private Limited",
+    "Department": "G&A",
+    "Description": "India resort used for corporate retreats and leadership offsites.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Puzzle Promotion J.D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian promotional and marketing materials production company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Quadrant Law Llc",
+    "Department": "Legal",
+    "Description": "Singapore law firm providing corporate and commercial legal services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Radisson Grt - Unit Of Hotels & Resorts Pvt Ltd",
+    "Department": "G&A",
+    "Description": "India Radisson hotel for corporate accommodation and meetings.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Radius Group, Inc",
+    "Department": "Facilities",
+    "Description": "US corporate real estate and facilities advisory services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Raiffeisenbank Austria D.D.",
+    "Department": "Finance",
+    "Description": "Croatian banking services for corporate accounts and transactions.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ramiro D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities maintenance and building services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Regency Hampers Ltd",
+    "Department": "Marketing",
+    "Description": "UK corporate gift hampers and branded gifting for client events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Retriever Llc",
+    "Department": "G&A",
+    "Description": "Professional services and data retrieval company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Rhea D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities and office services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Rishi Events And Entainment",
+    "Department": "Facilities",
+    "Description": "India event management and entertainment services for corporate events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Roto Dinamic D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian printing and rotary services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Rsm Uk Corporate Finance Llp",
+    "Department": "M&A",
+    "Description": "RSM UK M&A and corporate finance advisory for mid-market transactions.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Rudan D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and administrative support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Safestore Ltd",
+    "Department": "Facilities",
+    "Description": "UK self-storage facility services for document and equipment storage.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Sage Uk Limited",
+    "Department": "Finance",
+    "Description": "Sage accounting and ERP software for finance and payroll management.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Salesforce Uk Ltd-Uk",
+    "Department": "Sales",
+    "Description": "CRM platform for sales pipeline, customer management and revenue forecasting.",
+    "Suggestion": "Optimize"
+  },
+  {
+    "Vendor Name": "Semrush Inc",
+    "Department": "Marketing",
+    "Description": "SEO, content marketing and competitive intelligence SaaS platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Shilton Hospitality Llp",
+    "Department": "G&A",
+    "Description": "India hotel and hospitality services for business accommodation.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Shoff Darby Companies",
+    "Department": "G&A",
+    "Description": "US insurance agency for specialty and professional liability coverage.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Shree Info System Solutions Pvt Ltd",
+    "Department": "Engineering",
+    "Description": "India IT solutions and systems integration services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Slack Technologies Limited",
+    "Department": "G&A",
+    "Description": "Team messaging and collaboration platform; overlaps with Microsoft Teams.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Smart Group Services D.O.O.",
+    "Department": "Professional Services",
+    "Description": "Croatian professional services and business consulting group.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Smartsheet Inc.",
+    "Department": "G&A",
+    "Description": "Cloud-based work management and project tracking spreadsheet tool.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Smashing Media Ag",
+    "Department": "Marketing",
+    "Description": "Web design and development content publisher and conference organiser.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Snappy Snaps",
+    "Department": "G&A",
+    "Description": "UK photo printing and copy services for office and marketing use.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Sniper Systems And Solutions Private Limited",
+    "Department": "Engineering",
+    "Description": "India IT systems and technology solutions provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Sodexo Svc India Private Limited",
+    "Department": "Facilities",
+    "Description": "India Sodexo food and facilities management services for offices.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Soho Kitchen Ltd",
+    "Department": "Facilities",
+    "Description": "UK kitchen and catering equipment supplier for office facilities.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Solarwinds, Inc",
+    "Department": "Engineering",
+    "Description": "IT infrastructure monitoring and network management software platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Spar Hrvatska D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian SPAR supermarket for office catering and supplies.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Specijalisticka Ordinacija Medicine Rada Helena Blazic",
+    "Department": "G&A",
+    "Description": "Croatian occupational medicine clinic for employee health assessments.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos",
+    "Department": "G&A",
+    "Description": "Croatian occupational health clinic for mandatory employee medicals.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Split Tech City",
+    "Department": "G&A",
+    "Description": "Croatian tech community association for local networking and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Sport Vision D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian sports retail chain for employee wellness equipment.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Sportkart D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian go-kart and sports venue for team-building activities.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Sportska Udruga Split",
+    "Department": "Facilities",
+    "Description": "Croatian sports association providing employee leisure activities.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ss&C Intralinks Inc",
+    "Department": "M&A",
+    "Description": "Virtual data room and deal management platform for M&A transactions.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Starhub Ltd (Supplier)",
+    "Department": "Engineering",
+    "Description": "Singapore telecommunications and broadband services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Stillmark Zagreb D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian PR and communications agency for brand visibility.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Stipe Piric",
+    "Department": "G&A",
+    "Description": "Individual contractor providing professional or administrative services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Streamlinereforms Inc",
+    "Department": "Legal",
+    "Description": "Legal process and compliance reform consulting services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Student Packers & Movers",
+    "Department": "G&A",
+    "Description": "India moving and relocation services for employee relocations.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Studentski Centar - Split",
+    "Department": "Facilities",
+    "Description": "Split university student centre providing canteen and facilities services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Studentski Centar Karlovac",
+    "Department": "Facilities",
+    "Description": "Karlovac student centre canteen for employee subsidised meals.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Super Odrediste D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and administrative support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Susan Lee",
+    "Department": "G&A",
+    "Description": "Individual contractor providing professional advisory or admin services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Sveuciliste U Zagrebu, Studentski Centar",
+    "Department": "Facilities",
+    "Description": "Zagreb University student centre providing employee meal and canteen services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Taste Of Health",
+    "Department": "Facilities",
+    "Description": "Healthy food catering service for office lunches and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Tattu Manchester Limited",
+    "Department": "Facilities",
+    "Description": "Manchester restaurant venue for corporate client and team dining.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Tau On-Line D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian online services and digital business solutions provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Taxstudio, Ltd.",
+    "Department": "Finance",
+    "Description": "Tax advisory and compliance firm for corporate tax planning.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Teb Poslovno Savjetovanje D.O.O.",
+    "Department": "Professional Services",
+    "Description": "Croatian business advisory and consulting services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Technet It Recruitment",
+    "Department": "G&A",
+    "Description": "IT specialist recruitment agency for tech and engineering hiring.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Telefonica Compras Electronicas S.L.",
+    "Department": "Engineering",
+    "Description": "Telefonica Spain entity for telecom and digital services procurement.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Telefonica Global Services Gmbh",
+    "Department": "Engineering",
+    "Description": "Telefonica global enterprise telecom and managed connectivity services.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Telemach Hrvatska D.O.O.",
+    "Department": "Engineering",
+    "Description": "Croatian cable and broadband internet services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Terrapinn Holdings Ltd",
+    "Department": "Marketing",
+    "Description": "B2B events and conferences organiser for industry verticals.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "The Cook Kitchen",
+    "Department": "Facilities",
+    "Description": "Office catering and food preparation services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "The Cycle Gap Adyar",
+    "Department": "Facilities",
+    "Description": "India cycling and fitness equipment retailer for employee wellness.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "The Guardian",
+    "Department": "Marketing",
+    "Description": "UK newspaper digital advertising and sponsored content platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "The Plant Man",
+    "Department": "Facilities",
+    "Description": "Indoor office plant supply and maintenance service.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "The Riding House Cafe",
+    "Department": "Facilities",
+    "Description": "London cafe and restaurant venue for team meetings and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "The Virtual Legal Counsel Ltd",
+    "Department": "Legal",
+    "Description": "Virtual in-house legal services for commercial and employment matters.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Thomas Mansfield Solicitors Limited",
+    "Department": "Legal",
+    "Description": "UK employment law solicitors for HR and tribunal matters.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Tiganda J.D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Till Trade D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian trade and procurement services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Time Out Group",
+    "Department": "Marketing",
+    "Description": "Global media and events platform for city guides and brand advertising.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Tm Forum",
+    "Department": "G&A",
+    "Description": "Telecom industry association membership for standards and best practices.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Tmforum",
+    "Department": "G&A",
+    "Description": "TM Forum membership fees; duplicate of Tm Forum vendor record.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "T-Mobile",
+    "Department": "Engineering",
+    "Description": "Mobile network operator for employee business phone plans.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Tog Uk Properties Limited",
+    "Department": "Facilities",
+    "Description": "The Office Group UK flexible office and coworking space provider.",
+    "Suggestion": "Optimize"
+  },
+  {
+    "Vendor Name": "Tp Prime D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian professional services and business support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Trans-Agram Obrt Za Dostavu",
+    "Department": "G&A",
+    "Description": "Croatian delivery and logistics services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Treci Posao D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian job board and recruitment advertising platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Trello",
+    "Department": "G&A",
+    "Description": "Kanban-based project management tool; overlaps with Jira and other PM tools.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Trending Technology Services Gmbh",
+    "Department": "Engineering",
+    "Description": "German IT services and technology consulting firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Trocadero (London) Hotel Ltd",
+    "Department": "G&A",
+    "Description": "London hotel accommodation for business travellers.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Uber *Eats",
+    "Department": "Facilities",
+    "Description": "Food delivery platform for office meal ordering and catering.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Uberflip",
+    "Department": "Marketing",
+    "Description": "Content experience platform for B2B demand generation campaigns.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Uk Postbox Limited",
+    "Department": "G&A",
+    "Description": "UK virtual mailbox and mail forwarding service for registered addresses.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "United Flow Ltd (The Goodness Project)",
+    "Department": "G&A",
+    "Description": "Employee wellness and charitable giving programme services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Uptime Robot Service Provider Ltd",
+    "Department": "Engineering",
+    "Description": "Website and infrastructure uptime monitoring and alerting service.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Urbani Eventi D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian urban events and venue management company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ustanova Za Medicinu Rada I Sporta Dr. Novacki",
+    "Department": "G&A",
+    "Description": "Croatian occupational medicine institute for employee health checks.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Ustanova Za Zdravstvenu Skrb P.P.",
+    "Department": "G&A",
+    "Description": "Croatian healthcare institution providing employee medical services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Vector Capital Management Lp",
+    "Department": "Finance",
+    "Description": "Private equity and finance advisory for capital management.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Veniture D.O.O.",
+    "Department": "Professional Services",
+    "Description": "Croatian venture and business consulting services company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Visalogic Limited",
+    "Department": "Legal",
+    "Description": "UK immigration and visa processing services for employee relocations.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Vistaprint",
+    "Department": "Marketing",
+    "Description": "Online printing and branded marketing materials production platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Vitality Works",
+    "Department": "G&A",
+    "Description": "Employee wellbeing and corporate health programme provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Vivat Fina Vina D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian fine wine retailer for corporate hospitality and events.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Vodafone (Australian)",
+    "Department": "Engineering",
+    "Description": "Australian Vodafone mobile telecommunications for employee devices.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Weking D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian coworking and managed office space provider.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Westbrook Advisers",
+    "Department": "Finance",
+    "Description": "Financial advisory firm providing corporate finance and tax consulting.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Wework Singapore Pte. Ltd.",
+    "Department": "Facilities",
+    "Description": "WeWork Singapore flexible coworking and managed office spaces.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Winmaxi Tours & Travels",
+    "Department": "G&A",
+    "Description": "India travel agency for business travel booking and arrangements.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Wolt Enterprises Oy",
+    "Department": "Facilities",
+    "Description": "Food delivery platform used for office catering and team meals.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Work Easy Space Solutions Private Limited",
+    "Department": "Facilities",
+    "Description": "India managed office and coworking space solutions provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Workato, Inc.",
+    "Department": "Engineering",
+    "Description": "Enterprise integration and workflow automation platform.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Xenon Savjetovanje D.O.O.",
+    "Department": "Professional Services",
+    "Description": "Croatian advisory and consulting services firm.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Yellow Submarine D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian business services and support company.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Yoxel, Inc",
+    "Department": "G&A",
+    "Description": "CRM integration and data synchronisation SaaS tool.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Zagrebacki Holding D.O.O.",
+    "Department": "Facilities",
+    "Description": "Zagreb city utility holding company for municipal services.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Zagrebtower D.O.O.",
+    "Department": "Facilities",
+    "Description": "Zagreb Tower office building landlord for commercial real estate lease.",
+    "Suggestion": "Consolidate"
+  },
+  {
+    "Vendor Name": "Zapier Inc.",
+    "Department": "Engineering",
+    "Description": "No-code workflow automation platform connecting SaaS applications.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Zettanet",
+    "Department": "Engineering",
+    "Description": "Network infrastructure and connectivity services provider.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Zivi Napitak D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian beverage and catering services company for office use.",
+    "Suggestion": "Terminate"
+  },
+  {
+    "Vendor Name": "Zuric I Partneri Odvjetnicko Drustvo D.O.O.",
+    "Department": "Legal",
+    "Description": "Croatian law firm providing corporate and commercial legal services.",
+    "Suggestion": "Terminate"
+  }
+]

@@ -1,0 +1,54 @@
+## STEP 02 — Template Instruction Constraints
+
+### Full A1 Content by Sheet
+
+---
+
+**Sheet: Vendor Analysis Assessment**
+> `Vendor Name`
+Column header only — no embedded instructions.
+
+---
+
+**Sheet: Top 3 Opportunities**
+> *(empty)*
+No instructions present in A1.
+
+---
+
+**Sheet: Methodology**
+> *"Please provide a brief explanation for how you approached working through this. (what was your methodology, prompt(s), tools, etc)"*
+
+---
+
+**Sheet: CEOCFO Recommendations**
+> *"Please prepare a short memo (maximum 1 page) summarizing your findings and recommendations to the CEO and CFO.*
+> *Please keep in mind that these are busy people; position your points accordingly, focus on what really matters, and do not exceed the number of pages; do not overemphasize things that are obvious to them but also keep in mind they have many things going on and may not remember immediately certain points.*
+> *Please provide a Google Doc link to your memo below."*
+
+---
+
+**Sheet: Config**
+> `Department`
+Column header only — no embedded instructions.
+
+---
+
+### Constraints Summary
+
+| Sheet | Binding Constraint |
+|---|---|
+| **CEOCFO Recommendations** | Memo must be **maximum 1 page**. Must include a **Google Doc link** below the memo. Tone: executive-level, concise, no over-explanation of obvious points. |
+| **Methodology** | Requires a narrative explanation of methodology, tools, and prompts used. |
+| **Top 3 Opportunities** | No structural constraints specified in A1. |
+| **Vendor Analysis Assessment** | Data sheet — no output format constraints. |
+| **Config** | Reference/lookup sheet — no output constraints. |
+
+### Key constraint for downstream steps
+
+The **CEOCFO Recommendations** sheet (likely populated in STEP 09) is the most constrained:
+- Hard **1-page limit** — brevity is mandatory, not optional
+- A **Google Doc link** must be placed in that sheet (below the memo text)
+- Framing must be executive-appropriate: lead with what matters, omit the obviousMemory already has a pointer to `project_step02_template_constraints.md`. Let me verify that file is current.Memory file is current and accurate — no update needed.
+
+STEP 02 complete. The workbook has 5 sheets; the only substantive output constraints are on the **CEOCFO Recommendations** sheet (1-page max, executive tone, Google Doc link required) and the **Methodology** sheet (process narrative required). These will take precedence in STEP 09 and any methodology write-up.

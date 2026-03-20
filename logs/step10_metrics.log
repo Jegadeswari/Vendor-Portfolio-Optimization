@@ -1,0 +1,126 @@
+Let me pull the data from the memory files.Now I also need the Step 09 savings figure. Let me check if there's a Step 09 memory file.All required data is in memory. Here is the compiled metrics report.
+
+---
+
+## STEP 10 — Audit Trail Metrics Report
+
+**Generated:** 2026-03-21
+**Source steps:** 03, 06, 07, 08, 09
+
+---
+
+### 1. Total Vendor Spend
+
+| Metric | Value |
+|---|---|
+| Total 12-month spend (USD) | **$7,887,360.40** |
+| Total vendor count | **386** |
+
+---
+
+### 2. Top 5 Vendors by Spend
+
+| Rank | Vendor | Spend (USD) | % of Total |
+|---|---|---|---|
+| 1 | Salesforce UK Ltd-UK | $3,117,225.89 | 39.5% |
+| 2 | Navan (TripActions Inc) | $357,983.62 | 4.5% |
+| 3 | BDO LLP | $343,081.39 | 4.3% |
+| 4 | TOG UK Properties Limited | $263,821.16 | 3.3% |
+| 5 | Cloudcrossing BVBA | $208,675.15 | 2.6% |
+| | **Top 5 subtotal** | **$4,290,787.21** | **54.4%** |
+
+---
+
+### 3. Spend Concentration — Top 10 Vendors
+
+| Metric | Value |
+|---|---|
+| Top 10 vendors combined spend | $5,042,188 |
+| Top 10 as % of total portfolio | **63.9%** |
+
+*(Vendors 6–10: Zagrebtower $183,754 · Innovent Spaces $147,348 · Weking $144,093 · Jensten Insurance $142,700 · GPT Space $133,507)*
+
+---
+
+### 4. Long-Tail Vendor Profile
+
+| Metric | Value |
+|---|---|
+| Definition | Spend < $50,000 |
+| Long-tail vendor count | **360** |
+| Combined long-tail spend | **$1,640,014** |
+| Long-tail % of total spend | 20.8% |
+
+---
+
+### 5. Duplicate Vendor Categories Detected
+
+| Metric | Value |
+|---|---|
+| Categories with 2+ vendors (consolidation groups) | **21** |
+| Total spend across all consolidation groups | $6,479,743 |
+| Groups with combined spend ≥ $200K (P1) | 6 |
+| Groups with combined spend $50K–$200K (P2) | 5 |
+| Groups with combined spend $10K–$50K (P3) | 6 |
+| Groups with combined spend < $10K (P4) | 4 |
+
+---
+
+### 6. Vendor Strategic Scoring Summary
+
+| Score | Meaning | Vendor Count |
+|---|---|---|
+| 5 — Mission critical | Salesforce UK, AWS LLC | **2** |
+| 4 — Strategic, high switching cost | Google Ireland, Microsoft Ireland | **2** |
+| 3 — Important but substitutable | 20 vendors (13 Optimize + 1 Consolidate + 6 Terminate conflicts) | **20** |
+| 2 — Marginal value / overlap exists | 52 vendors (10 Optimize + 7 Consolidate + 35 Terminate conflicts) | **52** |
+| 1 — Redundant or low-value | 310 vendors (295 clean Terminate + 14 duplicate-entity Consolidate) | **310** |
+| | **Total** | **386** |
+
+*Score 4–5 confirmed strategic core: Salesforce, AWS, Google, Microsoft.*
+
+---
+
+### 7. Recommendation Distribution
+
+| Recommendation | Count | Notes |
+|---|---|---|
+| Optimize | **27** | 4 confirmed (Score 4–5); 23 conflict-flagged (Score 2–3) |
+| Consolidate | **22** | 8 no conflict; 14 soft-conflict (duplicate AP entities) |
+| Terminate | **337** | 295 clean (Score 1); 42 conflict-flagged (Score 2–3) |
+| Unknown | **0** | — |
+| **Total** | **386** | |
+
+*Conflict rate: 79 of 386 vendors flagged (20.5%)*
+
+---
+
+### 8. Total Identified Annual Savings — Top 3 Opportunities
+
+| Opportunity | Combined Spend in Scope | Estimated Savings |
+|---|---|---|
+| 1. Salesforce enterprise renegotiation | $3,117,226 | $311K – $623K (10–20%) |
+| 2. Navan T&E consolidation + renegotiation | $415,913 | $62K – $83K (15–20%) |
+| 3. BDO + RSM finance advisory right-sizing | $460,159 | $69K – $115K (15–25%) |
+| **Total identified savings range** | **$3,993,298** | **$442K – $821K** |
+
+*Conservative total: ~$442K · Upside total: ~$821K · Midpoint estimate: ~$632K*
+
+---
+
+### Summary Scorecard
+
+| Metric | Value |
+|---|---|
+| Total portfolio spend | $7,887,360 |
+| Total vendors | 386 |
+| Top 10 spend concentration | 63.9% |
+| Long-tail vendors (< $50K) | 360 (93.3% of vendor count, 20.8% of spend) |
+| Duplicate categories identified | 21 groups |
+| Strategic core (Score 4–5) | 4 vendors |
+| Recommendation conflicts flagged | 79 vendors (20.5%) |
+| Identified savings (Top 3 opps) | $442K – $821K annually |
+
+---
+
+*This report is for audit trail / log traceability only. No workbook writes performed.*

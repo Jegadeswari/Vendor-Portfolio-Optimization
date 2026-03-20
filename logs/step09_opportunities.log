@@ -1,0 +1,21 @@
+Now let me read the Top 3 Opportunities sheet from the workbook.I have all the context needed. The sheet already has data from a prior run. Let me calculate the correct values and update the cells with validated opportunities.
+
+**Calculations:**
+- Opp 1 (Salesforce renegotiation): $3,117,226 × 12.5% = **$389,653**
+- Opp 2 (Long-tail exit): $1,552,621 × 15% = **$232,893**  
+- Opp 3 (Office footprint consolidation): $955,652 × 17.5% = **$167,239**STEP 09 complete. Three opportunities written to the **Top 3 Opportunities** sheet.
+
+---
+
+| Opportunity Title | Estimated Annual Savings (USD) |
+|---|---|
+| Renegotiate Salesforce Enterprise Contract | $389,653 |
+| Exit Long-tail Vendor Portfolio | $232,893 |
+| Consolidate Global Office Footprint | $167,239 |
+
+**Methodology:**
+- **Opp 1** — Salesforce $3,117,226 × 12.5% (mid of 10–15% renegotiation benchmark)
+- **Opp 2** — Terminate-eligible spend $1,552,621 × 15% (mid of 10–20%, net of notice/commitment risk)
+- **Opp 3** — Office footprint $955,652 × 17.5% (mid of 15–20% consolidation benchmark)
+
+All existing cells (A1, A2:A4 labels, column headers) were preserved. Only B2:D4 were updated using `encode_cell`.
