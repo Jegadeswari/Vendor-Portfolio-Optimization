@@ -33,8 +33,11 @@ This is an AI-orchestrated vendor rationalization workflow using Claude Code CLI
   - Runtime: Node.js with xlsx (SheetJS) for controlled Excel read/write
   - Data Source: Vendor spend dataset from assessment workbook
 
+**Note:** Input data was sourced from a Google Sheet (downloaded as .xlsx). The processed output is published as a Google Sheet (link), with the .xlsx version preserved in this repository.
+  
 # Repository Structure
 
-<img width="724" height="242" alt="image" src="https://github.com/user-attachments/assets/1945f399-89a5-4913-bfe1-6368d4ec9639" />
+<img width="709" height="265" alt="image" src="https://github.com/user-attachments/assets/283e579e-38ef-4413-b53f-4ab81999606d" />
+
 
 
