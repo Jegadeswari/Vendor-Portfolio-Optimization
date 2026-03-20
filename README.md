@@ -11,7 +11,7 @@ This is an AI-orchestrated vendor rationalization workflow using Claude Code CLI
 
 # AI-Orchestrated Workflow
 
-<img width="661" height="334" alt="image" src="https://github.com/user-attachments/assets/4610ce50-198e-4210-ad62-7dacb6cd0ef6" />
+<img width="719" height="391" alt="image" src="https://github.com/user-attachments/assets/7915f9ac-481a-4576-8497-c773c2b99b7e" />
 
 # Design Principles
   - Separated AI reasoning from execution, improving stability and control.
