@@ -32,3 +32,9 @@ This is an AI-orchestrated vendor rationalization workflow using Claude Code CLI
   - AI Assistant: Claude (Anthropic) via Claude Code CLI — used for structured reasoning and analysis
   - Runtime: Node.js with xlsx (SheetJS) for controlled Excel read/write
   - Data Source: Vendor spend dataset from assessment workbook
+
+# Repository Structure
+
+<img width="724" height="242" alt="image" src="https://github.com/user-attachments/assets/1945f399-89a5-4913-bfe1-6368d4ec9639" />
+
+
