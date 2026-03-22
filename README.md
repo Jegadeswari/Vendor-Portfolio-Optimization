@@ -10,6 +10,9 @@ This is an AI-orchestrated vendor rationalization workflow using Claude Code CLI
   - Produced audit-ready, CFO-relevant outputs with quantified savings and prioritised actions.
 
 # AI-Orchestrated Workflow
+  - setup-workflow-assets:     Blueprint that created vendor-spend-workflow.md and vendor-rationalization.sh
+  - vendor-spend-workflow.md:  AI-reasoning with the prompts to execute all 6 phases listed in Methodolody section below
+  - vendor-rationalization.sh: Execution that invokes the AI-reasoning to generate outputs
 
 <img width="719" height="391" alt="image" src="https://github.com/user-attachments/assets/7915f9ac-481a-4576-8497-c773c2b99b7e" />
 
@@ -26,7 +29,7 @@ This is an AI-orchestrated vendor rationalization workflow using Claude Code CLI
   - Phase 3 — Optimization Analysis
   - Phase 4 — Executive Outputs
   - Phase 5 — Quality Assurance
-  - Phase 4 — Finalization
+  - Phase 6 — Finalization
   
 # Tools & Environment
   - AI Assistant: Claude (Anthropic) via Claude Code CLI — used for structured reasoning and analysis
