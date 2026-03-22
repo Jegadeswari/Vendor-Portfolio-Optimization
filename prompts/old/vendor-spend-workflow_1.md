@@ -12,7 +12,8 @@ Each step is delimited by `<!-- STEP:N -->` and `<!-- /STEP:N -->` markers.
 The script substitutes `${WORKBOOK}` with the absolute workbook path before execution.
 
 ## Role
-You are a senior vendor strategist and operations executive with expertise in optimizing vendor portfolio.
+
+You are a VP of Operations with experience and expertise in vendor spend rationalisation for technology companies.
 
 ## Workbook Safety Rules
 
@@ -67,9 +68,9 @@ The workbook is located at: ${WORKBOOK}
 Read cell A1 in every sheet in the workbook. These cells contain embedded instructions
 governing structure, format, word limits, and output constraints for that sheet.
 
-Report the full content of each A1 cell. These instructions take precedence over
-workflow guidance where they conflict. Summarise any constraints that will affect
-how outputs must be formatted in later steps.
+Report the full A1 content for every sheet.
+Summarise any constraints that will affect how outputs must be formatted in later steps.
+Where template instructions conflict with workflow guidance, template instructions take precedence.
 Do not modify anything.
 <!-- /STEP:02 -->
 
@@ -82,16 +83,17 @@ TASK: Perform vendor spend analysis.
 
 The workbook is located at: ${WORKBOOK}
 
-Read all rows from the Vendor Analysis Assessment sheet and calculate:
+Read all rows from the Vendor Analysis Assessment sheet.
+From this data, calculate and report:
 
-- Total number of vendors
-- Total spend across all vendors
-- Top 10 vendors by spend with name, spend amount, and % of total spend for each
-- Combined spend and % concentration of top 10 vendors
-- Count of long-tail vendors with spend below $50K
-- Count of high-spend strategic vendors with spend at or above $200K
+1. Total vendor count
+2. Total 12-month spend (sum of all 'Last 12 months Cost (USD)' values)
+3. Top 10 vendors by spend (name + cost + % of total)
+4. Spend concentration: what % of total spend is held by the top 10 vendors
+5. Long-tail vendors (spend < $50,000): count only — do not list individual vendors
+6. High-spend strategic vendors (spend > $200,000): list names and costs
 
-Report the full analysis results. Store the findings for use in STEP 09.
+Format output as a clearly structured report. Do not write any files - this output is for execution log only.
 <!-- /STEP:03 -->
 
 ---
@@ -105,16 +107,14 @@ The workbook is located at: ${WORKBOOK}
 
 Read all vendor names and spend amounts from the Vendor Analysis Assessment sheet.
 
-CRITICAL: Copy each vendor name character-for-character from the spreadsheet.
+CRITICAL — Vendor Name accuracy:
+Copy each vendor name character-for-character from the spreadsheet into all outputs.
 Do not retype from memory. Do not change capitalisation, punctuation, spacing, or spelling.
+Any deviation will cause that vendor to be silently skipped in the workbook write-back step,
+leaving that row blank in the final output.
 
-If the spreadsheet shows
-"Navan (Tripactions Inc)" your JSON must say "Navan (Tripactions Inc)" — not "Navan", not "Navan TripActions", not any other variation.
-
-The lookup that writes to the workbook is case-sensitive and exact-match only.
-Any deviation means that vendor row will be silently skipped and left blank.
-
-For each vendor, use your domain knowledge to:
+Using your deep knowledge of the enterprise SaaS and services market,
+classify each vendor by service category and department:
 
 1. Infer the vendor's service category from the vendor name. Example categories:
    Cloud Infrastructure | CRM | Security | Marketing Automation | Data Platforms |
@@ -150,7 +150,8 @@ Rules:
   on industry knowledge rather than defaulting to generic SaaS categories.
 - Do not leave any vendor unclassified
 
-Report a full classification table showing Vendor Name, Spend, Category, and Department for every vendor once and stop. This will be used in STEP 05.
+Report a full classification table showing Vendor Name, Spend, Category, and Department
+for every vendor. Do not write any files — this output is for the execution log only.
 
 <!-- /STEP:04 -->
 
@@ -163,94 +164,101 @@ TASK: Determine classification values for each vendor, produce a JSON classifica
 
 The workbook is located at: ${WORKBOOK}
 
-STEP 1: Read vendor data from the workbook
-Read vendor name, spend from the Vendor Analysis Assessment sheet in ${WORKBOOK}.
+STEP 1: Read Step 04 classification output
+Use the classification table produced in Step 04 which contains the Category and Department
+already assigned to every vendor. Use these values directly.
+Do not re-classify categories or departments from scratch — that work is already done.
+
+STEP 2 — Read vendor names verbatim from the workbook
+Read all vendor names and spend from Vendor Analysis Assessment in ${WORKBOOK}.
+
+Do NOT modify the Excel workbook.
+
+Do NOT modify these columns:
+• Vendor Name
+• Last 12 months Cost (USD)
 
 CRITICAL: Copy each vendor name character-for-character from the spreadsheet.
 Do not retype from memory. Do not change capitalisation, punctuation, spacing, or spelling.
 
-STEP 2 — Enrich vendor classification (ENHANCED)
+If the spreadsheet shows
+"Navan (Tripactions Inc)" your JSON must say "Navan (Tripactions Inc)" — not "Navan", not "Navan TripActions", not any other variation.
 
-For each vendor, determine:
+The lookup that writes to the workbook is case-sensitive and exact-match only.
+Any deviation means that vendor row will be silently skipped and left blank.
 
-1. Department (MANDATORY)
-Engineering | Facilities | G&A | Legal | M&A | Marketing | SaaS | Product |
-Professional Services | Sales | Support | Finance
+STEP 3 — Add Description and Suggestion for each vendor
+Your only new work in this step is adding these two fields:
 
-2. Description (MANDATORY)
-Single concise sentence (max 120 characters)
+Using your deep knowledge of the enterprise SaaS and services market, determine the most appropriate Description and Suggestion for each vendor:
 
-3. Suggestion (MANDATORY)
-Terminate | Consolidate | Optimize
+- **Description**: A single concise sentence (max 120 characters) describing what the vendor does.
 
-4. Business Function (NEW — MANDATORY)
-Assign exactly ONE:
+- **Suggestion**: Exactly one of: Terminate | Consolidate | Optimize
 
-- Core Product Infrastructure
-- Customer Acquisition
-- Revenue Operations
-- Customer Support
-- Internal Operations
-- Compliance / Legal
+  Suggestion recommendation logic:
+  - **Terminate**: Low-spend vendors (< $50K), redundant services, non-core long-tail vendors with minimal strategic value
+  - **Consolidate**: Duplicate vendors in the same category, overlapping SaaS products or services, or mid-spend vendors ($50K - $200K) with no clear strategic differentiation
+  - **Optimize**: Strategic SaaS or infrastructure vendor with spend above $200K where contract renegotiation or license optimization can generate savings
 
-5. Revenue Criticality (NEW — MANDATORY)
-
-HIGH:
-- Directly impacts revenue generation or product uptime
-- Examples: CRM, payments, cloud infra, core product tools
-
-MEDIUM:
-- Indirect revenue impact
-- Examples: analytics, support tools, marketing platforms
-
-LOW:
-- No short-term revenue impact
-- Examples: HR tools, low-use SaaS, admin tools
-
-STEP 3 — Recommendation logic
-
-Terminate:
-- spend < $50K
-- low strategic value
-- non-critical (LOW revenue criticality preferred)
-
-Consolidate:
-- duplicate vendors in same category
-- overlapping tools
-
-Optimize:
-- high spend vendors (> $200K)
-- HIGH or MEDIUM revenue criticality
-
-CRITICAL RULE:
-- Vendors with HIGH Revenue Criticality must NOT be Terminated
+- If Vendor Name is blank, assign as follows:
+  Department=Unknown, Description=Unknown, Suggestion=Unknown
+  
+  Treat these as informational records only, exclude them from
+  optimization opportunity analysis in Step 09, and flag for
+  human review to identify the vendor before any action is taken.
 
 STEP 4 — Produce output JSON
+Output only a valid JSON array containing every vendor. Do not truncate. No markdown fences:
 
-Output ONLY valid JSON in this format:
+CRITICAL OUTPUT RULES
+
+• Output MUST be valid JSON.
+• Do NOT include explanations, summaries, headings, markdown, or commentary.
+• The first character of the response must be '['
+• The last character must be ']'
+
+Return ONLY the JSON array.
+
+The response MUST start with '[' and end with ']'.
+
+Do NOT include:
+- explanations
+- commentary
+- markdown
+- code fences
+- text before or after the JSON
+
+Each object must contain exactly these keys:
+
+Vendor Name
+Department
+Description
+Suggestion
+
+Example structure:
 
 [
   {
-    "Vendor Name": "...",
-    "Department": "...",
-    "Description": "...",
-    "Suggestion": "...",
-    "Business Function": "...",
-    "Revenue Criticality": "HIGH"
+    "Vendor Name": "Salesforce Uk Ltd-Uk",
+    "Department": "Sales",
+    "Description": "CRM platform used to manage sales pipeline, customer relationships and revenue forecasting",
+    "Suggestion": "Optimize"
+  },
+  {
+    "Vendor Name": "Zoom Video Communications",
+    "Department": "G&A",
+    "Description": "Video conferencing and collaboration platform for remote meetings and webinars",
+    "Suggestion": "Terminate"
   }
 ]
 
-CRITICAL OUTPUT RULES:
-• Valid JSON only
-• No explanations or extra text
-• Include ALL vendors
+Note: Suggestion must be one of: Terminate | Consolidate | Optimize | Unknown
 
 STEP 5 — Write to file
+Write the JSON array to outputs/step05_vendors.json by running a Node.js command via the Bash tool. 
 
-Write JSON to outputs/step05_vendors.json using Node.js via Bash tool.
-
-Print confirmation:
-JSON_WRITTEN_OK records:[count]
+Print the full path and confirm JSON_WRITTEN_OK records:[count] before proceeding.
 <!-- /STEP:05 -->
 
 ---
@@ -260,12 +268,15 @@ You are performing STEP 06 of the Vendor Spend Strategy assessment.
 
 TASK: Capture decision rationale for each recommendation.
 
+
 The workbook is located at: ${WORKBOOK}
 
 Read vendor name, spend, department, and suggestion from the Vendor Analysis
 Assessment sheet in ${WORKBOOK}.
 
-Using your expertise in vendor strategy and procurement, for each vendor, evaluate each recommendation and record a concise rationale (1–2 sentences) explaining why the recommendation was made. Reference factors such as:
+Using your expertise in vendor strategy and procurement, evaluate each recommendation
+and capture the rationale. For each vendor record a concise rationale (1–2 sentences)
+explaining why the recommendation was made. Reference factors such as:
 
 - Vendor spend level relative to thresholds ($50K = long-tail, $200K = high-spend strategic)
 - Category overlap or duplication with other vendors (if Consolidate)
@@ -274,18 +285,9 @@ Using your expertise in vendor strategy and procurement, for each vendor, evalua
 - Potential for renegotiation, right-sizing, or consolidation
 
 Print the rationale as a structured report:
+  Vendor Name | Recommendation | Rationale (1–2 sentences)
 
-Additionally, assess short-term dependency impact:
-
-For each vendor, include:
-- 30-Day Impact: What breaks if vendor is removed within 30 days
-- Impact Level: HIGH | MEDIUM | LOW
-
-Output format:
-Vendor Name | Recommendation | Rationale | 30-Day Impact | Impact Level
-
-This log is for auditability only and do not write to the workbook. 
-This output will be used to validate to identify and size the top 3 cost optimization opportunities in Step 09.
+This log is for auditability only and do not write to the workbook. Do not write any files — this output is for the execution log only.
 <!-- /STEP:06 -->
 
 ---
@@ -299,12 +301,17 @@ The workbook is located at: ${WORKBOOK}
 
 Read vendor names, spend, and department from the Vendor Analysis Assessment sheet in ${WORKBOOK}.
 
-Using the vendor names, spend data, and your domain knowledge:
+Recall the service category assigned to each vendor from the classification
+table produced in Step 04. Use these categories directly to group vendors —
+do not re-infer categories from scratch.
 
-1. Group vendors by inferred service category (e.g., CRM, Cloud Infrastructure, Security).
+Using your expertise in vendor strategy and enterprise SaaS market dynamics, identify consolidation opportunities from the vendor names, spend data and service categories read above:
+
+1. Group vendors by assigned service category from Step 04 (e.g. CRM, Monitoring, Productivity, Workspace, Marketing Automation).
 2. Identify categories where multiple vendors perform overlapping or identical functions.
-3. Calculate combined spend per duplicate category and rank them by combined spend (highest impact first)
-4. Flag specific vendor pairs or groups that are strong consolidation candidates.
+3. For each duplicate category, calculate the combined spend.
+4. Rank duplicate categories by combined spend (highest impact first).
+5. Flag specific vendor pairs or groups that are strong consolidation candidates.
 
 Report a consolidation opportunity analysis listing:
 - Category name
@@ -315,7 +322,7 @@ Report a consolidation opportunity analysis listing:
 Print output as:
   Category | Vendors in Category | Combined Spend | Consolidation Candidate(s)
 
-Store this analysis in memory for use in Step 09.
+This output is for the execution log only. Do not write any files.
 <!-- /STEP:07 -->
 
 ---
@@ -323,66 +330,40 @@ Store this analysis in memory for use in Step 09.
 <!-- STEP:08 -->
 You are performing STEP 08 of the Vendor Spend Strategy assessment.
 
-TASK: Score vendors by strategic importance AND evaluate execution trade-offs.
+TASK: Score vendors by strategic importance and refine recommendations.
 
 The workbook is located at: ${WORKBOOK}
 
 Read the populated 'Vendor Analysis Assessment' sheet.
 
-STEP 1 — Strategic Scoring
+Using your expertise in enterprise technology, operational strategy and vendor strategy,
+evaluate each vendor's strategic importance to the business.
+For each vendor, evaluate strategic importance using these factors:
+  - Role in product or platform infrastructure (high weight)
+  - Customer-facing capabilities (high weight)
+  - Operational criticality (high weight)
+  - Redundancy or overlap with other vendors (negative weight)
+  - Spend level (high spend = higher strategic importance)
 
-Assign Strategic Score (1–5):
+Assign a Strategic Score (1–5):
+  5 = Mission critical, cannot be replaced
+  4 = Strategic, significant switching cost
+  3 = Important but substitutable
+  2 = Marginal value, overlap exists
+  1 = Redundant or low-value
 
-5 = Mission critical, cannot be replaced  
-4 = Strategic, high switching cost  
-3 = Important but substitutable  
-2 = Low value, overlap exists  
-1 = Redundant or unnecessary  
+Use the strategic score to validate recommendation alignment:
+  Score 4–5 → should be Optimize
+  Score 2–3 → evaluate for Consolidate
+  Score 1   → Terminate is appropriate
 
-STEP 2 — Trade-off Modeling
+Flag any vendors where the current recommendation conflicts with the strategic score.
 
-For each vendor, evaluate:
+Print ONLY vendors where Conflict = Y:
+  Vendor Name | Score | Current Recommendation | Score-Aligned Recommendation | Conflict (Y/N)
 
-1. Switching Cost
-- HIGH: migration is complex, risky, or expensive
-- MEDIUM: moderate effort, some disruption
-- LOW: easy to replace or remove
-
-2. Implementation Effort
-- HIGH: cross-team coordination, technical migration required
-- MEDIUM: moderate coordination
-- LOW: minimal effort
-
-3. Time to Realise Savings
-
-- IMMEDIATE: 0–3 months
-- MEDIUM: 3–6 months
-- LONG: 6–12 months
-
-STEP 3 — Validate Recommendation Alignment
-
-Rules:
-
-- Score 4–5 → Optimize
-- Score 2–3 → Consolidate
-- Score 1 → Terminate
-
-Also enforce:
-
-- HIGH Switching Cost + HIGH Criticality → Avoid Terminate
-- LOW Effort + LOW Criticality → Strong Terminate candidate
-
-STEP 4 — Output
-
-Print structured table:
-
-Vendor Name | Score | Suggestion | Switching Cost | Effort | Time | Conflict (Y/N)
-
-Conflict = Y if:
-- Recommendation contradicts score OR
-- High critical vendor marked Terminate
-
-Store results for Step 09 prioritization.
+For vendors with no conflict, report only the count by score band (5, 4, 3, 2, 1).
+This output is for the execution log only. Do not write any files.
 <!-- /STEP:08 -->
 
 ---
@@ -394,57 +375,21 @@ TASK: Identify the top 3 cost optimization opportunities and write them to the w
 
 The workbook is located at: ${WORKBOOK}
 
-Read the Vendor Analysis Assessment sheet from ${WORKBOOK}.
+Using your expertise in vendor cost optimisation and procurement strategy,
+identify the three highest-impact cost reduction opportunities.
 
-Read the Top 3 Opportunities sheet from ${WORKBOOK}. Check A1 in the Top 3 Opportunities sheet for template instructions. Do not overwrite A1.
+Read the Vendor Analysis Assessment sheet and the Top 3 Opportunities sheet
+from ${WORKBOOK}. Check A1 in the Top 3 Opportunities sheet for template
+instructions. Do not overwrite A1.
 
-Using your expertise in vendor cost optimisation and procurement strategy, and based on the analysis from previous steps, identify the three highest-impact cost reduction opportunities.
-
-Focus on:
+Identify opportunities based on analysis from Steps 03–08, prioritising:
 - Highest-spend vendors (prioritize by absolute USD value)
 - High-spend vendor renegotiation (benchmark: 10–15% savings)
 - SaaS license optimization and right-sizing (benchmark: 15–30% savings)
 - Vendor consolidation opportunities (benchmark: 15–20% savings)
-- Long-tail vendor termination (benchmark: 10–20% of terminate-eligible spend, accounting for notice periods, minimum commitments, and renewal timing)
+- Long-tail vendor termination (benchmark: 10–20% of terminate-eligible spend,
+  accounting for notice periods, minimum commitments, and renewal timing)
   
-Additionally, classify each opportunity into an Execution Track:
-
-- Track 1: Immediate (low effort, low risk, quick savings within 0–3 months)
-- Track 2: Parallel Strategic (high value, higher complexity, longer timeline 3–12 months)
-
-Ensure:
-- At least one opportunity is identified as Immediate
-- At least one opportunity is identified as Parallel Strategic
-- Immediate opportunity must have LOW Effort AND IMMEDIATE time to realise savings
-
-Additionally ensure:
-- At least one opportunity targets a top 5 vendor or top spend category
-
-Use this classification to inform prioritisation and explanation of each opportunity.
-
-Also incorporate:
-- 30-Day Impact and Impact Level from Step 06
-- Switching Cost, Effort, and Time from Step 08
-
-These must directly influence opportunity selection and execution track assignment.
-
-Prioritisation must consider:
-
-- Financial Impact (USD savings)
-- Execution Effort (derived from Step 08)
-- Business Risk (Revenue Criticality from Step 05)
-- Time to Value
-
-Do NOT select top 3 based on savings alone.
-
-Select opportunities that maximise:
-High savings + Feasible execution + Minimal operational risk
-
-Guiding principles (not hard constraints):
-- Avoid selecting actions that create immediate operational disruption
-- Prefer faster time-to-value where trade-offs are similar
-- Ensure recommendations are specific and actionable (pricing, usage, consolidation)
-
 For each opportunity, write:
 Title
   Concise and specific (e.g. "Renegotiate Salesforce Enterprise Contract")
@@ -454,24 +399,35 @@ Explanation
   - What the problem is
   - What action to take
   - Expected outcome or saving mechanism
-  - Include execution context (Immediate or Parallel Strategic where relevant)
 
 Estimated Annual Savings (USD)
-  Calculated using the actual vendor spend and benchmark above. Write as a single number.
+  Calculated using the benchmark ranges below and actual vendor spend.
 
+Savings benchmarks:
+  Renegotiate / right-size:      10–15% of vendor spend
+  SaaS licence optimisation:     15–30% of licence spend
+  Vendor consolidation:          15–20% of combined category spend
+  Vendor termination:            10–20% of terminate-eligible spend
+
+Prioritise opportunities by highest estimated annual savings.
 Return EXACTLY THREE opportunities.
-
-Execution Track classification must be reflected within the Explanation text only.
-Do NOT create new columns or modify worksheet structure.
 
 Write the three opportunities to the Top 3 Opportunities sheet:
 - Update only Opportunity Title, Explanation, and Estimated Annual Savings cells
 - Write to rows 2, 3, and 4 only
 - If Estimated Annual Savings column does not exist, add it — only permitted column addition
-- Use encode_cell to write individual cells. Do not use aoa_to_sheet or methods that rebuild the sheet.
+- Use encode_cell to write individual cells. Do not rebuild the sheet
 
-Print confirmation for the three opporutnities written to the worksheet:
+IMPORTANT:
+- Do NOT recreate or overwrite the worksheet
+- Do NOT use aoa_to_sheet
+- Only update the required cells beneath the header row
+- Preserve the instruction cell A1
+- Preserve existing column headers
+
+After writing print confirmation:
   Opportunity Title | Estimated Annual Savings (USD)
+for the three opportunities written to the worksheet.
 <!-- /STEP:09 -->
 
 ---
@@ -494,7 +450,7 @@ Using your vendor spend analysis expertise, compile and record the following met
 1. Total vendor spend (sum of all 'Last 12 months Cost (USD)')
 2. Top 5 vendors by spend (name + spend + % of total)
 3. Spend concentration: top 10 vendors as % of total spend
-4. Long-tail vendor count (spend <= $50,000) and their combined spend
+4. Long-tail vendor count (spend < $50,000) and their combined spend
 5. Number of duplicate vendor categories detected (categories with 2+ vendors)
 6. Vendor strategic scoring summary: count of vendors by score band (5, 4, 3, 2, 1)
 7. Recommendation distribution: count of Optimize / Consolidate / Terminate / Unknown
@@ -512,10 +468,11 @@ TASK: Populate the Methodology sheet.
 
 The workbook is located at: ${WORKBOOK}
 
-Read the Methodology sheet in ${WORKBOOK} — understand its structure and any template instructions in A1.
-Comply strictly with those instructions in A1. Do NOT overwrite A1.
+Read the Methodology sheet in ${WORKBOOK} — understand its structure and read
+the full content of A1 which contains the template instructions.
+Comply strictly with those instructions. Do NOT overwrite A1.
 
-Write methodology explanation as VP of Operations, who personally conducted this vendor spend assessment.
+Write a first-person methodology explanation as VP of Operations, who personally conducted this vendor spend assessment.
 
 Structure the content under exactly these 4 headings with bullet points under each. Do not use paragraph prose — bullets only under each heading.
 
@@ -531,7 +488,7 @@ Structure the content under exactly these 4 headings with bullet points under ea
   - Vendor categorisation: service categories and departments assigned using domain knowledge
   - Service overlap identification: duplicate categories detected, consolidation candidates flagged
   - Cost optimisation framework: Terminate / Consolidate / Optimize decision rules applied per vendor
-  - Opportunity prioritisation: top 3 opportunities selected using multi-factor evaluation (financial impact, execution effort, business risk, time to value)
+  - Opportunity prioritisation: top 3 opportunities selected by highest estimated annual savings
 
 3. PROMPTS:
   - A 16-step structured prompt workflow was designed and executed sequentially via Claude Code CLI
@@ -564,22 +521,24 @@ TASK: Generate the CEO/CFO executive memo.
 
 The workbook is located at: ${WORKBOOK}
 
-Read the Vendor Analysis Assessment sheet from ${WORKBOOK}.
+Read the CEOCFO Recommendations sheet to understand its structure and check A1 for
+template instructions. Do NOT overwrite A1 or A2.
+Read the Vendor Analysis Assessment sheet to get total spend, vendor count, and
+recommendation breakdown. Read the Top 3 Opportunities sheet for savings figures.
 
-Read the Top 3 Opportunities sheet from ${WORKBOOK}. Check A1 in the Top 3 Opportunities sheet for template instructions. Do not overwrite A1.
+Using your executive communication expertise and vendor strategy expertise, write a concise and compelling memo for a CEO and CFO audience.
 
-Read the CEOCFO Recommendations sheet to check A1 template instructions and confirm the cell structure. Do NOT overwrite A1 or A2.
-
-Using your executive communication expertise, write a concise and compelling memo for a CEO and CFO audience using the actual numbers already in context.
-
-Write a MAXIMUM 1-PAGE executive memo. Every word must earn its place. No preamble. No padding. No repetition. Free of spelling, grammatical, and mathematical errors. Use actual numbers from prior steps.
+Write a MAXIMUM 1-PAGE executive memo. Every word must earn its place.
+No preamble. No padding. No repetition.
+Free of spelling, grammatical, and mathematical errors.
+Use actual numbers from the workbook data.
 
 Structure the memo exactly as follows — use - for ALL bullet points:
 
 MEMORANDUM
 TO: Chief Executive Officer | Chief Financial Officer
-FROM: [your name/role]
-DATE: [today]
+FROM: R Jegadeswari, VP of Operations
+DATE: [today's date]
 RE: Vendor Spend Rationalisation — Findings & Recommendations
 
 1. VENDOR SPEND OVERVIEW
@@ -587,8 +546,11 @@ RE: Vendor Spend Rationalisation — Findings & Recommendations
   - Breakdown: [Terminate count] vendors for Termination ($[amount], [%]); [Optimize count] for Optimisation ($[amount], [%]); [Consolidate count] for Consolidation ($[amount], [%])
   - Top 10 vendors account for [X]% of total spend — acute concentration risk
 
+2. MAJOR COST DRIVERS
+  - [Top vendor name] represents $[amount] ([X]% of total spend) — highest-impact renegotiation target
+  - Top departments by spend: [dept 1] ($[amount]), [dept 2] ($[amount]), [dept 3] ($[amount])
+
 3. TOP 3 OPPORTUNITIES
-  - Opportunities structured across Immediate and Parallel Strategic tracks to maximise speed, feasibility, and minimise operational risk
   - [Opportunity 1 title]: [action] — est. $[savings]
   - [Opportunity 2 title]: [action] — est. $[savings]
   - [Opportunity 3 title]: [action] — est. $[savings]
@@ -597,32 +559,27 @@ RE: Vendor Spend Rationalisation — Findings & Recommendations
 4. ESTIMATED SAVINGS SUMMARY
   - Total identified savings: $[amount] ([X]% of total LTM spend)
   - Year 1 conservatively realisable: $[amount] (50–70% of identified savings)
-  - Savings based on midpoint assumptions; upside with strong execution
   - Payback on implementation effort: under 6 months
 
 5. IMPLEMENTATION ROADMAP
-- Month 1–2: [one action, max 10 words]
-- Month 3–4: [one action, max 10 words]
-- Month 4–6: [one action, max 10 words]
-- Month 6+: [one action, max 10 words]
+  - Month 1-2: Terminate low-value vendor contracts at next renewal
+  - Month 2-4: Consolidate duplicate tool categories; migrate to preferred platform
+  - Month 3-6: Renegotiate strategic vendor contracts with benchmarking data
+  - Month 6+:  Establish quarterly vendor review cadence and spend monitoring
 
 6. RISKS AND MITIGATIONS
-- [Risk 1]: [mitigation in 8 words]
-- [Risk 2]: [mitigation in 8 words]
-- [Risk 3]: [mitigation in 8 words]
+  - [Risk 1 — highest impact]: [mitigation in 8 words]
+  - [Risk 2 — second highest]: [mitigation in 8 words]
 
-Recommended next step: [one sentence from the perspective of a senior procurement leader —
-reference the specific commercial lever, negotiation timing, or consolidation action
-that will unlock the largest saving fastest. Name the vendor, the renewal window or
-contract event, and the internal owner who must act.]
+Recommended next step: [one sentence]
 
-Tone: executive, data-driven, no hedging.
+Tone: executive, data-driven, no hedging
 
 Do NOT overwrite A1 or A2.
 
 Write the complete memo as a single continuous text block into cell A3 only.
 Use \n for line breaks within the string. Use double \n\n between sections.
-Use XLSX.utils.encode_cell to write ONLY to A3.
+Use encode_cell to write ONLY to A3.
 Do not use aoa_to_sheet or methods that rebuild the sheet.
 <!-- /STEP:12 -->
 
@@ -648,7 +605,8 @@ Using your data quality and vendor spend expertise, validate every vendor row fo
   - 'Suggestions (Consolidate / Terminate / Optimize costs)' is one of:
      Optimize | Consolidate | Terminate | Unknown
 
-    
+    Vendors with Suggestions=Unknown are valid — they represent blank vendor names flagged for human review. Do not raise these as errors.
+
 Print a validation report:
   PASS: vendor name — all fields valid
   FAIL: vendor name — field(s) that failed and reason
@@ -679,7 +637,7 @@ Print final summary:
 Also confirm:
   - Top 3 Opportunities sheet has 3 rows populated
   - Methodology sheet has content
-  - CEOCFO Recommendations contains the memo in A3
+  - CEOCFO Recommendations A3 contains the memo
 <!-- /STEP:13 -->
 
 ---
@@ -691,9 +649,12 @@ TASK: Review and improve analysis quality.
 
 The workbook is located at: ${WORKBOOK}
 
-Read the full Vendor Analysis Assessment sheet and the Top 3 Opportunities sheet from ${WORKBOOK}.
+Read the full Vendor Analysis Assessment sheet and the Top 3 Opportunities
+sheet from ${WORKBOOK}.
 
-Using your expertise as a senior vendor strategy analyst, perform a critical second-pass review:
+Using your expertise as a senior vendor strategy analyst, perform a final quality review of all classifications and outputs.
+
+Perform a critical second-pass review:
 
 DEPARTMENT ACCURACY — Common corrections to apply if found:
   - Stripe / NetSuite / QuickBooks → Finance (not Engineering or SaaS)
@@ -713,7 +674,7 @@ RECOMMENDATION ACCURACY:
 TOP 3 OPPORTUNITIES REVIEW:
   - Verify savings estimates are based on actual spend numbers
   - Confirm each opportunity addresses a high-spend category or vendor
-  - Replace any opportunity with a higher-impact and executable alternative if identified,considering effort, risk, and time to value
+  - Replace any opportunity with a higher-impact alternative if identified
 
 If improvements are needed, update the affected cells only using encode_cell.
 Preserve all existing sheet structure. Do not rebuild the sheet.
@@ -730,11 +691,12 @@ You are performing STEP 15 of the Vendor Spend Strategy assessment.
 
 TASK: Perform confidence and review check — flag low-confidence items.
 
+Using your expertise as a senior vendor strategy analyst, perform a confidence assessment before final save.
+
 The workbook is located at: ${WORKBOOK}
 
-Read vendor name, department, and suggestion for all rows from the Vendor Analysis Assessment sheet in ${WORKBOOK}.
-
-Using your expertise as a senior vendor strategy analyst, perform a confidence assessment  and assign a confidence level for each vendor:
+Read vendor name, department, and suggestion for all rows from the
+Vendor Analysis Assessment sheet in ${WORKBOOK}.
 
 For each vendor, assign a confidence level:
   HIGH   — vendor identity is well-known; classification is unambiguous

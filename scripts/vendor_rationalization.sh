@@ -109,7 +109,6 @@ fi
 extract_step() {
   export WORKBOOK
   local step
- #step=$(printf "%02d" "$1")    #RJEGA
   step=$(printf "%02d" $(( 10#$1 )))
   awk "/<!-- STEP:${step} -->/{found=1; next} /<!-- \/STEP:${step} -->/{found=0} found{print}" "$WORKFLOW" \
     | envsubst '${WORKBOOK}'
@@ -119,7 +118,6 @@ extract_step() {
 # Usage: run_step <step_number> <logfile> <description> [json_output_file]
 run_step() {
   local step
-  #step=$(printf "%02d" "$1")    #RJEGA
   step=$(printf "%02d" $(( 10#$1 )))
   local logfile="$2"
   local description="$3"
@@ -144,7 +142,7 @@ run_step() {
     exit 1
   fi
 
-  # Run Claude Code CLI in non-interactive mode
+  # Run Claude Code CLI in non-interactive mode 
   printf "%s" "$prompt" | claude \
     --allowed-tools Bash \
     --output-format stream-json \
@@ -295,7 +293,7 @@ run_step "13" "step13_validation.log"   "Validating all vendor rows and outputs"
 run_step "14" "step14_review.log"       "Reviewing and improving analysis quality"
 run_step "15" "step15_confidence.log"   "Running confidence and review check"
 
-###### RJEGA >> UNCOMMENT THE BELOW IF YOU WANT TO BE STOPPED AFTER STEP15  FOR HUMARN REVIEW
+###### RJEGA >> UNCOMMENT THE BELOW IF YOU WANT TO BE STOPPED AFTER STEP15 FOR HUMARN REVIEW
 # # Stop pipeline if Step 15 flagged vendors for human review
 # if grep -qi "human review recommended" "$LOGS/step15_confidence.log" 2>/dev/null; then
 #   echo -e "${YELLOW}============================================================${NC}"

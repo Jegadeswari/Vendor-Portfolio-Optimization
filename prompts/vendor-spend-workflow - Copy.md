@@ -169,88 +169,63 @@ Read vendor name, spend from the Vendor Analysis Assessment sheet in ${WORKBOOK}
 CRITICAL: Copy each vendor name character-for-character from the spreadsheet.
 Do not retype from memory. Do not change capitalisation, punctuation, spacing, or spelling.
 
-STEP 2 — Enrich vendor classification (ENHANCED)
+If the spreadsheet shows
+"Navan (Tripactions Inc)" your JSON must say "Navan (Tripactions Inc)" — not "Navan", not "Navan TripActions", not any other variation.
 
-For each vendor, determine:
+The lookup that writes to the workbook is case-sensitive and exact-match only.
+Any deviation means that vendor row will be silently skipped and left blank.
 
-1. Department (MANDATORY)
-Engineering | Facilities | G&A | Legal | M&A | Marketing | SaaS | Product |
-Professional Services | Sales | Support | Finance
+STEP 2 — Add Description and Suggestion for each vendor
+Using your domain knowledge, determine the following:
 
-2. Description (MANDATORY)
-Single concise sentence (max 120 characters)
+- **Department**: One of the 12 allowed values:
+  Engineering | Facilities | G&A | Legal | M&A | Marketing | SaaS | Product |
+  Professional Services | Sales | Support | Finance
 
-3. Suggestion (MANDATORY)
-Terminate | Consolidate | Optimize
+- **Description**: A single concise sentence (max 120 characters) describing vendor function.
 
-4. Business Function (NEW — MANDATORY)
-Assign exactly ONE:
+- **Suggestion**: Exactly one of: Terminate | Consolidate | Optimize
 
-- Core Product Infrastructure
-- Customer Acquisition
-- Revenue Operations
-- Customer Support
-- Internal Operations
-- Compliance / Legal
+  Suggestion recommendation logic:
+  - **Terminate**: Low-spend vendors (< $50K or = $50K), redundant services, non-core long-tail vendors with minimal strategic value
+  - **Consolidate**: Duplicate vendors in the same category, overlapping SaaS products or services, or mid-spend vendors ($50K - $200K) with no clear strategic differentiation
+  - **Optimize**: Strategic SaaS or infrastructure vendor with spend above $200K where contract renegotiation or license optimization can generate savings
 
-5. Revenue Criticality (NEW — MANDATORY)
+- If Vendor Name is blank, assign as follows:
+  Department=Unknown, Description=Unknown, Suggestion=Unknown. 
+  
+  Treat these as informational records only, exclude them from optimization opportunity analysis in Step 09, and flag for human review to identify the vendor before any action is taken.
 
-HIGH:
-- Directly impacts revenue generation or product uptime
-- Examples: CRM, payments, cloud infra, core product tools
-
-MEDIUM:
-- Indirect revenue impact
-- Examples: analytics, support tools, marketing platforms
-
-LOW:
-- No short-term revenue impact
-- Examples: HR tools, low-use SaaS, admin tools
-
-STEP 3 — Recommendation logic
-
-Terminate:
-- spend < $50K
-- low strategic value
-- non-critical (LOW revenue criticality preferred)
-
-Consolidate:
-- duplicate vendors in same category
-- overlapping tools
-
-Optimize:
-- high spend vendors (> $200K)
-- HIGH or MEDIUM revenue criticality
-
-CRITICAL RULE:
-- Vendors with HIGH Revenue Criticality must NOT be Terminated
-
-STEP 4 — Produce output JSON
-
-Output ONLY valid JSON in this format:
+STEP 3 — Produce output JSON
+After analysis, output ONLY a valid JSON array in this exact format.
 
 [
   {
-    "Vendor Name": "...",
-    "Department": "...",
-    "Description": "...",
-    "Suggestion": "...",
-    "Business Function": "...",
-    "Revenue Criticality": "HIGH"
+    "Vendor Name": "Salesforce Uk Ltd-Uk",
+    "Department": "Sales",
+    "Description": "CRM platform used to manage sales pipeline, customer relationships and revenue forecasting",
+    "Suggestion": "Optimize"
+  },
+  {
+    "Vendor Name": "Zoom Video Communications",
+    "Department": "G&A",
+    "Description": "Video conferencing and collaboration platform for remote meetings and webinars",
+    "Suggestion": "Terminate"
   }
 ]
 
-CRITICAL OUTPUT RULES:
-• Valid JSON only
-• No explanations or extra text
-• Include ALL vendors
+CRITICAL OUTPUT RULES
 
-STEP 5 — Write to file
+• Output MUST be valid JSON.
+• Do NOT include explanations, commentary, markdown, code fences,summaries, headings,or text before or after the JSON.
+• The first character of the response must be '['
+• The last character must be ']'
+• Include ALL vendors (no truncation)
 
-Write JSON to outputs/step05_vendors.json using Node.js via Bash tool.
+STEP 4 — Write to file
+Write the JSON array to outputs/step05_vendors.json by running a Node.js command via the Bash tool. 
 
-Print confirmation:
-JSON_WRITTEN_OK records:[count]
+Print the full path and confirm JSON_WRITTEN_OK records:[count] before proceeding.
 <!-- /STEP:05 -->
 
 ---
@@ -274,15 +249,7 @@ Using your expertise in vendor strategy and procurement, for each vendor, evalua
 - Potential for renegotiation, right-sizing, or consolidation
 
 Print the rationale as a structured report:
-
-Additionally, assess short-term dependency impact:
-
-For each vendor, include:
-- 30-Day Impact: What breaks if vendor is removed within 30 days
-- Impact Level: HIGH | MEDIUM | LOW
-
-Output format:
-Vendor Name | Recommendation | Rationale | 30-Day Impact | Impact Level
+  Vendor Name | Recommendation | Rationale (1–2 sentences)
 
 This log is for auditability only and do not write to the workbook. 
 This output will be used to validate to identify and size the top 3 cost optimization opportunities in Step 09.
@@ -323,66 +290,37 @@ Store this analysis in memory for use in Step 09.
 <!-- STEP:08 -->
 You are performing STEP 08 of the Vendor Spend Strategy assessment.
 
-TASK: Score vendors by strategic importance AND evaluate execution trade-offs.
+TASK: Score vendors by strategic importance and refine recommendations.
 
 The workbook is located at: ${WORKBOOK}
 
 Read the populated 'Vendor Analysis Assessment' sheet.
 
-STEP 1 — Strategic Scoring
+For each vendor, evaluate strategic importance using these factors:
+  - Role in product or platform infrastructure - core engineering platform vc peripheral tool(high weight)
+  - Customer-facing capabilities - directly impacts product or customer experience(high weight)
+  - Operational criticality - business would halt wihtout it(high weight)
+  - Redundancy or overlap with other vendors in the portfolio (negative weight)
+  - Spend level (high spend = higher strategic importance)
 
-Assign Strategic Score (1–5):
+Assign a Strategic Score (1–5):
+  5 = Mission critical, cannot be replaced
+  4 = Strategic, significant switching cost
+  3 = Important but substitutable
+  2 = Marginal value, overlap exists
+  1 = Redundant or low-value
 
-5 = Mission critical, cannot be replaced  
-4 = Strategic, high switching cost  
-3 = Important but substitutable  
-2 = Low value, overlap exists  
-1 = Redundant or unnecessary  
+Use the strategic score to validate recommendation alignment:
+  Score 4–5 → should be Optimize
+  Score 2–3 → evaluate for Consolidate
+  Score 1   → Terminate is appropriate
 
-STEP 2 — Trade-off Modeling
+Flag any vendors where the current recommendation conflicts with the strategic score and print:
 
-For each vendor, evaluate:
+  Vendor Name | Score | Current Recommendation | Score-Aligned Recommendation | Conflict (Y/N)
 
-1. Switching Cost
-- HIGH: migration is complex, risky, or expensive
-- MEDIUM: moderate effort, some disruption
-- LOW: easy to replace or remove
+Store this in memory for use in Step 09.
 
-2. Implementation Effort
-- HIGH: cross-team coordination, technical migration required
-- MEDIUM: moderate coordination
-- LOW: minimal effort
-
-3. Time to Realise Savings
-
-- IMMEDIATE: 0–3 months
-- MEDIUM: 3–6 months
-- LONG: 6–12 months
-
-STEP 3 — Validate Recommendation Alignment
-
-Rules:
-
-- Score 4–5 → Optimize
-- Score 2–3 → Consolidate
-- Score 1 → Terminate
-
-Also enforce:
-
-- HIGH Switching Cost + HIGH Criticality → Avoid Terminate
-- LOW Effort + LOW Criticality → Strong Terminate candidate
-
-STEP 4 — Output
-
-Print structured table:
-
-Vendor Name | Score | Suggestion | Switching Cost | Effort | Time | Conflict (Y/N)
-
-Conflict = Y if:
-- Recommendation contradicts score OR
-- High critical vendor marked Terminate
-
-Store results for Step 09 prioritization.
 <!-- /STEP:08 -->
 
 ---
@@ -399,7 +337,6 @@ Read the Vendor Analysis Assessment sheet from ${WORKBOOK}.
 Read the Top 3 Opportunities sheet from ${WORKBOOK}. Check A1 in the Top 3 Opportunities sheet for template instructions. Do not overwrite A1.
 
 Using your expertise in vendor cost optimisation and procurement strategy, and based on the analysis from previous steps, identify the three highest-impact cost reduction opportunities.
-
 Focus on:
 - Highest-spend vendors (prioritize by absolute USD value)
 - High-spend vendor renegotiation (benchmark: 10–15% savings)
@@ -407,44 +344,6 @@ Focus on:
 - Vendor consolidation opportunities (benchmark: 15–20% savings)
 - Long-tail vendor termination (benchmark: 10–20% of terminate-eligible spend, accounting for notice periods, minimum commitments, and renewal timing)
   
-Additionally, classify each opportunity into an Execution Track:
-
-- Track 1: Immediate (low effort, low risk, quick savings within 0–3 months)
-- Track 2: Parallel Strategic (high value, higher complexity, longer timeline 3–12 months)
-
-Ensure:
-- At least one opportunity is identified as Immediate
-- At least one opportunity is identified as Parallel Strategic
-- Immediate opportunity must have LOW Effort AND IMMEDIATE time to realise savings
-
-Additionally ensure:
-- At least one opportunity targets a top 5 vendor or top spend category
-
-Use this classification to inform prioritisation and explanation of each opportunity.
-
-Also incorporate:
-- 30-Day Impact and Impact Level from Step 06
-- Switching Cost, Effort, and Time from Step 08
-
-These must directly influence opportunity selection and execution track assignment.
-
-Prioritisation must consider:
-
-- Financial Impact (USD savings)
-- Execution Effort (derived from Step 08)
-- Business Risk (Revenue Criticality from Step 05)
-- Time to Value
-
-Do NOT select top 3 based on savings alone.
-
-Select opportunities that maximise:
-High savings + Feasible execution + Minimal operational risk
-
-Guiding principles (not hard constraints):
-- Avoid selecting actions that create immediate operational disruption
-- Prefer faster time-to-value where trade-offs are similar
-- Ensure recommendations are specific and actionable (pricing, usage, consolidation)
-
 For each opportunity, write:
 Title
   Concise and specific (e.g. "Renegotiate Salesforce Enterprise Contract")
@@ -454,15 +353,12 @@ Explanation
   - What the problem is
   - What action to take
   - Expected outcome or saving mechanism
-  - Include execution context (Immediate or Parallel Strategic where relevant)
 
 Estimated Annual Savings (USD)
   Calculated using the actual vendor spend and benchmark above. Write as a single number.
 
+Prioritise opportunities by highest estimated annual savings.
 Return EXACTLY THREE opportunities.
-
-Execution Track classification must be reflected within the Explanation text only.
-Do NOT create new columns or modify worksheet structure.
 
 Write the three opportunities to the Top 3 Opportunities sheet:
 - Update only Opportunity Title, Explanation, and Estimated Annual Savings cells
@@ -531,7 +427,7 @@ Structure the content under exactly these 4 headings with bullet points under ea
   - Vendor categorisation: service categories and departments assigned using domain knowledge
   - Service overlap identification: duplicate categories detected, consolidation candidates flagged
   - Cost optimisation framework: Terminate / Consolidate / Optimize decision rules applied per vendor
-  - Opportunity prioritisation: top 3 opportunities selected using multi-factor evaluation (financial impact, execution effort, business risk, time to value)
+  - Opportunity prioritisation: top 3 opportunities selected by highest estimated annual savings
 
 3. PROMPTS:
   - A 16-step structured prompt workflow was designed and executed sequentially via Claude Code CLI
@@ -556,6 +452,7 @@ Do not use aoa_to_sheet or methods that rebuild the sheet.
 <!-- /STEP:11 -->
 
 ---
+
 
 <!-- STEP:12 -->
 You are performing STEP 12 of the Vendor Spend Strategy assessment.
@@ -587,8 +484,9 @@ RE: Vendor Spend Rationalisation — Findings & Recommendations
   - Breakdown: [Terminate count] vendors for Termination ($[amount], [%]); [Optimize count] for Optimisation ($[amount], [%]); [Consolidate count] for Consolidation ($[amount], [%])
   - Top 10 vendors account for [X]% of total spend — acute concentration risk
 
+
+
 3. TOP 3 OPPORTUNITIES
-  - Opportunities structured across Immediate and Parallel Strategic tracks to maximise speed, feasibility, and minimise operational risk
   - [Opportunity 1 title]: [action] — est. $[savings]
   - [Opportunity 2 title]: [action] — est. $[savings]
   - [Opportunity 3 title]: [action] — est. $[savings]
@@ -597,7 +495,6 @@ RE: Vendor Spend Rationalisation — Findings & Recommendations
 4. ESTIMATED SAVINGS SUMMARY
   - Total identified savings: $[amount] ([X]% of total LTM spend)
   - Year 1 conservatively realisable: $[amount] (50–70% of identified savings)
-  - Savings based on midpoint assumptions; upside with strong execution
   - Payback on implementation effort: under 6 months
 
 5. IMPLEMENTATION ROADMAP
@@ -713,7 +610,7 @@ RECOMMENDATION ACCURACY:
 TOP 3 OPPORTUNITIES REVIEW:
   - Verify savings estimates are based on actual spend numbers
   - Confirm each opportunity addresses a high-spend category or vendor
-  - Replace any opportunity with a higher-impact and executable alternative if identified,considering effort, risk, and time to value
+  - Replace any opportunity with a higher-impact alternative if identified
 
 If improvements are needed, update the affected cells only using encode_cell.
 Preserve all existing sheet structure. Do not rebuild the sheet.
