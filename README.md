@@ -1,27 +1,46 @@
 # Overview
-This is an AI-orchestrated vendor rationalization workflow using Claude Code CLI. Converts a manual spreadsheet-based vendor review into a repeatable, automated assessment that classifies vendors, identifies cost optimization opportunities, and produces executive-ready outputs.
+This is an AI-orchestrated vendor rationalization operating workflow built using Claude Code CLI.
+
+It transforms a manual, spreadsheet-driven vendor review into a repeatable, execution-aware system that:
+
+- Classifies vendors using business context and criticality
+- Identifies cost optimization opportunities using multi-factor evaluation
+- Prioritizes actions based on **feasibility, risk, and time-to-value**
+- Produces **executive-ready outputs** with clear, actionable recommendations
+
+The system is designed not as a one-time analysis, but as a **scalable decision engin**e for vendor strategy.
 
 # Approach
-  - Post-acquisition vendor due diligence, focused on identifying cost optimisation opportunities and spend inefficiencies.
-  - Treated the problem as a repeatable operational workflow, not a one-time analysis.
-  - Sequenced the analysis: spend visibility → classification → consolidation → optimisation → executive synthesis.
-  - Focused on key procurement levers: duplicate vendors, long-tail spend, SaaS sprawl, and renegotiation opportunities.
-  - Applied a structured decision model: Terminate | Consolidate | Optimize.
-  - Produced audit-ready, CFO-relevant outputs with quantified savings and prioritised actions.
+- Framed the problem as a** repeatable operational workflow**, not a static analysis
+- Sequenced decision-making:
+  Spend visibility → Classification → Risk assessment → Trade-off evaluation → Opportunity selection → Executive synthesis
+- Applied core procurement levers:
+  - Long-tail vendor elimination
+  - SaaS license optimization
+  - Vendor consolidation
+  - Strategic renegotiation
+- Introduced a structured decision model:
+  - Terminate | Consolidate | Optimize
+- Evolved the system through execution:
+  - Added **Business Function + Revenue Criticality**
+  - Incorporated executon factors such as effort, switching cost, and time-to-value
+  - Enabled execution-aware prioritization (not savings-only)
+- Designed outputs for:
+  - **CEO/CFO clarity (single-number savings)**
+  - **Operational realism (feasibility + risk awareness)**
 
 # AI-Orchestrated Workflow
-  - setup-workflow-assets:     Blueprint that created vendor-spend-workflow.md and vendor-rationalization.sh
-  - vendor-spend-workflow.md:  AI-reasoning with the prompts to execute all 6 phases listed in Methodolody section below
-  - vendor-rationalization.sh: Execution that invokes the AI-reasoning to generate outputs
+  - **setup-workflow-assets:**     Bootstrap script that generates the initial workflow scaffold
+  - **vendor-spend-workflow.md:**  Core AI reasoning engine with step-wise prompts
+  - **vendor-rationalization.sh:** Orchestration layer that executes the workflow end-to-end
 
 <img width="719" height="391" alt="image" src="https://github.com/user-attachments/assets/7915f9ac-481a-4576-8497-c773c2b99b7e" />
 
 # Design Principles
-  - Separated AI reasoning from execution, improving stability and control.
-  - Implemented Reason → Validate → Persist, enabling a self-healing workflow.
-  - Designed for idempotency, ensuring consistent results across repeated runs.
-  - Preserved source data integrity and enforced controlled outputs.
-  - Enabled observability through step-level logging for auditability.
+  - **Separation of Concerns:**  AI reasoning (prompts) decoupled from execution (scripts)
+  - **Closed Loop Workflow:**    Reason -> Validate -> Refine -> Persist
+  - **Fucntionak Consistency over Determination:**  Consistent decision patterns and outputs across repeated runs
+  - **Auditability & Observability:**  Step-level logging and traceable decision logic
 
 # Methodology
   - Phase 1 — Workbook Inspection & Validation
@@ -32,11 +51,10 @@ This is an AI-orchestrated vendor rationalization workflow using Claude Code CLI
   - Phase 6 — Finalization
   
 # Tools & Environment
-  - AI Assistant: Claude (Anthropic) via Claude Code CLI — used for structured reasoning and analysis
-  - Runtime: Node.js with xlsx (SheetJS) for controlled Excel read/write
-  - Data Source: Vendor spend dataset from assessment workbook
-
-**Note:** Input data was sourced from a Google Sheet (downloaded as .xlsx). The processed output is published as a Google Sheet (link), with the .xlsx version preserved in this repository.
+  - **AI Assistant:** Claude (Anthropic) via Claude Code CLI — used for structured reasoning and analysis
+  - **Runtime:**      Node.js with xlsx (SheetJS) for controlled read/write
+  - **Data Source:**  Vendor spend dataset *Google Sheets -> .xlxs)
+  - **Output:**       Final output published as Google Sheet(Link); .xlxs version retained in repository
   
 # Repository Structure
 
