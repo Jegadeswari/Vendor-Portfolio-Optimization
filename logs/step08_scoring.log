@@ -1,0 +1,87 @@
+STEP 08 has been run before — a prior session already scored all 386 vendors. Let me verify the existing output file and build the complete structured table.The CSV from the prior session wasn't saved. I'll now regenerate STEP 08 fully — scoring all 386 vendors with switching cost, effort, time, and conflict flags — then write the output CSV.Salesforce scored as 4 due to a name mismatch — fixing to Score 5 and writing the corrected results to the workbook now.Now let me update the STEP 08 memory file with the corrected figures, then present the full output.---
+
+## STEP 08 — Strategic Scoring & Trade-off Analysis
+
+**386 vendors scored | 118 conflicts flagged | Output written to `STEP08 Strategic Scores` sheet + CSV**
+
+---
+
+### Score Distribution
+
+| Score | Label | Count | Logic |
+|-------|-------|-------|-------|
+| 5 | Mission Critical | 2 | Cannot be replaced; single-source dependency |
+| 4 | Strategic | 18 | High switching cost; embedded in operations |
+| 3 | Important | 13 | Substitutable with moderate effort |
+| 2 | Marginal | 58 | Low value; overlap exists; Consolidate candidates |
+| 1 | Redundant | 295 | One-off, tail spend, or clearly unnecessary |
+
+---
+
+### STEP 4 — Structured Output Table (Top Vendors by Spend)
+
+| Vendor Name | Score | Suggestion | Switching Cost | Effort | Time | Conflict |
+|-------------|-------|------------|----------------|--------|------|----------|
+| Salesforce Uk Ltd-Uk | **5** | Optimize | HIGH | HIGH | LONG | **N** |
+| Navan (Tripactions Inc) | **4** | Optimize | HIGH | HIGH | LONG | **N** |
+| Bdo Llp | **4** | Optimize | HIGH | HIGH | LONG | **N** |
+| Tog Uk Properties Limited | **4** | Optimize | HIGH | HIGH | LONG | **N** |
+| Cloudcrossing Bvba | **4** | Optimize | HIGH | HIGH | LONG | **N** |
+| Zagrebtower D.O.O. | **4** | Optimize | HIGH | HIGH | LONG | **N** |
+| Innovent Spaces Private Limited | **3** | ~~Terminate~~ → Consolidate | MEDIUM | MEDIUM | MEDIUM | **Y** |
+| Weking D.O.O. | **3** | ~~Terminate~~ → Consolidate | MEDIUM | MEDIUM | MEDIUM | **Y** |
+| Jensten Insurance Brokers | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Gpt Space & Co | **3** | ~~Terminate~~ → Consolidate | MEDIUM | MEDIUM | MEDIUM | **Y** |
+| Aetna Life And Casualty Ltd | **4** | Optimize | HIGH | HIGH | LONG | **N** |
+| Rsm Uk Corporate Finance Llp | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Amazon Web Services Llc | **5** | Optimize | HIGH | HIGH | LONG | **N** |
+| Telefonica Global Services Gmbh | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Hr Solution International Gmbh | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| 4I Advisory Services | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Bisley Law Ltd | **4** | Optimize | HIGH | HIGH | LONG | **N** |
+| Infosys | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Big Frontier Pty Ltd (Cult Of Monday) | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Harmonic Group Limited | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Wework Singapore Pte. Ltd. | **4** | ~~Terminate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Cloud Technology Solutions Ltd | **4** | ~~Consolidate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Navan, Inc | **3** | ~~Optimize~~ → Consolidate | MEDIUM | MEDIUM | MEDIUM | **Y** |
+| Tmforum | **4** | ~~Terminate~~ → Optimize | HIGH | HIGH | LONG | **Y** |
+| Linkedin Ireland Limited | **3** | Consolidate | MEDIUM | MEDIUM | MEDIUM | **N** |
+| Kimble Applications Ltd | **3** | Consolidate | MEDIUM | MEDIUM | MEDIUM | **N** |
+| Sage Uk Limited | **3** | Consolidate | MEDIUM | MEDIUM | MEDIUM | **N** |
+| Grant Thornton | **3** | Consolidate | MEDIUM | MEDIUM | MEDIUM | **N** |
+| Ss&C Intralinks Inc | **3** | Consolidate | MEDIUM | MEDIUM | MEDIUM | **N** |
+| *(295 Score-1 vendors)* | **1** | Terminate | LOW | LOW | IMMEDIATE | N |
+
+---
+
+### Conflict Summary — 118 Total
+
+| Conflict Type | Count | Combined Spend | Priority |
+|---------------|-------|----------------|----------|
+| Score 4 → mis-classified Consolidate/Terminate | 10 | ~$870K | HIGH |
+| Score 3 → mis-classified Terminate | 3 | ~$425K | MEDIUM |
+| Score 1/2 → minor mis-classification | 105 | ~$1.1M tail | GOVERNANCE |
+
+---
+
+### Key Trade-off Findings for STEP 09
+
+**1. Score 4 upgrades (10 vendors, ~$870K combined spend)**
+These vendors have HIGH switching cost and are embedded in operations — being classified Consolidate/Terminate understates their risk and overstates ease of exit. All 10 should be reclassified to **Optimize** before STEP 09 strategy is finalised.
+
+**2. Score 3 co-working facilities (3 vendors, ~$425K)**
+Innovent Spaces, Weking, and GPT Space are all active office/flex space providers marked **Terminate**. Given MEDIUM switching cost and active occupancy, these should be **Consolidate** (rationalise to preferred operator, not immediate exit).
+
+**3. Navan, Inc — Score 3, Optimize → Consolidate (conflict)**
+This is the duplicate AP entity for Navan/TripActions ($57,929). It should be Consolidate (merge into primary Navan contract), not Optimize as a standalone. One of the clearest process fixes.
+
+**4. 118 conflicts = 31% of portfolio misaligned**
+Signals no formal strategic scoring framework existed before this exercise. Step 09 should recommend implementing a vendor tiering policy to prevent future misclassification.
+
+---
+
+Results stored in:
+- `outputs/step08_strategic_scores.csv` — full 386-row scored dataset
+- `STEP08 Strategic Scores` sheet — formatted table in main workbook
+- Memory updated for STEP 09 use

@@ -1,0 +1,76 @@
+Now I have all 386 vendor rows. Let me analyze the data and produce the full consolidation report.I have precise totals for all 23 groups. Now let me produce the full report and update memory.Now I'll update the memory file with the fresh analysis and produce the full report output.Here is the full **STEP 07 — Consolidation Opportunity Analysis** across all 386 vendors:
+
+---
+
+## Consolidation Opportunity Analysis
+**23 groups | 118 vendor entries | $6,899,005 combined spend in scope**
+
+---
+
+### PRIORITY TIER 1 — ≥ $200K (Groups 1–7)
+
+| # | Category | Vendors in Category | Combined Spend | Consolidation Candidate(s) |
+|---|----------|--------------------|--------------:|---------------------------|
+| 1 | **CRM & Sales Engagement** | Salesforce UK ($3,117,226), Cognism ($27,013), Outreach Corp ($9,206), Lusha ($2,606), Dun & Bradstreet ($610) | **$3,156,660** | Retain Salesforce as core; consolidate Cognism/Outreach/Lusha into Salesforce-native Sales Intelligence or a single prospecting tool — ~$39K direct overlap |
+| 2 | **Office Space & Real Estate** | TOG UK Properties ($263,821), Zagrebtower ($183,754), Innovent Spaces ($147,348), GPT Space & Co ($133,507), WeWork Singapore ($64,373), Jones Lang LaSalle ($16,274), Work Easy Solutions ($14,913), Common Desk ($3,842) | **$827,834** | Appoint JLL as single strategic real estate manager; exit underutilised co-working (GPT Space, WeWork, Work Easy, Common Desk); retain TOG (London), Innovent (India), Zagrebtower (Croatia) as regional anchors |
+| 3 | **Travel & Expense — Navan Duplicate** | Navan/TripActions Inc ($357,984), Navan Inc ($57,929) | **$415,913** | **IMMEDIATE** — same vendor, two AP billing entities; consolidate to single Navan contract and renegotiate on combined $416K volume |
+| 4 | **Audit & Accounting** | BDO LLP ($343,081), Grant Thornton ($46,539), Granttree Limited ($13,659), PricewaterhouseCoopers ($4,879), Crowe Horwath Revizija ($4,062) | **$412,219** | Retain BDO as primary statutory auditor; consolidate advisory mandates to BDO; retain Granttree for R&D tax credits only; exit PwC and Crowe Horwath |
+| 5 | **Cloud Infrastructure** | Cloudcrossing BVBA ($208,675), AWS LLC ($106,399), Cloud Technology Solutions ($60,661), Microsoft Ireland ($9,822), AWS Inc. ($5,153) | **$390,710** | Consolidate AWS LLC + AWS Inc. to single AWS contract (duplicate AP entities); clarify Cloudcrossing scope vs. native AWS managed services; define AWS vs. Azure cloud strategy |
+| 6 | **Employee Health Insurance** | Aetna ($124,661), Agram Life ($24,952), Care Health Insurance ($24,045), Bupa-Supplier ($22,800), Cigna SG ($13,249), Bupa Australia ($12,463), Allianz AU Workers' Comp ($6,099), ICICI Lombard ($5,972), Cici Prudential ($3,195), Allianz WA ($971) | **$238,406** | Merge Bupa-Supplier + Bupa Australia into single Bupa contract; merge Allianz AU + WA (see Group 22); engage global benefits broker to coordinate regional policies |
+| 7 | **Financial & M&A Advisory** | RSM UK Corporate Finance ($117,078), SS&C Intralinks ($39,966), Houlihan Lokey ($37,461), Vector Capital ($32,427) | **$226,932** | Consolidate VDR to SS&C Intralinks; rationalise M&A advisory to preferred panel; verify post-deal ongoing need for Vector Capital and Houlihan Lokey |
+
+---
+
+### PRIORITY TIER 2 — $100K–$200K (Groups 8–14)
+
+| # | Category | Vendors in Category | Combined Spend | Consolidation Candidate(s) |
+|---|----------|--------------------|--------------:|---------------------------|
+| 8 | **HR Outsourcing & Payroll** | HR Solution Int'l GmbH ($80,823), Harmonic Group ($65,418), HRSolution Int'l AG ($6,987), Mercer Limited ($5,444), NCC Services ($3,036) | **$161,708** | **Immediate:** consolidate HRSolution GmbH + AG (same brand, two legal entities); evaluate Harmonic vs. HRSolution geographic overlap; target single global HR/payroll vendor |
+| 9 | **Marketing Automation & Digital Advertising** | LinkedIn Ireland ($55,573), HubSpot Ireland ($32,187), Uberflip ($26,091), Google Ireland ($24,798), MightyHive ($19,042), Semrush ($3,730) | **$161,420** | Retain HubSpot as primary marketing automation; evaluate Uberflip vs. HubSpot Content Hub (likely overlap); rationalise MightyHive as managed agency layer |
+| 10 | **Insurance Brokerage** | Jensten Insurance Brokers ($142,700), Shoff Darby Companies ($10,100) | **$152,800** | Consolidate to single broker; Jensten as primary; negotiate combined policy portfolio discount |
+| 11 | **Telecoms & Connectivity** | Telefonica Global ($89,880), New Star Networks ($23,887), Hrvatski Telekom ($18,084), Telemach Hrvatska ($5,134), Vodafone AU ($3,672), T-Mobile ($3,357), Starhub SG ($2,205), British Telecom ($1,493) | **$147,712** | Retain Telefonica Global as primary telco; rationalise Croatian connectivity — choose one of Hrvatski Telekom vs. Telemach; consolidate regional mobile contracts |
+| 12 | **Financial Planning SaaS** | Kimble Applications ($52,825), Sage UK ($46,895), Planful ($27,741) | **$127,462** | Retain Sage for statutory accounting; evaluate Kimble (PSA/resource planning) vs. Planful (FP&A) for functional overlap; consolidate finance planning to one platform |
+| 13 | **Recruitment & Staffing Agencies** | Accutrainee ($38,841), Mason Frank ($38,148), Technet IT Recruitment ($21,952), Cedar Recruitment ($18,537), Info Edge India ($3,536) | **$121,014** | Establish preferred supplier list of 2–3 agencies; Mason Frank for Salesforce/tech roles; consolidate or eliminate casual agency usage across Accutrainee, Technet, Cedar |
+| 14 | **Legal Services** | Bisley Law ($67,414), Eurofast International ($18,164), Visalogic ($11,241), Virtual Legal Counsel ($4,800), Pinsent Masons ($4,078), Curzon Green ($1,158), Quadrant Law ($1,327), Thomas Mansfield ($1,135), Lane IP ($852), Franklin Gringer ($427), Kilgannon & Partners ($681), KLG Kalra Legal ($681), Induslaw ($596) | **$112,554** | Consolidate to 3-firm panel: Bisley Law (employment), Pinsent Masons (commercial/tech), Visalogic (immigration); exit remaining 10 ad-hoc firms |
+
+---
+
+### PRIORITY TIER 3 — $25K–$100K (Groups 15–17)
+
+| # | Category | Vendors in Category | Combined Spend | Consolidation Candidate(s) |
+|---|----------|--------------------|--------------:|---------------------------|
+| 15 | **4I Advisory — Duplicate Entities** | 4I Advisory Services ($71,860), 4I Management Consulting PL ($12,117) | **$83,978** | Same parent brand registered as two legal entities — consolidate to single master services agreement immediately |
+| 16 | **Work Management & Project Tools** | Monday.com/Big Frontier ($66,131), Trello ($6,674), Smartsheet ($2,995), Atlassian ($224) | **$76,024** | Standardise on Monday.com as primary; terminate Trello and Smartsheet; evaluate Atlassian for dev-specific use only |
+| 17 | **Employee Engagement & Learning** | Peakon APS ($17,108), PerformancePro ($10,018), Epignosis ($833) | **$27,959** | Consolidate to single platform; retain Peakon (engagement + surveys); consolidate PerformancePro into Peakon or HRIS native performance modules |
+
+---
+
+### PRIORITY TIER 4 — < $25K / AP Hygiene (Groups 18–23)
+
+| # | Category | Vendors in Category | Combined Spend | Consolidation Candidate(s) |
+|---|----------|--------------------|--------------:|---------------------------|
+| 18 | **Corporate Secretarial** | Acclime Corporate Services ($5,413), Acclime USA ($4,995), Intertrust Singapore ($7,360) | **$17,768** | Consolidate Acclime entities to single global master agreement; retain Intertrust for Singapore-specific compliance |
+| 19 | **Workflow Automation** | Workato Inc. ($16,101), Zapier Inc. ($167) | **$16,268** | Retain Workato (enterprise iPaaS); migrate Zapier automations; terminate Zapier |
+| 20 | **Developer Tools & Monitoring** | JetBrains ($4,083), Papertrail ($3,900), Solarwinds ($166) | **$8,149** | Retain JetBrains + Papertrail; assess Solarwinds overlap with Papertrail log management |
+| 21 | **Apple Hardware — Multi-Entity** | Apple Retail UK ($3,548), Apple Pty Ltd ($2,031), Apple Distribution Int'l ($1,913), Apple AMER ($764) | **$8,256** | Consolidate all four AP entities to single Apple Business Manager account |
+| 22 | **Allianz Insurance — Duplicate Entities** | Allianz Australia Workers' Comp ($6,099), Allianz WA ($971) | **$7,069** | Sub-group of Group 6 — same insurer, two state policy accounts; merge WA into national Allianz policy |
+| 23 | **Occupational Health Croatia — Duplicates** | Spec. Ordinacija Helena Blazic ($20), Spec. Ordinacija Ina Kardos ($20), Ustanova Medicina Rada Dr. Novacki ($20), Ustanova Zdravstvenu Skrb PP ($131) | **$192** | Designate one clinic as preferred occupational health provider; terminate the other three |
+
+---
+
+### Summary
+
+| Priority Tier | Groups | Combined Spend |
+|---|:---:|--------------:|
+| P1 — ≥$200K | 7 | $5,668,677 |
+| P2 — $100K–$200K | 7 | $983,872 |
+| P3 — $25K–$100K | 3 | $187,960 |
+| P4 — <$25K (AP hygiene) | 6 | $58,271 |
+| **TOTAL** | **23** | **$6,899,005** |
+
+**Key observations for STEP 09:**
+- **CRM alone = $3.16M (45.8% of in-scope spend)** — all consolidation leverage here sits in rationalising the Salesforce satellite tools (~$39K), not replacing Salesforce.
+- **AP entity duplicates** (Navan, HRSolution, AWS, Acclime, Bupa, Allianz, Apple) = ~$110K in zero-negotiation savings from pure AP hygiene.
+- **Quick wins in P1:** Groups 3 (Navan), 4 (Audit), and 5 (Cloud) require no new contracts — they're billing entity rationalisation and incumbent renegotiation.
+
+Memory updated with fresh figures for use in STEP 09.

@@ -1,0 +1,22 @@
+Now I have all the data. Let me review the key numbers before writing the memo:
+
+- **Opportunity 2 savings in the sheet**: $163,215 (the existing A3 draft incorrectly used $232,000)
+- **Correct total**: $467,584 + $163,215 + $124,175 = **$754,974**
+- **Year 1 at 60% midpoint**: ~$453,000
+
+Let me now write the corrected memo to A3.STEP 12 complete. The memo is written to A3 with A1 and A2 intact.
+
+**Key corrections made vs. the prior draft in A3:**
+
+| Item | Prior (incorrect) | Corrected |
+|---|---|---|
+| Opportunity 2 savings | $232,000 | **$163,000** (from Top 3 Opportunities sheet: $163,215) |
+| Total estimated savings | $821,000 | **$755,000** ($468K + $163K + $124K) |
+| Total as % of LTM spend | 10.4% | **9.6%** |
+| Year 1 realisable | $493,000 | **$453,000** (60% midpoint, not high-end) |
+
+**Memo summary:**
+- **386 vendors**, $7.89M LTM spend; top 10 = 63.9% (concentration risk flagged)
+- **3 opportunities**: Salesforce renegotiation ($468K), long-tail termination ($163K), co-working consolidation ($124K)
+- **Total savings**: $755,000 (9.6% of spend); Year 1 realisable: $453,000
+- **Recommended next step**: CPO engages Salesforce UK in Q2 2026 at enterprise renewal to negotiate 15% reduction — unlocks $468K and addresses the single largest concentration risk

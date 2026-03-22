@@ -1,0 +1,12 @@
+The Methodology sheet already has content from a prior run. I'll now write the exact content as specified in the task, using `encode_cell` to update each cell precisely without touching A1.The Methodology sheet is fully populated. Here's a summary of what was written:
+
+**Sheet:** `Methodology` | **Cells written:** A3–A28 | **A1:** preserved (template instruction unchanged)
+
+| Section | Rows | Bullets |
+|---|---|---|
+| APPROACH | A3–A7 | 4 bullets: end-to-end structure, dataset review, template constraints, sequencing |
+| METHODOLOGY | A9–A15 | 6 bullets: data review through opportunity prioritisation |
+| PROMPTS | A17–A22 | 5 bullets: 16-step workflow, scoped tasks, key prompts, format rules, CLI delivery |
+| TOOLS | A24–A28 | 4 bullets: Claude Code CLI, Node.js/SheetJS, Python/openpyxl, Bash orchestration |
+
+Empty spacer rows at A2, A8, A16, A23 separate the sections. Written first-person as VP of Operations using `encode_cell` — no sheet rebuild.

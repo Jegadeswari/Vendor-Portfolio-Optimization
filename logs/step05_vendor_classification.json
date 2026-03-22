@@ -1,0 +1,3090 @@
+[
+  {
+    "Vendor Name": "(Blank)",
+    "Department": "G&A",
+    "Description": "Unidentified vendor with no name or clear purpose",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "4I Advisory Services",
+    "Department": "Professional Services",
+    "Description": "Management advisory firm providing strategic consulting services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "4I Management Consulting Private Limited",
+    "Department": "Professional Services",
+    "Description": "Management consulting firm overlapping with 4I Advisory Services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "4Imprint Direct Ltd",
+    "Department": "Marketing",
+    "Description": "Promotional merchandise supplier for branded marketing materials",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "6Sense Insights Inc",
+    "Department": "Marketing",
+    "Description": "AI-powered revenue intelligence platform for B2B marketing",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Acclime Corporate Services",
+    "Department": "G&A",
+    "Description": "Corporate services provider for entity management and compliance",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Acclime Usa, Inc",
+    "Department": "G&A",
+    "Description": "US entity of Acclime providing corporate administration services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Accutrainee Limited",
+    "Department": "Professional Services",
+    "Description": "Graduate trainee recruitment and placement services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Adamma Info Services Private Limited",
+    "Department": "G&A",
+    "Description": "Back-office information services provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Adobe Systems Software",
+    "Department": "SaaS",
+    "Description": "Creative software suite for design and document management",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Advena",
+    "Department": "G&A",
+    "Description": "Unknown vendor with negligible spend and unclear purpose",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Aetna Life And Casualty Ltd",
+    "Department": "G&A",
+    "Description": "Group health and life insurance provider for employee benefits",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Ag Grid Ltd",
+    "Department": "Engineering",
+    "Description": "High-performance data grid library for web application development",
+    "Suggestion": "Terminate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Agram Life Osiguranje D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian life insurance provider for employee group policies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Aha! Labs Inc",
+    "Department": "Product",
+    "Description": "Product roadmap and strategy management platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Akton D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities services vendor",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Allianz Australia Workers' Compensation (Victoria) Limited",
+    "Department": "HR",
+    "Description": "Workers compensation insurance for Australian employees",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Allianz Wa",
+    "Department": "G&A",
+    "Description": "Allianz Western Australia workers compensation insurance entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Amazon (Aus)",
+    "Department": "G&A",
+    "Description": "General procurement from Amazon Australia for office supplies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Amazon Web Services Inc.",
+    "Department": "Engineering",
+    "Description": "AWS cloud infrastructure US entity duplicate of AWS Llc",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Amazon Web Services Llc",
+    "Department": "Engineering",
+    "Description": "Primary AWS cloud infrastructure supporting core product operations",
+    "Suggestion": "Optimize",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Amazon.Co.Uk",
+    "Department": "G&A",
+    "Description": "General procurement from Amazon UK for office supplies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Ansar Madovic",
+    "Department": "G&A",
+    "Description": "Individual contractor providing services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Apple - Amer",
+    "Department": "G&A",
+    "Description": "Apple hardware procurement for US/Americas employee devices",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Apple Distribution International Ltd",
+    "Department": "G&A",
+    "Description": "Apple hardware distribution entity for international procurement",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Apple Pty Ltd",
+    "Department": "G&A",
+    "Description": "Apple hardware procurement entity for Australian employees",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Apple Retail Uk Ltd",
+    "Department": "G&A",
+    "Description": "Apple hardware retail entity for UK employee equipment",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Aquila Remete D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities and maintenance services provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Arena Center Zagreb D.O.O.",
+    "Department": "Facilities",
+    "Description": "Zagreb event and entertainment venue for corporate events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Ariba Inc",
+    "Department": "G&A",
+    "Description": "SAP Ariba procurement and supply chain management platform",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Athlete Service Ltd",
+    "Department": "Support",
+    "Description": "Employee wellness and sport activity services provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Atlassian Pty Ltd",
+    "Department": "Engineering",
+    "Description": "Atlassian suite for project management and dev collaboration tools",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Australian Payroll Professionals Pty Ltd",
+    "Department": "Finance",
+    "Description": "Australian payroll processing and compliance services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Australian Taxation Office (Ato)",
+    "Department": "Finance",
+    "Description": "Australian government tax authority statutory payments",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Avoxi Inc",
+    "Department": "Sales",
+    "Description": "Cloud communications platform for sales contact centre",
+    "Suggestion": "Terminate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Axil Coffee Roasters",
+    "Department": "Facilities",
+    "Description": "Coffee supplier for Melbourne office catering",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Axosoft Gitkraken",
+    "Department": "Engineering",
+    "Description": "Git client and project planning tools for development teams",
+    "Suggestion": "Terminate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Backoffice Associates",
+    "Department": "G&A",
+    "Description": "Data management and back-office consulting services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Bakemono Bakers Melbourne",
+    "Department": "Facilities",
+    "Description": "Artisan bakery catering supplier for Melbourne office events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Bb Football Scouting J.D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian football scouting firm with non-core spend",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Bdo Llp",
+    "Department": "Finance",
+    "Description": "Global audit and advisory firm providing statutory audit services",
+    "Suggestion": "Optimize",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Bella Operation A/S",
+    "Department": "Facilities",
+    "Description": "Danish event venue and conference centre services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Benefit Systems D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian employee benefits management platform",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Big Frontier Pty Ltd (Cult Of Monday)",
+    "Department": "SaaS",
+    "Description": "Work management and project collaboration platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Bigshare Services Private Limited",
+    "Department": "Finance",
+    "Description": "Indian share registry and investor relations services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Bijeli Pijesak Obrt Za Poslovno Savjetovanje",
+    "Department": "Professional Services",
+    "Description": "Croatian business consulting firm",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Bisley Law Ltd",
+    "Department": "Legal",
+    "Description": "Law firm providing employment and corporate legal services",
+    "Suggestion": "Optimize",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Blink Events",
+    "Department": "G&A",
+    "Description": "Event management and production services provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Blitz - Cinestar D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian cinema and entertainment venue for staff events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Boe Croatia D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian facilities and office services vendor",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Bonus Opinio D.O.O.",
+    "Department": "G&A",
+    "Description": "Croatian market research and opinion services firm",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "British Telecommunications",
+    "Department": "Engineering",
+    "Description": "UK telecom services including broadband and connectivity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Brodomerkur D.D.",
+    "Department": "Facilities",
+    "Description": "Croatian shipping and maritime services company",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Bupa Australia",
+    "Department": "HR",
+    "Description": "Employee health insurance coverage for Australian staff",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Bupa- Supplier",
+    "Department": "HR",
+    "Description": "Employee health insurance and wellness benefits provider",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Bureau Veritas Croatia D.O.O.",
+    "Department": "Legal",
+    "Description": "Testing, inspection and certification services in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Calm Achiever(A Unit Of Mohsin Ali Vakil)",
+    "Department": "HR",
+    "Description": "Employee wellness and mental health coaching services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Capitol Services",
+    "Department": "Legal",
+    "Description": "Registered agent and corporate filing services",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Care Health Insurance Company Limited",
+    "Department": "HR",
+    "Description": "Group health insurance coverage for India-based employees",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Carrington Communications",
+    "Department": "Marketing",
+    "Description": "PR and communications agency for media outreach",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Catering Iviä‡ D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Catering Muring",
+    "Department": "Facilities",
+    "Description": "Local catering services for Split office events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Cayman Islands Government",
+    "Department": "Legal",
+    "Description": "Government fees for Cayman Islands entity compliance",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Cbre Limited",
+    "Department": "Facilities",
+    "Description": "Commercial real estate and facilities management services",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Cedar Recruitment Ltd",
+    "Department": "HR",
+    "Description": "Specialist finance and accounting recruitment agency",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Centar Za Sigurnost D.O.O.",
+    "Department": "Facilities",
+    "Description": "Security services provider for Croatian office facilities",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Chamiers Recreation Club",
+    "Department": "HR",
+    "Description": "Employee recreation club membership for Chennai team",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Cici Prudential Life Insurance Co. Ltd.",
+    "Department": "HR",
+    "Description": "Group life insurance for India-based employee benefits",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Cigna Sg",
+    "Department": "HR",
+    "Description": "International health insurance coverage for Singapore staff",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Cision Pr Newswire",
+    "Department": "Marketing",
+    "Description": "Press release distribution and media monitoring service",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "City Pantry Ltd",
+    "Department": "Facilities",
+    "Description": "Office food and catering delivery platform for teams",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Cleverland Winery Resort",
+    "Department": "Facilities",
+    "Description": "Venue hire for corporate events and team offsites",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Click Send Pty Ltd",
+    "Department": "Engineering",
+    "Description": "SMS and email messaging API platform for notifications",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Clime India Private Limited",
+    "Department": "HR",
+    "Description": "Employee health and wellness benefits provider in India",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Cloud Technology Solutions Ltd",
+    "Department": "Engineering",
+    "Description": "Google Cloud managed services and migration partner",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Cloudcrossing Bvba",
+    "Department": "Engineering",
+    "Description": "Cloud networking and connectivity solutions provider",
+    "Suggestion": "Optimize",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Cognism Limited",
+    "Department": "Sales",
+    "Description": "B2B sales intelligence platform for prospecting and enrichment",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Coles",
+    "Department": "Facilities",
+    "Description": "Supermarket groceries for Australian office supplies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Collards Chartered Accountants",
+    "Department": "Finance",
+    "Description": "Chartered accounting and tax advisory services",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Common Desk, Llc",
+    "Department": "Facilities",
+    "Description": "Co-working office space provider for flexible workspace",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Computershare-Caboodle Technology Limited",
+    "Department": "HR",
+    "Description": "Employee share plan administration and equity platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Crayond Digital Private Limited",
+    "Department": "Engineering",
+    "Description": "UI/UX design and digital product development agency",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Croatia Airlines",
+    "Department": "Facilities",
+    "Description": "Croatian national airline for business travel bookings",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Crossland",
+    "Department": "Facilities",
+    "Description": "Facilities maintenance and repair services provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Crowe Horwath Revizija D.O.O.",
+    "Department": "Finance",
+    "Description": "Audit and assurance services for Croatian entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Cupcake Central (Life Is Sweet Bakery)",
+    "Department": "Facilities",
+    "Description": "Bakery catering for office events and celebrations",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Currys Pc World",
+    "Department": "Engineering",
+    "Description": "Consumer electronics and IT equipment retailer",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Curzon Green Solicitors",
+    "Department": "Legal",
+    "Description": "UK legal services firm for employment and commercial law",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Del Posto D.O.O.",
+    "Department": "Facilities",
+    "Description": "Restaurant and catering venue for Zagreb office events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Dhl",
+    "Department": "Facilities",
+    "Description": "International parcel and document courier services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Dhl Express (Uk) Ltd",
+    "Department": "Facilities",
+    "Description": "Express shipping and courier services for UK office",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Digitalna Produkcija J.D.O.O.",
+    "Department": "Marketing",
+    "Description": "Digital content production and creative agency in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Djs For U",
+    "Department": "Facilities",
+    "Description": "Event entertainment and DJ services for corporate events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Dnsimple",
+    "Department": "Engineering",
+    "Description": "DNS hosting and domain management automation platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Doctor Anywhere Operations Pte Ltd",
+    "Department": "HR",
+    "Description": "Telemedicine and digital healthcare platform in Singapore",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Docusign",
+    "Department": "Legal",
+    "Description": "Electronic signature and agreement management platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Dsv Solutions A/S",
+    "Department": "Facilities",
+    "Description": "Third-party logistics and transport solutions provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Dun & Bradstreet D.O.O.",
+    "Department": "Sales",
+    "Description": "Business credit and commercial data intelligence service",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "E-Disti D.O.O.",
+    "Department": "Engineering",
+    "Description": "IT distribution and reseller services in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Edwardian Pastoria Hotels Ltd (The Londoner)",
+    "Department": "Facilities",
+    "Description": "London hotel venue for corporate events and accommodation",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Ekupi D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian online marketplace for office supplies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Elemental Life Solutions Llp",
+    "Department": "HR",
+    "Description": "HR consulting and employee wellness solutions provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Emerge Development Consultancy Ltd",
+    "Department": "HR",
+    "Description": "Leadership development and executive coaching consultancy",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Entrio Tehnologije D.O.O.",
+    "Department": "Facilities",
+    "Description": "Event ticketing and management platform in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Epignosis Llc",
+    "Department": "HR",
+    "Description": "eLearning authoring and training management platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Escape Art D.O.O.",
+    "Department": "Facilities",
+    "Description": "Escape room venue for team-building events in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Etm Concessions Ltd",
+    "Department": "Facilities",
+    "Description": "Vending machine and refreshment services for offices",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Eurofast International Ltd-Greec",
+    "Department": "Legal",
+    "Description": "Professional services firm for tax and legal in Greece",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Event Ors",
+    "Department": "Facilities",
+    "Description": "Corporate event planning and coordination services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Expert-Ing D.O.O.",
+    "Department": "Engineering",
+    "Description": "IT consulting and engineering services in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Fabiola Thistlewhaite",
+    "Department": "HR",
+    "Description": "Individual HR consultant for project-based HR support",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Farmacia - Specijalizirana Prodavaonica D.O.O.",
+    "Department": "Facilities",
+    "Description": "Pharmacy and health supplies for Croatian office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Fastspring",
+    "Department": "Engineering",
+    "Description": "E-commerce platform for software sales and subscriptions",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Fedex Express Uk Transportation Ltd",
+    "Department": "Facilities",
+    "Description": "Express freight and parcel delivery services in UK",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Fero-Term",
+    "Department": "Facilities",
+    "Description": "HVAC and heating services provider for Croatian offices",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Figma, Inc.",
+    "Department": "Product",
+    "Description": "Collaborative interface design and prototyping platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Floom Ltd",
+    "Department": "Facilities",
+    "Description": "Flower delivery service for corporate gifting and events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Formswift",
+    "Department": "Legal",
+    "Description": "Online document creation and form-filling service",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Fortis Trade J.D.O.O.",
+    "Department": "Facilities",
+    "Description": "Trade and distribution services company in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Franklin, Gringer & Cohen, P.C.",
+    "Department": "Legal",
+    "Description": "US employment and labor law firm for legal counsel",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Freepik Company",
+    "Department": "Marketing",
+    "Description": "Stock images and vector graphics resource platform",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Friends Sports Club",
+    "Department": "HR",
+    "Description": "Sports facility membership for employee wellness benefit",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "G S Notary Public Limited",
+    "Department": "Legal",
+    "Description": "Notary public services for document authentication",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Galop-Prijevoz D.O.O.",
+    "Department": "Facilities",
+    "Description": "Transportation and logistics services in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Garaå¾A Firule D.O.O.",
+    "Department": "Facilities",
+    "Description": "Parking garage facility services in Split Croatia",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Garden City D.O.O.",
+    "Department": "Facilities",
+    "Description": "Landscaping and garden maintenance for office premises",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Gaucho Restaurants",
+    "Department": "Facilities",
+    "Description": "Premium restaurant venue for corporate client dinners",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "George Anchor",
+    "Department": "Facilities",
+    "Description": "Individual contractor providing facilities support services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Godaddy.Com, Llc",
+    "Department": "Engineering",
+    "Description": "Domain registration and web hosting services provider",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Golden Mean, Inc",
+    "Department": "HR",
+    "Description": "Executive coaching and leadership consulting services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Golubica Parking D.O.O.",
+    "Department": "Facilities",
+    "Description": "Parking services and vehicle management in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Good Game Global D.O.O.",
+    "Department": "Facilities",
+    "Description": "Team-building gaming events organizer in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Google Ireland Limited",
+    "Department": "Marketing",
+    "Description": "Google advertising and cloud services via Irish entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Gophr",
+    "Department": "Facilities",
+    "Description": "Same-day courier and delivery service in the UK",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Goto Technologies Uk Limited",
+    "Department": "Engineering",
+    "Description": "GoTo suite for remote access, meetings and support",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Gpt Space & Co",
+    "Department": "Facilities",
+    "Description": "Managed office space and commercial real estate services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Grad Split",
+    "Department": "Legal",
+    "Description": "City of Split municipal fees and government charges",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Grad Zagreb, Gradski Ured Za Prostorno Ureä‘Enje,..",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Grafo-Jan",
+    "Department": "Facilities",
+    "Description": "Print and graphic services for office materials in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Grant Thornton",
+    "Department": "Finance",
+    "Description": "Audit, tax and advisory professional services firm",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Granttree Limited",
+    "Department": "Finance",
+    "Description": "R&D tax credit and grant funding advisory services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Green Commute Initiative",
+    "Department": "HR",
+    "Description": "Cycle to work scheme provider for employee benefits",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Greencell Express Private Limited",
+    "Department": "Facilities",
+    "Description": "Corporate transportation and shuttle services in India",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Grt Hotels And Resorts P Ltd",
+    "Department": "Facilities",
+    "Description": "Hotel accommodation for India-based corporate events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Gym4You D.O.O.",
+    "Department": "HR",
+    "Description": "Corporate gym membership for Croatian employee wellness",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Hahn Air",
+    "Department": "Facilities",
+    "Description": "Airline ticketing and travel booking services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Harissa D.O.O.",
+    "Department": "Facilities",
+    "Description": "Catering and restaurant services for Croatian office events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Harmonic Group Limited",
+    "Department": "HR",
+    "Description": "HR outsourcing and payroll administration services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Hep Elektra D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian electricity utility provider for office premises",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Hilton Garden Inn - Zagreb City Hotels D.O.O.",
+    "Department": "Facilities",
+    "Description": "Hotel accommodation and venue for Zagreb corporate events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Hotel Laguna D.D.",
+    "Department": "Facilities",
+    "Description": "Croatian hotel for corporate accommodation and events",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Hotel Zonar",
+    "Department": "Facilities",
+    "Description": "Hotel accommodation for corporate meetings in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Houlihan Lokey Advisors, Llc",
+    "Department": "Finance",
+    "Description": "Investment banking and financial advisory services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Hp Inc Uk Limited",
+    "Department": "Engineering",
+    "Description": "Hardware and printing equipment for UK office",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Hr Solution International Gmbh",
+    "Department": "HR",
+    "Description": "International HR outsourcing and compliance services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Hrsolution International Ag",
+    "Department": "HR",
+    "Description": "International HR advisory and payroll outsourcing",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Hrvatski Nezavisnici Izvoznici Softvera",
+    "Department": "Legal",
+    "Description": "Croatian software exporters association membership fees",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Hrvatski Telekom D.D.",
+    "Department": "Engineering",
+    "Description": "Croatian national telecom for office internet and calls",
+    "Suggestion": "Optimize",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Hubspot Ireland Limited",
+    "Department": "Marketing",
+    "Description": "HubSpot marketing automation via Irish entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Icare Nsw",
+    "Department": "HR",
+    "Description": "NSW workers compensation insurance scheme payments",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Icici Lombard Gic Ltd",
+    "Department": "HR",
+    "Description": "Group health and accident insurance for India staff",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Ico",
+    "Department": "Legal",
+    "Description": "UK Information Commissioner Office registration and fees",
+    "Suggestion": "Optimize",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Ikea Hrvatska D.O.O.",
+    "Department": "Facilities",
+    "Description": "Office furniture and supplies for Croatian offices",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Illunis D.O.O.",
+    "Department": "Marketing",
+    "Description": "Digital marketing and creative agency services in Croatia",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Induslaw",
+    "Department": "Legal",
+    "Description": "Indian law firm for corporate and employment legal advice",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Inet Telecoms Ltd.",
+    "Department": "Engineering",
+    "Description": "Internet and telecom connectivity services provider",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Info Edge India Limited",
+    "Department": "HR",
+    "Description": "Naukri.com job portal for India talent acquisition",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Infodata",
+    "Department": "Engineering",
+    "Description": "IT data services and infrastructure solutions provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Infosys",
+    "Department": "Engineering",
+    "Description": "IT outsourcing and managed services for enterprise apps",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Inicijativa Centar Za Edukaciju",
+    "Department": "HR",
+    "Description": "Training and education center for employee development",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Innovent Spaces Private Limited",
+    "Department": "Facilities",
+    "Description": "Managed office and co-working spaces in India",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Inside Edge Novated Leasing",
+    "Department": "HR",
+    "Description": "Novated leasing for employee vehicle benefits",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Integrated Personnel Services",
+    "Department": "HR",
+    "Description": "Staffing and temporary workforce solutions",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Inter Continental Chennai Mahabalipuram Resort",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Interaction Design Foundation, Inc",
+    "Department": "HR",
+    "Description": "UX design education and certification courses",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Intertrust Singapore Corporate Services Pte Ltd - Csc",
+    "Department": "Legal",
+    "Description": "Corporate secretarial and compliance services Singapore",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Istra Wine",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "It London",
+    "Department": "Facilities",
+    "Description": "IT support and managed services for London office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Jensten Insurance Brokers",
+    "Department": "Finance",
+    "Description": "Insurance brokerage and risk advisory services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Jetbrains S.R.O.",
+    "Department": "Engineering",
+    "Description": "Developer IDE and programming tools suite",
+    "Suggestion": "Optimize",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "John Smith",
+    "Department": "G&A",
+    "Description": "Individual contractor for project-based support",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Jones Lang Lasalle (Nsw) Pty Ltd",
+    "Department": "Facilities",
+    "Description": "Commercial real estate and facilities management",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Kall Kwik Centre 565",
+    "Department": "Facilities",
+    "Description": "Print services for marketing and office materials",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Kat'S Kitchen D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Kilgannon & Partners Llp",
+    "Department": "Legal",
+    "Description": "UK law firm for employment and commercial law",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Kimble Applications Ltd",
+    "Department": "Finance",
+    "Description": "Professional services automation and resource planning",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Klg - Kalra Legal Group",
+    "Department": "Legal",
+    "Description": "Legal advisory for India-based operations",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Konzum Plus D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian retail store for office supplies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Kosmaz Technologies Croatia",
+    "Department": "Engineering",
+    "Description": "Technology and software services in Croatia",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Kryterion, Inc.",
+    "Department": "HR",
+    "Description": "Online testing and credentialing platform",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Lajnap Comedy Booking D.O.O.",
+    "Department": "Facilities",
+    "Description": "Event entertainment and team-building services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Lancefield Bus Service",
+    "Department": "Facilities",
+    "Description": "Bus transportation for employee commuting",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Landu Law Solicitors",
+    "Department": "Legal",
+    "Description": "Law firm for immigration and employment legal",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Lane Ip Limited",
+    "Department": "Legal",
+    "Description": "IP and patent law services for technology assets",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Lastpass Ireland Limited",
+    "Department": "Engineering",
+    "Description": "Password management platform for enterprise teams",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Lemia D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Lider Media D.O.O.",
+    "Department": "Marketing",
+    "Description": "Croatian business media for PR and advertising",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Limes Plus D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Linkedin Ireland Limited",
+    "Department": "Marketing",
+    "Description": "LinkedIn advertising platform Irish entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Livingstone",
+    "Department": "Finance",
+    "Description": "M&A advisory and investment banking services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "London Waste Management",
+    "Department": "Facilities",
+    "Description": "Waste management and recycling services UK",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Lunch Nutrition D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Lusha",
+    "Department": "Sales",
+    "Description": "B2B contact data and sales prospecting tool",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "M&S Simply Food",
+    "Department": "Facilities",
+    "Description": "Retail food for office catering in UK",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Magazin Raunalni Sistemi D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Magic Mountain Saloon",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Make And Grow Ltd",
+    "Department": "Marketing",
+    "Description": "Marketing agency for brand growth and strategy",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Maniax Melbourne Cbd",
+    "Department": "HR",
+    "Description": "Sports and recreation services for employee wellness",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Mãœller Trgovina Zagreb D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Marvie Hotel - Krupa D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Mason Frank International Ltd",
+    "Department": "HR",
+    "Description": "Salesforce-focused IT and CRM recruitment agency",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Mcburneys Charted Accountants",
+    "Department": "Finance",
+    "Description": "Chartered accounting and tax compliance services",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Media Promo Plus D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Meluba Limited",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Mercer Limited",
+    "Department": "HR",
+    "Description": "HR consulting and employee benefits advisory",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Merchandise Ltd",
+    "Department": "Marketing",
+    "Description": "Corporate gifting and promotional merchandise",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Mesa Verde",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Microsoft Ireland Operations Limited",
+    "Department": "Engineering",
+    "Description": "Microsoft 365 and Azure services Irish entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Mightyhive Ltd",
+    "Department": "Marketing",
+    "Description": "Programmatic advertising and digital media agency",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Mithras Consultants",
+    "Department": "HR",
+    "Description": "HR and payroll consulting for India operations",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Monile J.D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Mosaic Concept D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "My Foodiverse Llp",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "N S Shastri And Co",
+    "Department": "Finance",
+    "Description": "Chartered accounting and tax compliance services",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Nastavni Zavod Za Javno Zdravstvo Dr. Andrija Å Tampar",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "National Securities Depository Limited(Nsdl)",
+    "Department": "Finance",
+    "Description": "India NSDL depository compliance fees",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Navan (Tripactions Inc)",
+    "Department": "G&A",
+    "Description": "Travel and expense management platform for corporate travel",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Navan, Inc",
+    "Department": "G&A",
+    "Description": "Travel and expense management platform",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Ncc Services Limited",
+    "Department": "Finance",
+    "Description": "Corporate payroll and HR administration services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Nefron - Obrt Za Poslovne Usluge",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "New Block D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "New Star Networks(Nsn)",
+    "Department": "Engineering",
+    "Description": "Telecom and networking services provider",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Niva Transport J.D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Notino S.R.O.",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Npm Inc",
+    "Department": "Engineering",
+    "Description": "Node.js package registry for software dependencies",
+    "Suggestion": "Optimize",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Oâ€™Donnell Salzano Lawyers",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Oakberry Jr D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Obiteljski Hoteli D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Obrt Sjaj Sunca",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Obrt Za Ugostiteljstvo Mirakul",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Office Move London",
+    "Department": "Facilities",
+    "Description": "Commercial office relocation and moving services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Officeworks",
+    "Department": "Facilities",
+    "Description": "Office supplies and equipment retailer Australia",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Oladi D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Omonia D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Orcola D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Orionw Llc",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Outreach Corporation",
+    "Department": "Sales",
+    "Description": "Sales engagement and outreach automation platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "P S Recreation Club",
+    "Department": "HR",
+    "Description": "Sports and recreation services for employee wellness",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Paint & Fun Vl. Martina Milkova Nikolova",
+    "Department": "Facilities",
+    "Description": "Event entertainment and team-building services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Paint&Wine, Vl. Stevo Dosen",
+    "Department": "Facilities",
+    "Description": "Event entertainment and team-building services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pan-Pek D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Papertrail Inc",
+    "Department": "Engineering",
+    "Description": "Cloud-hosted log management and search service",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Parcelforce Worldwide",
+    "Department": "Facilities",
+    "Description": "Parcel delivery and courier services UK",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Peakon Aps",
+    "Department": "HR",
+    "Description": "Employee engagement and feedback platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pepco Croatia D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian retail store for office supplies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pepe'S Italian And Liquor",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Performancepro",
+    "Department": "HR",
+    "Description": "Performance management and employee review platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pingo D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pink Ribbon Shop",
+    "Department": "Marketing",
+    "Description": "Corporate gifting and promotional merchandise",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pinnacle Partnership Ca",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pinsent Masons Mpillay Llp",
+    "Department": "Legal",
+    "Description": "International law firm for commercial and tech law",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Pixsy Inc",
+    "Department": "Legal",
+    "Description": "Image copyright protection and enforcement service",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Planful, Inc.",
+    "Department": "Finance",
+    "Description": "Financial planning and analysis cloud platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Platinum Office D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pluralsight, Llc",
+    "Department": "Engineering",
+    "Description": "Technology skill development training platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Plus Your Business Ltd",
+    "Department": "Marketing",
+    "Description": "Google My Business and digital presence management",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pluxee India Private Limited",
+    "Department": "HR",
+    "Description": "Employee benefits and meal voucher platform India",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pmi Global Operations Center",
+    "Department": "Legal",
+    "Description": "Project management institute membership fees",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Poles Ltd - Hanbury Manor",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Porezno Savjetniå¡Tvo Tuk D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Post Office Ltd",
+    "Department": "Facilities",
+    "Description": "UK postal and courier services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Potomac D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "President Hotel And Tower Co., Ltd",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pret A Manger",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Prezzee",
+    "Department": "HR",
+    "Description": "Digital gift card platform for employee rewards",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Pricewaterhousecoopers Llp",
+    "Department": "Finance",
+    "Description": "Audit, tax and advisory professional services (PwC)",
+    "Suggestion": "Optimize",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Profi Bar D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Puducherry Backwater Resort Private Limited",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Puzzle Promotion J.D.O.O.",
+    "Department": "Facilities",
+    "Description": "Event entertainment and team-building services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Quadrant Law Llc",
+    "Department": "Legal",
+    "Description": "Law firm for corporate and commercial transactions",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Radisson Grt - Unit Of Hotels & Resorts Pvt Ltd",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Radius Group, Inc",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Raiffeisenbank Austria D.D.",
+    "Department": "Finance",
+    "Description": "Croatian banking services for corporate accounts",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Ramiro D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Regency Hampers Ltd",
+    "Department": "Marketing",
+    "Description": "Corporate gifting and promotional merchandise",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Retriever Llc",
+    "Department": "Engineering",
+    "Description": "Web scraping and data retrieval services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Rhea D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Rishi Events And Entainment",
+    "Department": "Facilities",
+    "Description": "Event entertainment and team-building services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Roto Dinamic D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Rsm Uk Corporate Finance Llp",
+    "Department": "Finance",
+    "Description": "M&A advisory and corporate finance services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Rudan D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Safestore Ltd",
+    "Department": "Facilities",
+    "Description": "Self-storage facility for office and equipment",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Sage Uk Limited",
+    "Department": "Finance",
+    "Description": "Cloud accounting and payroll software UK entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Salesforce Uk Ltd-Uk",
+    "Department": "Sales",
+    "Description": "CRM, sales automation and customer data management suite",
+    "Suggestion": "Optimize",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Semrush Inc",
+    "Department": "Marketing",
+    "Description": "SEO and digital marketing analytics platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Shilton Hospitality Llp",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Shoff Darby Companies",
+    "Department": "Finance",
+    "Description": "Insurance brokerage and risk management",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Shree Info System Solutions Pvt Ltd",
+    "Department": "Engineering",
+    "Description": "IT services and solutions provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Slack Technologies Limited",
+    "Department": "Engineering",
+    "Description": "Slack team messaging platform UK entity",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Smart Group Services D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Smartsheet Inc.",
+    "Department": "Product",
+    "Description": "Work management and project tracking platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Smashing Media Ag",
+    "Department": "Marketing",
+    "Description": "Tech publication and content sponsorship",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Snappy Snaps",
+    "Department": "Facilities",
+    "Description": "Print and photo services for office use",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Sniper Systems And Solutions Private Limited",
+    "Department": "Engineering",
+    "Description": "IT services and solutions provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Sodexo Svc India Private Limited",
+    "Department": "HR",
+    "Description": "Employee benefits and food services in India",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Soho Kitchen Ltd",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Solarwinds, Inc",
+    "Department": "Engineering",
+    "Description": "IT management and monitoring software platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Spar Hrvatska D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian retail store for office supplies",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Specijalisticka Ordinacija Medicine Rada Helena Blazic",
+    "Department": "HR",
+    "Description": "Occupational health and medical services Croatia",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos",
+    "Department": "HR",
+    "Description": "Occupational health and medical services Croatia",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Split Tech City",
+    "Department": "Marketing",
+    "Description": "Tech community and event sponsorship in Split",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Sport Vision D.O.O.",
+    "Department": "HR",
+    "Description": "Sports and recreation services for employee wellness",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Sportkart D.O.O.",
+    "Department": "HR",
+    "Description": "Sports and recreation services for employee wellness",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Sportska Udruga Split",
+    "Department": "HR",
+    "Description": "Sports and recreation services for employee wellness",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Ss&C Intralinks Inc",
+    "Department": "Finance",
+    "Description": "Virtual data room for M&A and deal management",
+    "Suggestion": "Consolidate",
+    "Business Function": "Revenue Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Starhub Ltd (Supplier)",
+    "Department": "Engineering",
+    "Description": "Singapore telecom and connectivity services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Stillmark Zagreb D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Stipe Piric",
+    "Department": "G&A",
+    "Description": "Individual contractor for project-based support",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Streamlinereforms Inc",
+    "Department": "Legal",
+    "Description": "Compliance and regulatory reform advisory",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Student Packers & Movers",
+    "Department": "Facilities",
+    "Description": "Moving and relocation services in India",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Studentski Centar - Split",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Studentski Centar Karlovac",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Super Odrediå¡Te D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Susan Lee",
+    "Department": "G&A",
+    "Description": "Individual contractor for project-based support",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "SveuäIliå¡Te U Zagrebu, Studentski Centar",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Taste Of Health",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Tattu Manchester Limited",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Tau On-Line D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Taxstudio, Ltd.",
+    "Department": "Finance",
+    "Description": "Tax advisory and compliance management services",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Teb Poslovno Savjetovanje D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Technet It Recruitment",
+    "Department": "HR",
+    "Description": "Specialist IT recruitment and staffing services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Telefã³Nica Compras Electrã³Nicas S.L.",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Telefonica Global Services Gmbh",
+    "Department": "Engineering",
+    "Description": "Global telecom and connectivity services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Telemach Hrvatska D.O.O.",
+    "Department": "Engineering",
+    "Description": "Croatian ISP and telecom connectivity services",
+    "Suggestion": "Optimize",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Terrapinn Holdings Ltd",
+    "Department": "Marketing",
+    "Description": "Industry conference and events organizer",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "The Cook Kitchen",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "The Cycle Gap Adyar",
+    "Department": "HR",
+    "Description": "Cycling facility for Chennai employee wellness",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "The Guardian",
+    "Department": "Marketing",
+    "Description": "Media advertising in The Guardian newspaper",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "The Plant Man",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "The Riding House Cafe",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "The Virtual Legal Counsel Ltd",
+    "Department": "Legal",
+    "Description": "Virtual in-house legal counsel advisory services",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Thomas Mansfield Solicitors Limited",
+    "Department": "Legal",
+    "Description": "UK employment law firm for HR and tribunal matters",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Tiganda J.D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Till Trade D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Time Out Group",
+    "Department": "Marketing",
+    "Description": "Media advertising in Time Out city guides",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Tm Forum",
+    "Department": "Legal",
+    "Description": "Industry association membership for telecoms standards",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Tmforum",
+    "Department": "Legal",
+    "Description": "Industry association membership for telecoms standards",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "T-Mobile",
+    "Department": "Engineering",
+    "Description": "Mobile telecommunications and connectivity provider",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Tog Uk Properties Limited",
+    "Department": "Facilities",
+    "Description": "Managed office space and co-working facilities provider",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Tp Prime D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Trans-Agram Obrt Za Dostavu",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Treci Posao D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Trello",
+    "Department": "Engineering",
+    "Description": "Visual project and task management board tool",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Trending Technology Services Gmbh",
+    "Department": "Engineering",
+    "Description": "IT services and solutions provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Trocadero (London) Hotel Ltd",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Uber *Eats",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Uberflip",
+    "Department": "Marketing",
+    "Description": "Content experience platform for demand generation",
+    "Suggestion": "Consolidate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Uk Postbox Limited",
+    "Department": "Facilities",
+    "Description": "Virtual mailbox and postal address services UK",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "United Flow Ltd (The Goodness Project)",
+    "Department": "G&A",
+    "Description": "Low-spend vendor with limited strategic value",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Uptime Robot Service Provider Ltd",
+    "Department": "Engineering",
+    "Description": "Website uptime monitoring and alerting service",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Urbani Eventi D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Ustanova Za Medicinu Rada I Sporta Dr. Novacki",
+    "Department": "HR",
+    "Description": "Occupational health and medical services Croatia",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Ustanova Za Zdravstvenu Skrb P.P.",
+    "Department": "HR",
+    "Description": "Occupational health and medical services Croatia",
+    "Suggestion": "Consolidate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Vector Capital Management Lp",
+    "Department": "Finance",
+    "Description": "Private equity investment management advisory",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Veniture D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Visalogic Limited",
+    "Department": "Legal",
+    "Description": "Immigration and visa management services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Vistaprint",
+    "Department": "Marketing",
+    "Description": "Printed marketing materials and stationery",
+    "Suggestion": "Terminate",
+    "Business Function": "Customer Acquisition",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Vitality Works",
+    "Department": "HR",
+    "Description": "Employee wellness and occupational health services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Vivat Fina Vina D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Vodafone (Australian)",
+    "Department": "Engineering",
+    "Description": "Mobile and broadband connectivity services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Weking D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Westbrook Advisers",
+    "Department": "Finance",
+    "Description": "Financial advisory and consulting services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Wework Singapore Pte. Ltd.",
+    "Department": "Facilities",
+    "Description": "Flexible co-working office space provider",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Winmaxi Tours & Travels",
+    "Department": "Facilities",
+    "Description": "Corporate travel and tour services in India",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Wolt Enterprises Oy",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Work Easy Space Solutions Private Limited",
+    "Department": "Facilities",
+    "Description": "Managed office and co-working spaces in India",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Workato, Inc.",
+    "Department": "Engineering",
+    "Description": "Enterprise automation and integration platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "HIGH"
+  },
+  {
+    "Vendor Name": "Xenon Savjetovanje D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Yellow Submarine D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Yoxel, Inc",
+    "Department": "Engineering",
+    "Description": "API integration and data synchronization services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "ZagrebaäKi Holding D.O.O.",
+    "Department": "Facilities",
+    "Description": "Croatian local vendor providing miscellaneous services",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Zagrebtower D.O.O.",
+    "Department": "Facilities",
+    "Description": "Zagreb Tower office premises rent and services",
+    "Suggestion": "Optimize",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Zapier Inc.",
+    "Department": "Engineering",
+    "Description": "Workflow automation and app integration platform",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Zettanet",
+    "Department": "Engineering",
+    "Description": "Network management and connectivity services",
+    "Suggestion": "Consolidate",
+    "Business Function": "Core Product Infrastructure",
+    "Revenue Criticality": "MEDIUM"
+  },
+  {
+    "Vendor Name": "Zivi Napitak D.O.O.",
+    "Department": "Facilities",
+    "Description": "Food, beverage or hospitality services for office",
+    "Suggestion": "Terminate",
+    "Business Function": "Internal Operations",
+    "Revenue Criticality": "LOW"
+  },
+  {
+    "Vendor Name": "Zuric I Partneri Odvjetnicko Drustvo D.O.O.",
+    "Department": "Legal",
+    "Description": "Croatian law firm for corporate and commercial law",
+    "Suggestion": "Terminate",
+    "Business Function": "Compliance / Legal",
+    "Revenue Criticality": "LOW"
+  }
+]

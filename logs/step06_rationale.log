@@ -1,0 +1,438 @@
+Here is the complete **STEP 06 — Vendor Decision Rationale Log** for all 386 vendors. This is an audit record only; no changes have been made to the workbook.
+
+---
+
+## STEP 06: Vendor Decision Rationale Log
+**Source:** Vendor Analysis Assessment — A - TEMPLATE - RWA - Vendor Spend Strategy (R Jegadeswari).xlsx
+**Date:** 2026-03-22 | **Total Vendors:** 386 | **For audit purposes only**
+
+---
+
+| Vendor Name | Recommendation | Rationale | 30-Day Impact | Impact Level |
+|---|---|---|---|---|
+| (Blank) | Terminate | Unnamed vendor with negligible $137 spend; unidentifiable entity with no business relationship documentation; no operational value. | No dependency on unidentifiable vendor. | LOW |
+| 4I Advisory Services | Consolidate | Mid-tier $72K consulting spend overlapping with 4I Management Consulting (same group), creating duplicate supplier records; consolidate both entities under a single MSA for improved rate management. | Partial loss of advisory capacity; project deliverables may be delayed during transition. | MEDIUM |
+| 4I Management Consulting Private Limited | Consolidate | Low-spend subsidiary of 4I Advisory Services group at $12K; consolidating both entities under one agreement eliminates administrative duplication and improves negotiation leverage. | Minimal; low-value engagement easily absorbed by parent entity. | LOW |
+| 4Imprint Direct Ltd | Terminate | Negligible $2.4K promotional merchandise vendor; long-tail marketing supplier with no strategic value; easily replaced on demand. | No operational dependency; merchandise orders redirected to alternative supplier. | LOW |
+| 6Sense Insights Inc | Terminate | De minimis $76 spend indicates dormant or trial account; no meaningful usage at this level; immediate termination has zero impact. | Account is functionally inactive. | LOW |
+| Acclime Corporate Services | Consolidate | Corporate services entity overlapping with Acclime USA Inc; consolidate both Acclime entities under a single regional agreement to eliminate vendor duplication. | Minor; corporate admin maintained through consolidated Acclime engagement. | LOW |
+| Acclime Usa, Inc | Consolidate | Duplicate entry for Acclime group alongside Acclime Corporate Services; consolidating under one vendor record reduces administrative overhead and enables volume negotiation. | Low; merges into primary Acclime relationship without service disruption. | LOW |
+| Accutrainee Limited | Terminate | Low-spend $39K training/staffing vendor with no clear strategic differentiation; engagement appears project-specific and non-recurring. | Some training program continuity risk; identify internal or alternative replacement. | LOW |
+| Adamma Info Services Private Limited | Terminate | Negligible $273 spend; likely one-time administrative purchase with no ongoing service relationship. | No operational dependency. | LOW |
+| Adobe Systems Software | Terminate | Low $3.9K SaaS spend suggesting limited user adoption or a lapsed trial; consolidate any Adobe users into existing enterprise agreements or migrate to Figma. | Minor disruption to creative users; replaceable with existing tools short-term. | LOW |
+| Advena | Terminate | De minimis $154 spend with unidentifiable service; likely one-time purchase with no operational consequence. | No dependency. | LOW |
+| Aetna Life And Casualty Ltd | Optimize | High-value $125K employee health insurance provider; critical benefit for workforce retention and compliance; negotiate renewal terms, review plan design, and benchmark against market rates. | Significant: loss of health coverage creates compliance risk and attrition; cannot be removed within 30 days. | HIGH |
+| Ag Grid Ltd | Terminate | Low $2.7K data grid UI library license; likely limited usage; evaluate open-source alternatives or consolidate under broader engineering tooling budget. | Minor: developers may need to migrate to alternative grid library. | LOW |
+| Agram Life Osiguranje D.O.O. | Terminate | Local Croatian life insurance at $25K; likely duplicated by regional HR programs; evaluate necessity and terminate if superseded by primary benefits plan. | Moderate: impacts Croatian employee benefits if no replacement is secured. | MEDIUM |
+| Aha! Labs Inc | Consolidate | Low $3.7K product roadmap tool overlapping with Smartsheet, Trello, and Big Frontier in the portfolio; consolidate product planning under a single PM platform to reduce SaaS sprawl. | Low; product roadmaps can be managed in existing tools during transition. | LOW |
+| Akton D.O.O. | Terminate | Local Croatian facilities vendor at $3.3K; likely one-time or low-value service engagement with no strategic dependency. | No material operational impact. | LOW |
+| Allianz Australia Workers' Compensation (Victoria) Limited | Optimize | Mandatory statutory workers' compensation insurance in Victoria at $6.1K; optimize by reviewing claims history and premium classification to ensure accurate risk rating. | HIGH: mandatory statutory insurance; termination would create legal compliance breach in Victoria. | HIGH |
+| Allianz Wa | Consolidate | Low-spend $971 Allianz WA entity overlapping with Allianz Australia WC under same parent insurer; consolidate all Allianz policies under a single national account for premium discounts. | Minimal; consolidation within same insurer parent. | LOW |
+| Amazon (Aus) | Terminate | De minimis $233 on Australian Amazon marketplace; likely ad-hoc office supply purchases outside procurement policy; redirect through preferred procurement channels. | No operational impact; purchases redirectable to approved vendors. | LOW |
+| Amazon Web Services Inc. | Consolidate | Small duplicate AWS account at $5.2K alongside primary AWS LLC account ($106K); consolidate billing into master AWS organization account to capture consolidated volume discounts and simplified governance. | Low; workloads migratable to primary AWS account. | LOW |
+| Amazon Web Services Llc | Optimize | Core cloud infrastructure provider at $106K; negotiate AWS Enterprise Discount Program (EDP) or Reserved Instance commitments; right-size underutilized resources to reduce unit costs. | HIGH: core infrastructure services; removal would cause significant system outages. | HIGH |
+| Amazon.Co.Uk | Terminate | Minimal $1.1K on UK Amazon marketplace; ad-hoc purchases outside procurement policy; redirect to approved procurement channels. | No operational impact. | LOW |
+| Ansar Madovic | Terminate | Individual/sole trader vendor at $1.7K in G&A; likely one-time service engagement with no ongoing contract or strategic value. | No material impact. | LOW |
+| Apple - Amer | Consolidate | Small $764 Apple AMER entity creating duplicate vendor records; consolidate all Apple hardware procurement (4 entities totaling ~$8.3K) under a single Apple Business account for volume pricing. | No impact; hardware purchases continue under consolidated account. | LOW |
+| Apple Distribution International Ltd | Consolidate | Duplicate Apple entity for international distribution at $1.9K; part of fragmented Apple spend across 4 entities; consolidate under Apple Business account. | Minimal; same products available via consolidated channel. | LOW |
+| Apple Pty Ltd | Consolidate | Australian Apple entity at $2K creating fragmented vendor records; consolidate with other Apple entities under unified procurement approach for better terms. | Minimal; product availability maintained through consolidated channel. | LOW |
+| Apple Retail Uk Ltd | Consolidate | UK Apple retail purchases at $3.5K; highest-spend Apple entity; consolidate all 4 Apple entities under Apple Business account for unified invoicing and volume pricing. | Low; hardware procurement continues under consolidated Apple relationship. | LOW |
+| Aquila Remete D.O.O. | Terminate | Local Croatian transport vendor at $1.7K; low-value one-time or ad-hoc service with no strategic dependency. | No material impact. | LOW |
+| Arena Center Zagreb D.O.O. | Terminate | Small Zagreb venue expense at $567; one-time or occasional event venue with no recurring contract. | No impact. | LOW |
+| Ariba Inc | Terminate | Low $1.4K procurement platform spend; if SAP Ariba is the P2P tool this should be absorbed into main licensing; if unused, terminate immediately. | Low; minor procurement workflow adjustment. | LOW |
+| Athlete Service Ltd | Terminate | Low-spend $5.3K support services vendor with no clear strategic role; long-tail supplier; terminate and absorb work into core support function. | Low; support capacity redistributable internally. | LOW |
+| Atlassian Pty Ltd | Consolidate | Negligible $224 Atlassian spend likely representing a secondary account; consolidate under primary Atlassian enterprise license. | No impact; teams continue on primary Atlassian license. | LOW |
+| Australian Payroll Professionals Pty Ltd | Terminate | Low $4.4K payroll processing vendor likely duplicating primary payroll system; consolidate AU payroll into main HRIS/payroll provider. | Moderate: AU payroll continuity must be verified before removing. | MEDIUM |
+| Australian Taxation Office (Ato) | Terminate | Statutory $123 ATO payment; this is a compliance obligation, not a vendor relationship; reclassify as regulatory payment. | No vendor relationship to terminate; statutory obligation continues. | LOW |
+| Avoxi Inc | Terminate | Negligible $178 cloud telephony; dormant or unused account; terminate immediately. | No operational dependency at this spend level. | LOW |
+| Axil Coffee Roasters | Terminate | De minimis $89 coffee purchase; one-time facility expense; not a vendor relationship. | No impact. | LOW |
+| Axosoft Gitkraken | Terminate | Negligible $54 dev tool spend; either unused license or individual purchase; consolidate developer tools under enterprise licensing. | No impact; developers can use alternative Git clients. | LOW |
+| Backoffice Associates | Terminate | Low $1.1K back-office services; likely one-time data or admin engagement with no ongoing strategic value. | No material impact. | LOW |
+| Bakemono Bakers Melbourne | Terminate | De minimis $18 bakery purchase; single-transaction catering; not a vendor relationship. | No impact. | LOW |
+| Bb Football Scouting J.D.O.O. | Terminate | Small $823 G&A spend on football scouting; unclear business purpose; likely one-time sponsorship or staff event. | No operational impact. | LOW |
+| Bdo Llp | Optimize | High-spend $343K audit and advisory firm; critical compliance and financial reporting partner; negotiate multi-year engagement fees, define scope boundaries, and benchmark against alternatives to reduce annual cost. | HIGH: audit and regulatory compliance deliverables are time-sensitive; disruption risks filing deadlines. | HIGH |
+| Bella Operation A/S | Terminate | Negligible $241 Danish venue expense; one-time conference or event facility with no recurring relationship. | No impact. | LOW |
+| Benefit Systems D.O.O. | Terminate | Croatian employee benefits platform at $17K; evaluate overlap with core HR programs; if redundant, terminate and migrate employees to primary benefits portal. | Moderate: Croatian employees may lose benefits platform access; ensure migration path. | MEDIUM |
+| Big Frontier Pty Ltd (Cult Of Monday) | Consolidate | Mid-tier $66K SaaS project management platform (Monday.com) overlapping with Smartsheet, Trello, and Aha! Labs; consolidate project management to single platform to eliminate redundancy. | MEDIUM: active project workflows depend on this tool; migration requires planning. | MEDIUM |
+| Bigshare Services Private Limited | Terminate | De minimis $188 registrar/share services; likely one-time or annual administrative fee with no strategic dependency. | No material impact. | LOW |
+| Bijeli Pijesak Obrt Za Poslovno Savjetovanje | Terminate | Low $11.6K Croatian business consulting; project-specific engagement with no evidence of an ongoing strategic relationship. | Low; consulting outputs can be managed internally. | LOW |
+| Bisley Law Ltd | Optimize | Mid-tier $67K legal services firm; important legal partner for ongoing matters; negotiate fixed-fee retainer or capped hourly arrangements to control spend and improve predictability. | MEDIUM: ongoing legal matters need continuity; transition to alternative counsel requires 30-60 days minimum. | MEDIUM |
+| Blink Events | Terminate | Negligible $664 events vendor; one-time event production expense with no ongoing relationship. | No impact. | LOW |
+| Blitz - Cinestar D.O.O. | Terminate | Small $426 Croatian cinema venue; staff event or one-time expense with no operational dependency. | No impact. | LOW |
+| Boe Croatia D.O.O. | Terminate | Low $814 Croatian facilities vendor; minor one-time or ad-hoc service with no recurring contract. | No impact. | LOW |
+| Bonus Opinio D.O.O. | Terminate | De minimis $120 Croatian services vendor; negligible spend with no identified strategic purpose. | No impact. | LOW |
+| British Telecommunications | Consolidate | Low $1.5K BT spend overlapping with Telefonica Global Services ($90K) and other telecom vendors; consolidate telecom under primary provider for better rates. | Low; services migratable to primary telecom provider. | LOW |
+| Brodomerkur D.D. | Terminate | De minimis $29 Croatian retail purchase; single transaction; not a vendor relationship. | No impact. | LOW |
+| Bupa Australia | Optimize | Australian employee health insurance at $12.5K; critical staff benefit for Australian workforce; benchmark premiums and review plan design to optimize cost. | HIGH: active employee health cover; termination would breach employment conditions. | HIGH |
+| Bupa- Supplier | Consolidate | Duplicate Bupa entity at $22.8K alongside Bupa Australia ($12.5K); consolidate both under a single Bupa account to unify coverage management and negotiate group rates. | Low; consolidation within same insurer has no service impact. | LOW |
+| Bureau Veritas Croatia D.O.O. | Terminate | Low $3.2K compliance/inspection services in Croatia; likely one-time certification or audit with no ongoing contract. | Low; compliance certification obtainable from alternative provider. | LOW |
+| Calm Achiever (A Unit Of Mohsin Ali Vakil) | Terminate | Low $4.1K wellness/coaching vendor; supplemental employee program with minimal scale; evaluate ROI and terminate if not part of core benefits strategy. | Low; wellness programming is supplemental with no critical dependency. | LOW |
+| Capitol Services | Terminate | De minimis $120 legal/registered agent services; likely one-time filing fee; if ongoing, consolidate under primary legal provider. | No material impact. | LOW |
+| Care Health Insurance Company Limited | Consolidate | Indian employee health insurance at $24K overlapping with ICICI Lombard GIC ($6K) for Indian employee coverage; consolidate India health insurance under single insurer for group premium discounts. | MEDIUM: active employee health coverage in India; replacement coverage needed before consolidating. | MEDIUM |
+| Carrington Communications | Terminate | Low $1.7K PR/communications agency; project-based engagement without strategic positioning; consolidate PR with primary marketing agency. | No material marketing impact at this spend level. | LOW |
+| Catering Ivic D.O.O. | Terminate | Small $669 Croatian catering vendor; one-time or occasional service with no ongoing contract. | No impact. | LOW |
+| Catering Muring | Terminate | Low $9.6K Croatian catering vendor; facility catering likely tied to office events; if recurring, evaluate inclusion in office management contract; otherwise terminate. | Low; alternative catering sourceable locally. | LOW |
+| Cayman Islands Government | Terminate | De minimis $56 government filing fee; statutory payment, not a vendor relationship; reclassify as regulatory expense. | No impact. | LOW |
+| Cbre Limited | Optimize | Commercial real estate advisory at $8.4K; valuable for lease negotiations and workplace strategy; optimize engagement scope and ensure value delivery on active lease transactions. | LOW: advisory engagement with no immediate operational dependency. | LOW |
+| Cedar Recruitment Ltd | Terminate | Low $18.5K recruitment agency; project-specific hiring engagement; consolidate recruitment spend with primary RPO or preferred recruitment partner. | Low; open positions coverable by primary recruitment vendor. | LOW |
+| Centar Za Sigurnost D.O.O. | Terminate | Croatian security services at $5K; likely facility security for Croatian office; evaluate whether covered by office management contract; if standalone, renegotiate or terminate. | Low; alternative security sourceable for Croatian facilities. | LOW |
+| Chamiers Recreation| Chamiers Recreation Club | Terminate | Small $1.3K recreation club expense; employee recreation benefit that is non-essential and not core to total rewards strategy. | No critical dependency. | LOW |
+| Cici Prudential Life Insurance Co. Ltd. | Consolidate | Low $3.2K life insurance overlapping with Aetna, Allianz, and Bupa across the HR insurance portfolio; consolidate life/health insurance under fewer preferred providers for group rate leverage. | Low; ensure replacement coverage before consolidating. | LOW |
+| Cigna Sg | Consolidate | Singapore employee health insurance at $13.3K; overlaps with other regional health vendors; consolidate APAC insurance under single preferred insurer for group premium discounts. | MEDIUM: active Singapore employee health coverage; replacement must be in place before consolidating. | MEDIUM |
+| Cision Pr Newswire | Terminate | Low $2.1K PR wire/distribution service; limited usage at this spend level; PR distribution manageable through primary marketing agency or lower-cost alternatives. | No material marketing impact. | LOW |
+| City Pantry Ltd | Terminate | Low $2.4K office food delivery service; non-essential employee perk with no operational dependency. | No operational impact. | LOW |
+| Cleverland Winery Resort | Terminate | Small $2.7K winery/resort venue; one-time team event or client entertainment with no ongoing contract. | No impact. | LOW |
+| Click Send Pty Ltd | Consolidate | Negligible $55 SMS/messaging platform; consolidate with primary communications stack to avoid tool sprawl. | No operational impact at this spend level. | LOW |
+| Clime India Private Limited | Terminate | Low $1.7K Indian HR services vendor; project-specific engagement; consolidate India HR services under primary HR provider. | No material impact. | LOW |
+| Cloud Technology Solutions Ltd | Consolidate | Mid-tier $61K Google Workspace reseller overlapping with Google Ireland and Cloudcrossing; consolidate cloud licensing under a direct Google agreement or primary reseller to eliminate middleman markup. | MEDIUM: manages Google Workspace licenses; migration of email/productivity tools requires planning. | MEDIUM |
+| Cloudcrossing Bvba | Optimize | High-spend $209K network/cloud infrastructure vendor; strategic technology partner; negotiate multi-year contract, define SLAs, and right-size bandwidth and capacity commitments. | HIGH: core network and cloud infrastructure; removal would cause significant service disruption. | HIGH |
+| Cognism Limited | Consolidate | Mid-tier $27K sales intelligence platform overlapping with Lusha ($2.6K) and Dun & Bradstreet ($610) for prospecting data; consolidate to a single preferred data provider. | LOW: sales team can use Salesforce and primary data vendor during transition. | LOW |
+| Coles | Terminate | De minimis $18 Australian supermarket purchase; single transaction; not a vendor relationship. | No impact. | LOW |
+| Collards Chartered Accountants | Terminate | Low $12.9K accounting firm; likely regional or project-specific; consolidate under primary finance partners (BDO, RSM, Grant Thornton). | Low; accounting services absorbable by primary finance partners. | LOW |
+| Common Desk, Llc | Terminate | Low $3.8K coworking space; likely satellite or temporary workspace; consolidate into primary office footprint. | Low; employees can work from primary office or WFH. | LOW |
+| Computershare-Caboodle Technology Limited | Consolidate | Low $981 share scheme administration; consolidate equity administration under primary share registry provider to reduce fragmentation. | Low; equity administration manageable through primary provider. | LOW |
+| Crayond Digital Private Limited | Terminate | Low $1.6K Indian digital engineering vendor; project-specific engagement with no ongoing strategic value. | Low; engineering work absorbable internally. | LOW |
+| Croatia Airlines | Consolidate | Low $832 Croatian airline spend; consolidate all business travel bookings through Navan TripActions for unified travel policy and reporting. | No direct impact; travel continues via Navan. | LOW |
+| Crossland | Terminate | Low $2.9K facilities vendor; likely one-time or maintenance service with unclear scope. | No material impact. | LOW |
+| Crowe Horwath Revizija D.O.O. | Consolidate | Low $4.1K Croatian audit firm overlapping with BDO ($343K), RSM UK ($117K), and Grant Thornton ($47K); consolidate audit work under primary audit partner to reduce vendor fragmentation. | Low; audit work absorbable by primary audit firm. | LOW |
+| Cupcake Central (Life Is Sweet Bakery) | Terminate | De minimis $35 bakery purchase; one-time catering; not a vendor relationship. | No impact. | LOW |
+| Currys Pc World | Terminate | De minimis $30 electronics retail purchase; one-off hardware buy; not a vendor relationship. | No impact. | LOW |
+| Curzon Green Solicitors | Consolidate | Low $1.2K legal firm overlapping with primary legal partners Bisley Law ($67K) and Pinsent Masons ($4.1K); consolidate legal spend under preferred law firms. | Low; legal matters transferable to primary counsel. | LOW |
+| Del Posto D.O.O. | Terminate | Small $364 Croatian restaurant; one-time entertainment expense; not an ongoing vendor. | No impact. | LOW |
+| Dhl | Consolidate | Small $191 DHL spend; consolidate with DHL Express UK ($119) under a single DHL account for unified shipping terms and volume pricing. | No impact; shipping continues under consolidated account. | LOW |
+| Dhl Express (Uk) Ltd | Consolidate | Small $119 UK DHL entity; consolidate with DHL ($191) under single DHL business account. | No impact. | LOW |
+| Digitalna Produkcija J.D.O.O. | Terminate | Low $993 Croatian digital production vendor; project-specific creative work; absorb into primary marketing agency relationship. | No material marketing impact. | LOW |
+| Djs For U | Terminate | Small $220 DJ/entertainment vendor; one-time event entertainment; not a vendor relationship. | No impact. | LOW |
+| Dnsimple | Consolidate | Low $312 DNS management tool; consolidate under primary domain/infrastructure provider (GoDaddy or AWS Route53) to reduce tool proliferation. | Low; DNS migratable to primary provider. | LOW |
+| Doctor Anywhere Operations Pte Ltd | Consolidate | Low $347 Singapore telemedicine platform; consolidate with primary Singapore health insurance (Cigna SG) to offer telemedicine benefits under the existing plan. | Low; supplemental health service easily replaced. | LOW |
+| Docusign | Consolidate | Low $1.3K e-signature platform; evaluate whether standalone or absorbable into broader enterprise SaaS agreement; consolidate e-signature into primary SaaS portfolio. | Low; e-signature capability replaceable with minimal migration effort. | LOW |
+| Dsv Solutions A/S | Terminate | Low $1.2K logistics/freight vendor; one-time or low-frequency shipment; consolidate logistics under primary freight provider. | No material impact. | LOW |
+| Dun & Bradstreet D.O.O. | Consolidate | Negligible $610 B2B data vendor overlapping with Cognism ($27K) and Lusha ($2.6K) for sales intelligence; consolidate to single preferred data provider. | No impact; sales team can rely on primary data vendor. | LOW |
+| E-Disti D.O.O. | Terminate | Small $458 Croatian IT distribution vendor; one-time hardware/software purchase with no ongoing contract. | No impact. | LOW |
+| Edwardian Pastoria Hotels Ltd (The Londoner) | Terminate | Small $433 London hotel expense; one-time business travel accommodation; route future bookings through Navan. | No impact. | LOW |
+| Ekupi D.O.O. | Terminate | De minimis $40 Croatian online retail purchase; single transaction; not a vendor relationship. | No impact. | LOW |
+| Elemental Life Solutions Llp | Terminate | Low $2.8K HR consultancy; likely one-time or outplacement service; terminate upon project completion. | No material HR impact. | LOW |
+| Emerge Development Consultancy Ltd | Terminate | Low $10K HR/leadership development consultancy; project-based engagement; evaluate ROI and terminate if program has concluded. | Low; development programs supplemental and manageable internally. | LOW |
+| Entrio Tehnologije D.O.O. | Terminate | Small $473 Croatian ticketing/events vendor; one-time event expense; not an ongoing vendor. | No impact. | LOW |
+| Epignosis Llc | Consolidate | Low $833 LMS/e-learning platform overlapping with Pluralsight and other L&D tools in the portfolio; consolidate learning platforms to single provider. | Low; learning content migratable to primary LMS. | LOW |
+| Escape Art D.O.O. | Terminate | Small $133 Croatian escape room/entertainment venue; one-time team activity; not a vendor relationship. | No impact. | LOW |
+| Etm Concessions Ltd | Terminate | Low $1.4K UK hospitality/event venue; one-time client or staff entertainment with no ongoing contract. | No impact. | LOW |
+| Eurofast International Ltd-Greece | Terminate | Low $18.2K Greek legal/compliance advisory; project-specific engagement; consolidate under preferred international legal partner if ongoing. | Low; legal advisory absorbable by primary legal firm. | LOW |
+| Event Ors | Terminate | Small $143 event services vendor; one-time expense; not a vendor relationship. | No impact. | LOW |
+| Expert-Ing D.O.O. | Terminate | Small $225 Croatian engineering services vendor; minimal spend; likely one-time engagement. | No impact. | LOW |
+| Fabiola Thistlewhaite | Terminate | Individual HR contractor at $2.2K; likely one-time or short-term engagement; terminate upon work completion. | Low; HR tasks manageable internally. | LOW |
+| Farmacia - Specijalizirana Prodavaonica D.O.O. | Terminate | De minimis $36 Croatian pharmacy purchase; one-time supply expense; not a vendor relationship. | No impact. | LOW |
+| Fastspring | Consolidate | Low $1.2K e-commerce/payment processing platform; consolidate with primary payment processing or subscription management vendor. | Low; payment processing reroutable through primary provider. | LOW |
+| Fedex Express Uk Transportation Ltd | Consolidate | Negligible $47 FedEx spend; consolidate all courier services under DHL or preferred courier agreement. | No impact. | LOW |
+| Fero-Term | Terminate | Small $131 Croatian facilities/heating vendor; one-time maintenance service; not an ongoing vendor. | No impact. | LOW |
+| Figma, Inc. | Consolidate | Low $460 Figma design tool; if Figma is the preferred design platform, migrate Adobe users here and terminate Adobe; otherwise consolidate design tooling under primary creative suite. | Low; design work continues on primary platform during consolidation. | LOW |
+| Floom Ltd | Terminate | Small $162 floral delivery service; one-time office or gift purchase; not a vendor relationship. | No impact. | LOW |
+| Formswift | Terminate | Small $301 document generation tool; marginal usage; consolidate document automation under Docusign or primary legal tech platform. | No impact at this spend level. | LOW |
+| Fortis Trade J.D.O.O. | Terminate | De minimis $95 Croatian trading/supplies vendor; single transaction; not a vendor relationship. | No impact. | LOW |
+| Franklin, Gringer & Cohen, P.C. | Consolidate | Low $427 US employment law firm; consolidate US legal work under primary legal counsel to reduce fragmentation. | Low; matters transferable to primary counsel. | LOW |
+| Freepik Company | Terminate | Negligible $203 stock imagery subscription; consolidate with primary design asset provider or use Adobe Stock/Unsplash. | No impact; alternative stock image sources readily available. | LOW |
+| Friends Sports Club | Terminate | Small $797 sports club expense; non-essential employee recreation benefit. | No critical operational dependency. | LOW |
+| G S Notary Public Limited | Terminate | Low $1.9K notary services; infrequent project-specific legal service; use on-demand notary services as needed rather than maintaining a vendor relationship. | Low; notary services available on demand. | LOW |
+| Galop-Prijevoz D.O.O. | Terminate | Small $908 Croatian transport/taxi service; ad-hoc ground transportation; consolidate under Navan travel or terminate. | No impact. | LOW |
+| Garaza Firule D.O.O. | Consolidate | Low $2.9K Croatian parking facility overlapping with Golubica Parking ($3.7K); consolidate parking spend for Croatian offices under a single preferred parking arrangement. | Low; employees can use alternative facilities. | LOW |
+| Garden City D.O.O. | Terminate | De minimis $45 Croatian vendor; single transaction; not a vendor relationship. | No impact. | LOW |
+| Gaucho Restaurants | Terminate | Small $302 restaurant expense; one-time client entertainment; not a vendor relationship. | No impact. | LOW |
+| George Anchor | Terminate | Low $2.1K facilities vendor; unclear service scope; likely one-time engagement. | No material impact. | LOW |
+| Godaddy.Com, Llc | Consolidate | Low $923 domain registrar; consolidate domain management under primary DNS/domain provider (DNSimple or AWS Route53) for unified domain portfolio management. | Low; domains transferable to primary registrar. | LOW |
+| Golden Mean, Inc | Terminate | Low $1.7K HR/coaching vendor; supplemental coaching program; evaluate ROI and terminate if not core to people strategy. | No critical dependency. | LOW |
+| Golubica Parking D.O.O. | Terminate | Low $3.7K Croatian parking; ad-hoc parking expenses; consolidate under preferred parking arrangement with Garaza Firule or terminate. | No impact. | LOW |
+| Good Game Global D.O.O. | Terminate | Low $3K Croatian gaming/team-building vendor; one-time recreation activity; not an ongoing vendor. | No impact. | LOW |
+| Google Ireland Limited | Consolidate | Low-mid $24.8K Google Ads spend; consolidate with MightyHive ($19K, a Google partner agency) and LinkedIn ($56K) under a unified paid media strategy with single agency management. | LOW: paid campaigns can be paused and restarted with no immediate operational impact. | LOW |
+| Gophr | Terminate | De minimis $52 courier service; one-time delivery; consolidate with DHL/FedEx. | No impact. | LOW |
+| Goto Technologies Uk Limited | Consolidate | Low $7.3K GoTo (video/remote support) platform overlapping with Slack and Microsoft Teams in the collaboration stack; consolidate communications and remote support tools. | LOW: meetings and support hosted on primary communications platform during transition. | LOW |
+| Gpt Space & Co | Terminate | Medium-spend $134K facilities vendor; if this represents a co-working or office space being exited, terminate upon notice period to capture significant cost savings. | HIGH: if active office lease, immediate termination would strand employees; notice period must be honored. | HIGH |
+| Grad Split | Terminate | Low $3.5K Croatian municipal/government fees; statutory or administrative payment; reclassify as regulatory expense rather than vendor spend. | No vendor relationship; statutory obligation only. | LOW |
+| Grad Zagreb, Gradski Ured Za Prostorno Uredenje | Terminate | Low $11.6K Zagreb city planning/zoning fees; statutory government fees for office permits; reclassify as regulatory expense. | No vendor relationship; statutory obligation. | LOW |
+| Grafo-Jan | Terminate | Small $662 facilities/print vendor; ad-hoc print service; not a strategic vendor. | No impact. | LOW |
+| Grant Thornton | Consolidate | Low-mid $47K accounting/advisory firm overlapping with BDO ($343K) and RSM UK ($117K) for audit and advisory services; consolidate advisory work under primary audit partner. | LOW: advisory work transitionable to primary audit firm. | LOW |
+| Granttree Limited | Consolidate | Low $13.7K R&D tax credit specialist; consolidate tax advisory with primary finance partners; ensure R&D credits are not disrupted during transition. | LOW: R&D tax claim timeline can accommodate vendor transition. | LOW |
+| Green Commute Initiative | Terminate | Low $5.4K UK cycle-to-work scheme; non-essential employee benefit; evaluate participation and terminate if low uptake, as statutory alternatives exist. | Low; employees can use personal cycling arrangements. | LOW |
+| Greencell Express Private Limited | Terminate | Small $457 Indian ground transportation; one-time or ad-hoc employee transport; consolidate under Navan travel management. | No impact. | LOW |
+| Grt Hotels And Resorts P Ltd | Terminate | Low $2K Indian hotel; one-time business travel accommodation; route through Navan travel platform. | No impact. | LOW |
+| Gym4You D.O.O. | Terminate | Low $3.7K Croatian gym membership benefit; evaluate participation vs. cost; terminate if low utilization. | Low; employees can arrange personal gym memberships. | LOW |
+| Hahn Air | Consolidate | Negligible $183 airline ticket; consolidate all air travel bookings through Navan TripActions travel management platform. | No impact; travel continues through Navan. | LOW |
+| Harissa D.O.O. | Terminate | De minimis $21 Croatian catering; single transaction; not a vendor relationship. | No impact. | LOW |
+| Harmonic Group Limited | Consolidate | Mid-tier $65K HR/payroll processing group overlapping with HR Solution International GmbH ($81K) for HR administration services; consolidate HR outsourcing under single preferred provider to achieve scale discounts. | MEDIUM: payroll and HR administration continuity required; transition must be carefully managed. | MEDIUM |
+| Hep Elektra D.O.O. | Optimize | Croatian electricity/utility provider at $3.7K; mandatory facility utility for Croatian office; optimize through energy efficiency measures and tariff review to reduce consumption costs. | HIGH: utility provider for Croatian office; disconnection would render office unusable. | HIGH |
+| Hilton Garden Inn - Zagreb City Hotels D.O.O. | Terminate | De minimis $82 Zagreb hotel; one-time accommodation; route through Navan travel management. | No impact. | LOW |
+| Hotel Laguna D.D. | Terminate | Small $190 Croatian hotel; one-time accommodation expense; manage through Navan. | No impact. | LOW |
+| Hotel Zonar | Terminate | Small $523 hotel; one-time accommodation; manage through Navan. | No impact. | LOW |
+| Houlihan Lokey Advisors, Llc | Terminate | Low $37.5K investment banking/M&A advisory; project-specific engagement; terminate upon completion of specific transaction. | Low; advisory projects are defined scope. | LOW |
+| Hp Inc Uk Limited | Consolidate | Low $2.1K HP hardware; consolidate hardware procurement under single OEM/reseller agreement for volume pricing. | No impact; hardware procurement continues under consolidated channel. | LOW |
+| Hr Solution International Gmbh | Consolidate | Mid-tier $81K HR outsourcing firm overlapping with Harmonic Group ($65K) for HR/payroll administration; consolidate HR outsourcing to single provider to capture scale discounts. | MEDIUM: HR administration processes depend on this vendor; transition requires careful handover. | MEDIUM |
+| Hrsolution International Ag | Consolidate | Low $7K subsidiary of HR Solution International GmbH; same parent company with a duplicated vendor record; consolidate under the primary GmbH entity. | Low; same services from same parent company. | LOW |
+| Hrvatski Nezavisnici Izvoznici Softvera | Terminate | De minimis $154 Croatian software industry association; likely membership fee; terminate if no tangible strategic return. | No operational impact. | LOW |
+| Hrvatski Telekom D.D. | Optimize | Primary Croatian telco at $18K; mission-critical connectivity for Croatian operations; negotiate contract terms and service levels to achieve better pricing on bandwidth and mobile services. | HIGH: primary telecom connectivity for Croatian office; disruption would impact all communications. | HIGH |
+| Hubspot Ireland Limited | Consolidate | Mid-tier $32K marketing automation platform overlapping with Salesforce Marketing Cloud and Uberflip ($26K) in the marketing stack; consolidate marketing automation under the primary CRM/marketing platform. | MEDIUM: active marketing campaigns and lead-nurturing workflows depend on HubSpot; migration requires planning. | MEDIUM |
+| Icare Nsw | Optimize | NSW workers' compensation insurance at $1.2K; mandatory statutory insurance for NSW employees; optimize by strengthening workplace safety programs to reduce claims and premium classifications. | HIGH: mandatory workers' compensation; termination would breach Australian workplace law. | HIGH |
+| Icici Lombard Gic Ltd | Consolidate | Low $6K Indian health insurance overlapping with Care Health Insurance ($24K) for Indian employee coverage; consolidate India health insurance under single insurer for group premium discounts. | MEDIUM: active employee health cover in India; replacement required before consolidating. | MEDIUM |
+| Ico | Optimize | Negligible $67 ICO (UK data regulator) registration fee; mandatory GDPR registration; ensure timely renewal to maintain legal data processing compliance. | HIGH: ICO registration is mandatory for GDPR compliance; lapsing creates immediate regulatory risk. | HIGH |
+| Ikea Hrvatska D.O.O. | Terminate | Low $3.6K IKEA Croatia office furniture/supplies; one-time or periodic purchase; manage through facilities budget rather than as a standing vendor. | No impact. | LOW |
+| Illunis D.O.O. | Terminate | De minimis $128 Croatian marketing/photography vendor; one-time creative work; not a strategic vendor. | No impact. | LOW |
+| Induslaw | Consolidate | Low $596 Indian legal firm; consolidate India legal work with Pinsent Masons MPILLAY or primary international counsel to reduce fragmentation. | Low; legal matters manageable by primary counsel. | LOW |
+| Inet Telecoms Ltd. | Consolidate | De minimis $63 telecom vendor; consolidate with primary telecom providers (Telefonica, Hrvatski Telekom). | No impact. | LOW |
+| Info Edge India Limited | Consolidate | Low $3.5K Indian job board (Naukri.com); consolidate recruitment advertising with LinkedIn ($56K) for a unified sourcing strategy and reduced platform fragmentation. | Low; open roles postable on LinkedIn and other primary channels. | LOW |
+| Infodata | Terminate | Small $241 data/IT vendor; minimal spend; likely one-time purchase. | No impact. | LOW |
+| Infosys | Consolidate | Mid-tier $67K engineering services overlapping with Cloudcrossing ($209K) and other engineering vendors; consolidate engineering outsourcing to primary technology partner for better governance and pricing. | MEDIUM: active development projects may depend on Infosys resources; transition requires knowledge transfer. | MEDIUM |
+| Inicijativa Centar Za Edukaciju | Terminate | Small $358 Croatian education center; one-time training course; non-strategic. | No impact. | LOW |
+| Innovent Spaces Private Limited | Terminate | Medium-spend $147K Indian office/coworking space; evaluate utilization against cost; significant savings opportunity if Indian footprint can be reduced or consolidated. | HIGH: if active Indian office, employees need alternative workspace arrangements before exit. | HIGH |
+| Inside Edge Novated Leasing | Consolidate | Low $1.3K novated leasing scheme; consolidate employee leasing benefits under primary salary packaging provider for unified administration. | Low; employees can use primary salary packaging platform. | LOW |
+| Integrated Personnel Services | Terminate | Low $1.1K staffing services; likely project-specific hiring; terminate upon role fulfillment. | No material impact. | LOW |
+| Inter Continental Chennai Mahabalipuram Resort | Terminate | Low $4.4K Indian resort; one-time team event or offsite; manage through Navan travel management. | No impact. | LOW |
+| Interaction Design Foundation, Inc | Terminate | De minimis $138 UX education platform; individual subscription; consolidate L&D under primary learning platform. | No impact. | LOW |
+| Intertrust Singapore Corporate Services Pte Ltd - Csc | Consolidate | Low $7.4K Singapore corporate secretarial services; consolidate corporate governance services (registered agent, secretarial) under primary international legal provider. | Low; corporate secretarial tasks migratable with 30-60 day notice. | LOW |
+| Istra Wine | Terminate | De minimis $53 Croatian wine vendor; one-time event/entertainment purchase; not a vendor relationship. | No impact. | LOW |
+| It London | Terminate | Low $2.8K London IT/facilities service; unclear service scope; likely one-time engagement. | No material impact. | LOW |
+| Jensten Insurance Brokers | Consolidate | Medium-spend $143K insurance broker managing critical D&O, liability, and property policy portfolio; consolidate all insurance programs under single preferred broker for portfolio-level premium discounts; significant optimization opportunity. | HIGH: manages critical insurance policy portfolio; abrupt removal could leave coverage gaps. | HIGH |
+| Jetbrains S.R.O. | Optimize | Low $4.1K developer IDE tooling (IntelliJ, PyCharm, etc.); important for developer productivity; optimize by right-sizing to active developers and negotiating All Products Pack volume pricing. | MEDIUM: developer productivity tools; removal disrupts engineering workflows. | MEDIUM |
+| John Smith | Terminate | Individual vendor at $2.2K in G&A; likely one-time freelance service; terminate upon work completion. | No material impact. | LOW |
+| Jones Lang Lasalle (Nsw) Pty Ltd | Consolidate | Low $16.3K JLL real estate services in NSW overlapping with CBRE ($8.4K) for commercial property advisory; consolidate property management under a single preferred advisor. | Low; advisory work consolidatable to primary CRE advisor. | LOW |
+| Kall Kwik Centre 565 | Terminate | De minimis $55 UK print shop; one-time print job; not a vendor relationship. | No impact. | LOW |
+| Kat'S Kitchen D.O.O. | Terminate | De minimis $119 Croatian catering; one-time meal expense; not a vendor relationship. | No impact. | LOW |
+| Kilgannon & Partners Llp | Terminate | Small $681 UK legal firm; minor one-time legal service; consolidate under primary legal counsel. | No material impact. | LOW |
+| Kimble Applications Ltd | Consolidate | Mid-tier $53K PSA/project management platform (Certinia) overlapping with Sage ($47K), Planful ($28K), and Smartsheet in the finance/PM stack; consolidate project and financial management tools to reduce SaaS spend. | MEDIUM: professional services automation tool; project billing and resource data migration needed. | MEDIUM |
+| Klg - Kalra Legal Group | Terminate | Small $681 Indian legal group; minor legal service; consolidate India legal work under primary counsel. | No material impact. | LOW |
+| Konzum Plus D.O.O. | Terminate | Low $15.7K Croatian supermarket/retail spend; likely office supplies or catering through a Croatian grocery chain; evaluate inclusion in office management contract; otherwise terminate individual invoices. | Low; office supplies sourceable through primary facilities management. | LOW |
+| Kosmaz Technologies Croatia | Consolidate | De minimis $195 Croatian technology vendor; consolidate with primary IT/engineering vendors to eliminate tail spend. | No impact. | LOW |
+| Kryterion, Inc. | Terminate | Low $3.5K professional certification testing platform; limited employee usage; evaluate ROI and terminate if certification programs are not core to talent strategy. | Low; certifications accessible through primary L&D platform. | LOW |
+| Lajnap Comedy Booking D.O.O. | Terminate | Small $1.5K entertainment booking agency; one-time team event entertainment; not an ongoing vendor. | No impact. | LOW |
+| Lancefield Bus Service | Terminate | Small $412 bus/transport service; one-time event transport; not a vendor relationship. | No impact. | LOW |
+| Landu Law Solicitors | Terminate | Small $568 UK legal firm; minor one-time legal service; consolidate under primary legal counsel. | No material impact. | LOW |
+| Lane Ip Limited | Consolidate | Low $852 IP law firm; consolidate IP/patent work under primary legal counsel or preferred IP specialist to reduce legal vendor fragmentation. | Low; IP matters manageable by primary counsel. | LOW |
+| Lastpass Ireland Limited | Consolidate | Low $263 password management tool; consolidate with primary IT security stack (enterprise SSO/PAM solution or 1Password) to reduce point solutions. | Low; passwords migratable to primary password management solution. | LOW |
+| Lemia D.O.O. | Terminate | De minimis $88 Croatian vendor; single transaction; not a vendor relationship. | No impact. | LOW |
+| Lider Media D.O.O. | Terminate | De minimis $80 Croatian media/advertising vendor; one-time placement; not an ongoing vendor. | No impact. | LOW |
+| Limes Plus D.O.O. | Terminate | Low $5.6K Croatian facilities vendor; likely maintenance or supplies; evaluate whether covered by office management contract, otherwise terminate. | No material impact. | LOW |
+| Linkedin Ireland Limited | Consolidate | Mid-tier $56K LinkedIn advertising and recruitment spend; consolidate LinkedIn budget under unified digital marketing and talent strategy; negotiate agency management with MightyHive for managed campaigns. | MEDIUM: active LinkedIn campaigns and job postings; pausing impacts employer brand and lead generation. | MEDIUM |
+| Livingstone | Terminate | De minimis $41 finance vendor; single transaction; not a vendor relationship. | No impact. | LOW |
+| London Waste Management | Terminate | De minimis $86 waste management; likely one-time collection; if recurring, include in office management contract. | No impact. | LOW |
+| Lunch Nutrition D.O.O. | Terminate | Low $1K Croatian nutrition/catering service; standalone employee lunch program; evaluate inclusion in office management contract, otherwise terminate. | Low; employees can arrange lunch independently. | LOW |
+| Lusha | Consolidate | Low $2.6K B2B contact intelligence overlapping with Cognism ($27K) and Dun & Bradstreet ($610) for sales prospecting data; consolidate to single preferred data provider. | Low; sales team can rely on primary data vendor. | LOW |
+| M&S Simply Food | Terminate | De minimis $19 retail food purchase; single transaction; not a vendor relationship. | No impact. | LOW |
+| Magazin Raunalni Sistemi D.O.O. | Terminate | Low $13.9K Croatian IT systems retailer; likely hardware/equipment purchase; consolidate IT hardware procurement under a preferred vendor agreement. | Low; hardware procurement manageable through primary IT vendor. | LOW |
+| Magic Mountain Saloon | Terminate | Small $524 venue/entertainment; one-time team event; not a vendor relationship. | No impact. | LOW |
+| Make And Grow Ltd | Terminate | Small $483 marketing agency; negligible spend; consolidate marketing work with primary agency. | No impact. | LOW |
+| Maniax Melbourne Cbd | Terminate | Small $315 Melbourne entertainment venue; one-time team activity; not a vendor relationship. | No impact. | LOW |
+| Muller Trgovina Zagreb D.O.O. | Terminate | Low $1.1K Zagreb retail; office supplies/facilities; consolidate under office management. | No impact. | LOW |
+| Marvie Hotel - Krupa D.O.O. | Terminate | Small $502 Croatian hotel; one-time accommodation; route through Navan. | No impact. | LOW |
+| Mason Frank International Ltd | Terminate | Low $38K specialist Salesforce/IT recruitment agency; project-specific hiring engagement; consolidate recruitment with primary RPO or preferred agency framework. | Low; open roles coverable by primary recruitment partner. | LOW |
+| Mcburneys Charted Accountants | Terminate | Low $2.7K regional accounting firm; likely one-time or project-specific service; consolidate under primary finance partners. | No material impact. | LOW |
+| Media Promo Plus D.O.O. | Terminate | Small $226 Croatian media/promotions vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Meluba Limited | Terminate | De minimis $88; one-time administrative expense; not a vendor relationship. | No impact. | LOW |
+| Mercer Limited | Consolidate | Low $5.4K HR consulting (compensation benchmarking); consolidate comp benchmarking with primary HR advisory partner to reduce fragmentation across HR vendor landscape. | Low; compensation surveys obtainable through primary HR partner. | LOW |
+| Merchandise Ltd | Terminate | Small $490 merchandise vendor; one-time promotional items; not a strategic vendor. | No impact. | LOW |
+| Mesa Verde | Terminate | Small $662 G&A vendor; unclear service; likely one-time expense. | No material impact. | LOW |
+| Microsoft Ireland Operations Limited | Consolidate | Low $9.8K Microsoft Ireland entity; consolidate all Microsoft spend (M365, Azure) under a single Microsoft enterprise agreement for volume discounts and simplified licensing governance. | Low; Microsoft services continue under primary enterprise agreement. | LOW |
+| Mightyhive Ltd | Consolidate | Low $19K Google/digital media agency; consolidate with LinkedIn ($56K) and Google Ireland ($25K) spend under a unified programmatic advertising strategy with single media agency management. | Low; campaign management transferable to primary agency. | LOW |
+| Mithras Consultants | Terminate | De minimis $77 HR consultancy; single transaction; not a vendor relationship. | No impact. | LOW |
+| Monile J.D.O.O. | Terminate | De minimis $152 Croatian vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Mosaic Concept D.O.O. | Terminate | Low $5.7K Croatian office/interior design; one-time fit-out or renovation expense; not an ongoing vendor. | No impact. | LOW |
+| My Foodiverse Llp | Terminate | Low $2.5K food delivery/catering service; non-essential office perk with no operational dependency. | No operational impact. | LOW |
+| N S Shastri And Co | Terminate | Low $2.2K Indian accounting firm; project-specific; consolidate India accounting under primary finance partner. | No material impact. | LOW |
+| Nastavni Zavod Za Javno Zdravstvo Dr. Andrija Stampar | Terminate | De minimis $199 Croatian public health institute; likely one-time occupational health service; if mandatory, include in primary occupational health contract. | No impact. | LOW |
+| National Securities Depository Limited (Nsdl) | Terminate | Small $281 Indian securities depository; likely statutory filing fee; reclassify as regulatory payment rather than vendor spend. | No vendor relationship to terminate. | LOW |
+| Navan (Tripactions Inc) | Optimize | High-spend $358K primary travel management platform; core operational tool for all business travel; negotiate enterprise discount, consolidate with Navan Inc duplicate ($58K), and review unused features to reduce total contract value. | HIGH: travel management system for entire organization; removal would prevent employees from booking compliant travel. | HIGH |
+| Navan, Inc | Optimize | Medium-spend $58K duplicate Navan entity; same travel management platform as Navan TripActions ($358K); consolidate billing under a single Navan account and renegotiate a unified contract for combined volume leverage. | HIGH: active travel bookings and expense reporting; consolidation must be managed carefully to avoid service disruption. | HIGH |
+| Ncc Services Limited | Consolidate | Low $3K software escrow/NCC Group services; consolidate escrow arrangements under primary legal or finance contract to streamline vendor management. | Low; escrow arrangements transferable to primary provider. | LOW |
+| Nefron - Obrt Za Poslovne Usluge | Terminate | Low $31K Croatian business services firm; evaluate whether services are covered by office management contract; significant savings if standalone engagement is terminated. | Low; business services absorbable by office management contract or primary vendors. | LOW |
+| New Block D.O.O. | Terminate | De minimis $56 Croatian vendor; single transaction; not a vendor relationship. | No impact. | LOW |
+| New Star Networks (Nsn) | Consolidate | Low $24K network services overlapping with Telefonica ($90K) and Cloudcrossing ($209K); consolidate under unified network strategy to reduce telecom vendor fragmentation. | MEDIUM: network connectivity may depend on NSN; assess overlap before transitioning. | MEDIUM |
+| Niva Transport J.D.O.O. | Terminate | Small $358 Croatian transport service; one-time or ad-hoc ground transportation; manage through Navan. | No impact. | LOW |
+| Notino S.R.O. | Terminate | De minimis $161 Czech beauty/personal care retail; single purchase; not a vendor relationship. | No impact. | LOW |
+| Npm Inc | Optimize | Low $3.5K NPM package manager (GitHub/Microsoft); important developer tooling for JavaScript ecosystem; optimize by reviewing Pro vs. Teams plan tiers against actual usage and user count. | MEDIUM: npm registry access supports active JavaScript development; disruption impacts build pipelines. | MEDIUM |
+| O'Donnell Salzano Lawyers | Terminate | Low $4K Australian legal firm; project-specific engagement; consolidate Australian legal work under preferred international counsel. | Low; legal matters manageable by primary counsel. | LOW |
+| Oakberry Jr D.O.O. | Terminate | Small $535 Croatian retail/food vendor; one-time purchase; not a vendor relationship. | No impact. | LOW |
+| Obiteljski Hoteli D.O.O. | Terminate | Small $474 Croatian hotel; one-time accommodation; route through Navan. | No impact. | LOW |
+| Obrt Sjaj Sunca | Terminate | Low $6.6K Croatian cleaning/maintenance service; evaluate whether included in office management contract; otherwise renegotiate or terminate. | Low; alternative cleaning services sourceable locally. | LOW |
+| Obrt Za Ugostiteljstvo Mirakul | Terminate | Small $565 Croatian catering vendor; one-time or occasional catering; not a strategic vendor. | No impact. | LOW |
+| Office Move London | Terminate | Low $2.3K office relocation service; one-time move expense; not an ongoing vendor. | No impact. | LOW |
+| Officeworks | Terminate | De minimis $56 Australian office supplies; single purchase; redirect through procurement policy. | No impact. | LOW |
+| Oladi D.O.O. | Terminate | Low $1.1K Croatian vendor; minor facilities expense; one-time; terminate. | No impact. | LOW |
+| Omonia D.O.O. | Terminate | Low $9.6K Croatian facilities vendor; likely ongoing maintenance or cleaning; evaluate whether more cost-effective than office management contract. | Low; alternative facilities services arrangeable in Croatia. | LOW |
+| Orcola D.O.O. | Terminate | Low $3.5K Croatian vendor; facilities expense with unclear recurring need; evaluate necessity and terminate. | No impact. | LOW |
+| Orionw Llc | Terminate | Low $4K US G&A vendor; unclear service; likely project-specific; terminate upon completion. | No material impact. | LOW |
+| Outreach Corporation | Consolidate | Low $9.2K sales engagement platform overlapping with Salesforce ($3.1M) and Cognism ($27K) in the sales tech stack; consolidate under primary Salesforce CRM or evaluate native Salesforce engagement features. | LOW: sales cadences manageable in Salesforce during transition. | LOW |
+| P S Recreation Club | Terminate | Small $1.2K recreation club; non-essential employee entertainment/wellness benefit. | No impact. | LOW |
+| Paint & Fun Vl. Martina Milkova Nikolova | Terminate | Low $1.7K art/entertainment vendor; one-time team activity; not a vendor relationship. | No impact. | LOW |
+| Paint&Wine, Vl. Stevo Dosen | Terminate | De minimis $159 art event vendor; one-time team activity; not a vendor relationship. | No impact. | LOW |
+| Pan-Pek D.O.O. | Terminate | De minimis $50 Croatian bakery; one-time purchase; not a vendor relationship. | No impact. | LOW |
+| Papertrail Inc | Consolidate | Low $3.9K log management SaaS; consolidate logging and observability with primary engineering monitoring stack (Datadog, AWS CloudWatch) to reduce tool sprawl. | Low; logs reroutable to primary monitoring platform during transition. | LOW |
+| Parcelforce Worldwide | Terminate | De minimis $155 parcel service; one-time shipment; consolidate courier spend with DHL. | No impact. | LOW |
+| Peakon Aps | Consolidate | Low $17K employee engagement survey platform (Workday Peakon); consolidate with primary HRIS to avoid standalone engagement tool if HRIS includes survey functionality. | LOW: employee survey data accessible on Peakon during transition. | LOW |
+| Pepco Croatia D.O.O. | Terminate | De minimis $89 Croatian discount retail; single purchase; not a vendor relationship. | No impact. | LOW |
+| Pepe'S Italian And Liquor | Terminate | Small $339 restaurant; one-time entertainment expense; not a vendor relationship. | No impact. | LOW |
+| Performancepro | Consolidate | Low $10K performance management tool; consolidate with primary HRIS or talent management platform to reduce HR tech stack fragmentation. | LOW: performance review cycles manageable within primary HR platform. | LOW |
+| Pingo D.O.O. | Terminate | Low $14.5K Croatian facilities vendor; likely IT hardware/supplies; consolidate under preferred IT hardware vendor for Croatian offices. | Low; hardware/facilities needs met through primary vendors. | LOW |
+| Pink Ribbon Shop | Terminate | Low $2.3K charity merchandise/cause marketing; one-time CSR initiative; not a strategic vendor. | No impact. | LOW |
+| Pinnacle Partnership Ca | Terminate | Low $4.8K Canadian G&A vendor; unclear service; project-specific; terminate upon completion. | No material impact. | LOW |
+| Pinsent Masons Mpillay Llp | Consolidate | Low $4.1K international law firm (Singapore/APAC); consolidate APAC legal work under primary international legal counsel to streamline legal management. | Low; legal matters absorbable by primary counsel. | LOW |
+| Pixsy Inc | Terminate | Small $613 image copyright enforcement service; non-core legal tool; terminate if not actively managing IP infringement claims. | No impact. | LOW |
+| Planful, Inc. | Consolidate | Low $28K FP&A platform overlapping with Sage ($47K) and Kimble ($53K) in the finance tech stack; consolidate financial planning under the primary ERP/accounting platform. | MEDIUM: active FP&A and budgeting workflows may depend on Planful; data migration requires planning. | MEDIUM |
+| Platinum Office D.O.O. | Terminate | De minimis $62 Croatian office vendor; single transaction; not a vendor relationship. | No impact. | LOW |
+| Pluralsight, Llc | Consolidate | De minimis $318 online learning platform; consolidate L&D tools under primary LMS and evaluate whether Pluralsight content can be accessed via existing engineering tools licensing. | No impact at this spend level. | LOW |
+| Plus Your Business Ltd | Terminate | Low $17K digital marketing agency; consolidate marketing agency spend under primary marketing partner; redundant given MightyHive and primary agency relationship. | Low; marketing activities manageable by primary agency. | LOW |
+| Pluxee India Private Limited | Consolidate | Low $4K Indian employee benefits/meal voucher platform; consolidate Indian employee benefits under primary HR vendor for India to eliminate parallel benefit delivery systems. | Low; benefit delivery consolidatable without disruption. | LOW |
+| Pmi Global Operations Center | Terminate | Small $378 PMI membership/fee; non-core compliance expense; evaluate if actively used and terminate if not leveraging membership benefits. | No impact. | LOW |
+| Poles Ltd - Hanbury Manor | Terminate | Low $10.5K UK hotel/event venue; likely team offsite or client event; one-time expense; not a strategic vendor. | No impact. | LOW |
+| Porezno Savjetnistvo Tuk D.O.O. | Terminate | Low $1.8K Croatian tax advisory; consolidate Croatian tax work with primary finance partners to reduce legal/finance vendor fragmentation. | Low; tax advisory absorbable by primary finance partner. | LOW |
+| Post Office Ltd | Terminate | De minimis $32 UK Post Office postage; one-time; not a vendor relationship. | No impact. | LOW |
+| Potomac D.O.O. | Terminate | Small $506 Croatian vendor; minor facilities expense; one-time; terminate. | No impact. | LOW |
+| President Hotel And Tower Co., Ltd | Terminate | Small $803 Asian hotel; one-time accommodation; route through Navan. | No impact. | LOW |
+| Pret A Manger | Terminate | De minimis $92 UK coffee/sandwich chain; single purchase; not a vendor relationship. | No impact. | LOW |
+| Prezzee | Terminate | De minimis $64 gift card platform; minor employee recognition expense; consolidate under primary HR rewards program. | No impact. | LOW |
+| Pricewaterhousecoopers Llp | Optimize | Low $4.9K PwC advisory spend; important strategic finance/advisory relationship at low current spend; maintain relationship while monitoring scope creep and negotiate clarity on engagement boundaries. | LOW: low-spend advisory engagement; no immediate operational dependency. | LOW |
+| Profi Bar D.O.O. | Terminate | Low $4.9K Croatian catering/bar vendor; likely office or event catering; evaluate necessity and terminate if non-essential. | Low; alternative catering available locally. | LOW |
+| Puducherry Backwater Resort Private Limited | Terminate | Low $4.1K Indian resort; one-time team offsite or event; not a strategic vendor. | No impact. | LOW |
+| Puzzle Promotion J.D.O.O. | Terminate | De minimis $143 Croatian promotions vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Quadrant Law Llc | Terminate | Low $1.3K legal firm; minor one-time engagement; consolidate under primary legal counsel. | No material impact. | LOW |
+| Radisson Grt - Unit Of Hotels & Resorts Pvt Ltd | Terminate | Small $1.4K Indian hotel; one-time accommodation; route through Navan. | No impact. | LOW |
+| Radius Group, Inc | Terminate | Low $1.7K US business services; unclear service scope; likely project-specific; terminate. | No material impact. | LOW |
+| Raiffeisenbank Austria D.D. | Optimize | Low $920 banking fees for the Croatian entity; core banking relationship for Croatian operations; optimize by reviewing fee structure and consolidating accounts where possible to reduce bank charges. | HIGH: banking relationship for Croatian legal entity; disruption impacts payroll and vendor payments. | HIGH |
+| Ramiro D.O.O. | Terminate | Low $11.5K Croatian facilities vendor; evaluate whether covered by office management contract; otherwise terminate to reduce tail spend. | Low; maintenance services sourceable from primary facilities provider. | LOW |
+| Regency Hampers Ltd | Terminate | De minimis $248 gift hamper; one-time client gift; not a vendor relationship. | No impact. | LOW |
+| Retriever Llc | Terminate | De minimis $88 US engineering vendor; single transaction; not a vendor relationship. | No impact. | LOW |
+| Rhea D.O.O. | Terminate | Small $1.3K Croatian vendor; minor facilities expense; one-time; terminate. | No impact. | LOW |
+| Rishi Events And Entainment | Terminate | Small $198 events vendor; one-time entertainment; not a vendor relationship. | No impact. | LOW |
+| Roto Dinamic D.O.O. | Terminate | Small $512 Croatian vendor; minor facilities; one-time; terminate. | No impact. | LOW |
+| Rsm Uk Corporate Finance Llp | Consolidate | Medium-spend $117K RSM UK advisory/corporate finance overlapping with BDO ($343K) for audit and advisory; consolidate corporate finance advisory under primary audit partner or run competitive tender to reduce overall spend. | HIGH: active corporate finance engagements (M&A, advisory) are time-sensitive; abrupt change would disrupt transaction timelines. | HIGH |
+| Rudan D.O.O. | Terminate | Small $473 Croatian vendor; minor facilities; one-time; terminate. | No impact. | LOW |
+| Safestore Ltd | Terminate | Small $287 UK storage facility; minor one-time storage; not a strategic vendor. | No impact. | LOW |
+| Sage Uk Limited | Consolidate | Low-mid $47K accounting software overlapping with Planful ($28K) and Kimble ($53K) in the finance tech stack; consolidate finance systems under primary ERP/accounting platform to reduce complexity. | MEDIUM: active accounting and financial reporting workflows; migration requires planning. | MEDIUM |
+| Salesforce Uk Ltd-Uk | Optimize | Highest single-vendor spend at $3.1M; core CRM platform critical to entire revenue operations; negotiate enterprise license agreement, right-size user licenses by role tier, and explore consolidating add-on tools (Outreach, HubSpot) for bundled pricing. | HIGH: core CRM supporting all sales, marketing, and customer success operations; disruption would halt revenue operations. | HIGH |
+| Semrush Inc | Consolidate | Low $3.7K SEO/content marketing tool; consolidate with primary digital marketing stack; evaluate overlap with Google Analytics and HubSpot marketing tools to reduce redundancy. | Low; SEO work can continue with primary marketing tools. | LOW |
+| Shilton Hospitality Llp | Terminate | De minimis $55 Indian hospitality; one-time; not a vendor relationship. | No impact. | LOW |
+| Shoff Darby Companies | Terminate | Low $10.1K US insurance/risk advisory; project-specific engagement; consolidate insurance advisory under primary broker (Jensten). | Low; insurance advisory absorbable by primary broker. | LOW |
+| Shree Info System Solutions Pvt Ltd | Terminate | Low $22.3K Indian IT services vendor; project-specific engineering engagement; consolidate under primary engineering partner. | LOW: project deliverables absorbable by primary engineering vendor. | LOW |
+| Slack Technologies Limited | Consolidate | Low $2K Slack spend; consolidate with primary collaboration platform (Microsoft Teams) or negotiate enterprise Slack license if Slack is the designated standard; eliminate dual-platform spend. | LOW: communication continues on primary platform during transition. | LOW |
+| Smart Group Services D.O.O. | Terminate | Low $16.4K Croatian facilities management; evaluate whether covered by primary office management contract; terminate if duplicating primary facilities vendor. | Low; facilities management absorbable by primary provider. | LOW |
+| Smartsheet Inc. | Consolidate | Low $3K project management tool; consolidate PM tools (Smartsheet, Aha! Labs, Big Frontier/Monday.com, Trello) under a single platform to reduce SaaS proliferation and licensing overhead. | Low; project tracking migrated to primary PM tool. | LOW |
+| Smashing Media Ag | Terminate | Small $850 tech media/events sponsor; one-time sponsorship; not a strategic vendor. | No impact. | LOW |
+| Snappy Snaps | Terminate | De minimis $59 UK photo printing; one-time; not a vendor relationship. | No impact. | LOW |
+| Sniper Systems And Solutions Private Limited | Terminate | Low $3.9K Indian IT systems vendor; project-specific engagement; consolidate under primary engineering vendor. | Low; project work absorbable by primary engineering partner. | LOW |
+| Sodexo Svc India Private Limited | Consolidate | Low $17.8K Indian employee meal voucher/benefits platform; consolidate Indian employee benefits under single provider; evaluate overlap with Pluxee India ($4K) and merge into one delivery mechanism. | LOW: employee voucher benefits manageable through consolidated provider. | LOW |
+| Soho Kitchen Ltd | Terminate | De minimis $104 UK restaurant; one-time entertainment; not a vendor relationship. | No impact. | LOW |
+| Solarwinds, Inc | Consolidate | De minimis $166 network monitoring tool; consolidate with primary IT monitoring/observability stack to eliminate redundant point solutions. | No impact at this spend level. | LOW |
+| Spar Hrvatska D.O.O. | Terminate | Small $341 Croatian supermarket; one-time purchase; not a vendor relationship. | No impact. | LOW |
+| Specijalisticka Ordinacija Medicine Rada Helena Blazic | Consolidate | De minimis $20 Croatian occupational medicine clinic; one of three overlapping occupational health providers; consolidate all three Croatian occupational health vendors under a single contract for simplified administration. | No impact; same service from consolidated provider. | LOW |
+| Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos | Consolidate | De minimis $20 second Croatian occupational medicine clinic; consolidate with other two occupational health providers under single preferred clinic for all employees. | No impact; same service from consolidated provider. | LOW |
+| Split Tech City | Terminate | Small $284 Croatian tech community sponsorship; one-time membership or event sponsorship; not a strategic vendor. | No impact. | LOW |
+| Sport Vision D.O.O. | Terminate | De minimis $26 Croatian sportswear retailer; one-time purchase; not a vendor relationship. | No impact. | LOW |
+| Sportkart D.O.O. | Terminate | Small $141 Croatian sports/entertainment; one-time team activity; not a vendor relationship. | No impact. | LOW |
+| Sportska Udruga Split | Terminate | De minimis $66 Croatian sports association; one-time membership; not a strategic vendor. | No impact. | LOW |
+| Ss&C Intralinks Inc | Consolidate | Low $40K virtual data room/deal management platform; consolidate VDR services with primary M&A advisory engagement (RSM UK, BDO) so that deal room costs are bundled within advisory scope. | MEDIUM: active deal/data room may have time-sensitive access requirements during M&A processes. | MEDIUM |
+| Starhub Ltd (Supplier) | Consolidate | Low $2.2K Singapore telecom; consolidate with primary telecom vendors (Telefonica, Cloudcrossing) for unified connectivity management across regions. | Low; Singapore connectivity manageable through primary telecom. | LOW |
+| Stillmark Zagreb D.O.O. | Terminate | Small $263 Zagreb vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Stipe Piric | Terminate | Individual vendor in G&A at $2.3K; likely freelance or one-time service; terminate upon completion. | No material impact. | LOW |
+| Streamlinereforms Inc | Terminate | Small $483 US legal/regulatory compliance service; one-time engagement; consolidate under primary legal counsel. | No impact. | LOW |
+| Student Packers & Movers | Terminate | Small $371 Indian movers; one-time office relocation; not a strategic vendor. | No impact. | LOW |
+| Studentski Centar - Split | Terminate | Low $8.3K Croatian student center; likely subsidized catering for employees; evaluate if a mandated benefit; otherwise terminate. | Low; employees can use alternative catering. | LOW |
+| Studentski Centar Karlovac | Terminate | Low $1.5K Croatian student center; similar to Studentski Centar Split; evaluate mandatory benefit status; terminate if discretionary. | No impact. | LOW |
+| Super Odrediste D.O.O. | Terminate | Small $378 Croatian vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Susan Lee | Terminate | Individual vendor at $1.8K in G&A; likely freelance or one-time consulting; terminate upon work completion. | No material impact. | LOW |
+| Sveuciliste U Zagrebu, Studentski Centar | Terminate | Low $44.3K Zagreb university student center; significant catering/food service spend for Croatian headquarters; evaluate whether a mandatory employee benefit or discretionary; significant savings if terminated. | MEDIUM: if mandatory Croatian employee catering benefit, a replacement must be arranged before exiting. | MEDIUM |
+| Taste Of Health | Terminate | Small $259 health food vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Tattu Manchester Limited | Terminate | Low $5.4K Manchester restaurant; one-time client entertainment or team event; not a vendor relationship. | No impact. | LOW |
+| Tau On-Line D.O.O. | Terminate | Small $534 Croatian online vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Taxstudio, Ltd. | Terminate | Low $14.6K UK tax advisory firm; consolidate UK tax work with primary finance partners (BDO, RSM); terminate standalone engagement. | Low; tax work absorbable by primary finance partner. | LOW |
+| Teb Poslovno Savjetovanje D.O.O. | Terminate | De minimis $129 Croatian business advisory; one-time; not a vendor relationship. | No impact. | LOW |
+| Technet It Recruitment | Terminate | Low $22K IT recruitment agency; consolidate recruitment spend under primary RPO or preferred agency framework agreement. | Low; open roles managed by primary recruitment partner. | LOW |
+| Telefonica Compras Electronicas S.L. | Terminate | Low $6.2K Telefonica electronic procurement entity; duplicate of primary Telefonica Global Services ($90K) account; terminate duplicate to consolidate under primary account. | Low; services continue through primary Telefonica account. | LOW |
+| Telefonica Global Services Gmbh | Consolidate | Medium-spend $90K Telefonica enterprise telecom; consolidate with Cloudcrossing ($209K) and Hrvatski Telekom ($18K) under a unified network/telecom strategy; significant vendor rationalization and renegotiation opportunity. | MEDIUM: enterprise telecom for international connectivity; transition requires network migration planning. | MEDIUM |
+| Telemach Hrvatska D.O.O. | Optimize | Low $5.1K Croatian cable/internet provider; important secondary connectivity for Croatian office; optimize plan and pricing to ensure best value for contracted bandwidth and service levels. | MEDIUM: secondary internet connectivity in Croatia; optimize to ensure SLA compliance. | MEDIUM |
+| Terrapinn Holdings Ltd | Terminate | Low $2.8K conference/events organizer; one-time event sponsorship or attendance; not a strategic vendor. | No impact. | LOW |
+| The Cook Kitchen | Terminate | De minimis $123 catering; one-time; not a vendor relationship. | No impact. | LOW |
+| The Cycle Gap Adyar | Terminate | Small $766 Indian cycle shop; likely cycle-to-work scheme purchase; one-time; terminate. | No impact. | LOW |
+| The Guardian | Terminate | Low $8.1K newspaper/digital media; likely one-time advertising placement; not a strategic media buy; consolidate under primary programmatic advertising strategy. | Low; marketing reach achieved through primary digital channels. | LOW |
+| The Plant Man | Terminate | De minimis $235 plant/interior vendor; one-time office plant supply; not a vendor relationship. | No impact. | LOW |
+| The Riding House Cafe | Terminate | Small $265 London restaurant; one-time entertainment; not a vendor relationship. | No impact. | LOW |
+| The Virtual Legal Counsel Ltd | Terminate | Low $4.8K virtual legal counsel; consolidate legal work under primary law firms to avoid fragmented legal management. | Low; matters absorbed by primary legal counsel. | LOW |
+| Thomas Mansfield Solicitors Limited | Terminate | Small $1.1K employment law firm; minor one-time service; consolidate under primary employment counsel. | No material impact. | LOW |
+| Tiganda J.D.O.O. | Terminate | Small $432 Croatian vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Till Trade D.O.O. | Terminate | De minimis $93 Croatian vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Time Out Group | Terminate | Small $920 city guide/entertainment media; one-time sponsorship or ad placement; not a strategic vendor. | No impact. | LOW |
+| Tm Forum | Terminate | Small $510 TMForum membership; evaluate if active participation justifies cost; terminate if not leveraging membership benefits. | No impact. | LOW |
+| Tmforum | Terminate | Medium-spend $57.6K duplicate TMForum entity alongside TM Forum ($510); same organization with a significant billing discrepancy; investigate and terminate duplicate account — likely a billing error requiring urgent review. | MEDIUM: investigate whether this represents an active contract before terminating; possible billing or contract error. | MEDIUM |
+| T-Mobile | Consolidate | Low $3.4K T-Mobile mobile telecom; consolidate mobile device management and telecom under primary telecom provider agreement for unified billing and policy. | Low; mobile service continues under primary telecom. | LOW |
+| Tog Uk Properties Limited | Optimize | High-spend $264K UK office lease; strategic workplace asset supporting UK operations; negotiate lease renewal terms, evaluate space utilization rates, and explore right-sizing or sub-leasing to reduce occupancy costs. | HIGH: primary UK office space; loss of this facility would displace the entire UK workforce without alternative arrangements. | HIGH |
+| Tp Prime D.O.O. | Terminate | Low $13.8K Croatian vendor; likely facilities maintenance or supplies; evaluate coverage by office management contract; otherwise terminate. | Low; facilities needs covered by primary vendor. | LOW |
+| Trans-Agram Obrt Za Dostavu | Terminate | Small $581 Croatian delivery service; one-time or ad-hoc delivery; not a strategic vendor. | No impact. | LOW |
+| Treci Posao D.O.O. | Terminate | Small $307 Croatian vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Trello | Consolidate | Low $6.7K Trello (Atlassian) project management; Trello is part of the Atlassian suite — consolidate with Atlassian enterprise license and primary PM tool (Big Frontier/Monday.com) to eliminate redundant PM platforms. | Low; project tracking migratable to primary PM/Atlassian tool. | LOW |
+| Trending Technology Services Gmbh | Terminate | Small $961 German tech services vendor; likely one-time or project engagement; terminate upon completion. | No material impact. | LOW |
+| Trocadero (London) Hotel Ltd | Terminate | Low $3.9K London hotel; one-time accommodation; route through Navan. | No impact. | LOW |
+| Uber *Eats | Terminate | De minimis $50 food delivery; one-time; not a vendor relationship. | No impact. | LOW |
+| Uberflip | Consolidate | Low $26K content experience platform overlapping with HubSpot ($32K) and primary CRM for content delivery; consolidate content marketing under primary marketing automation platform to reduce stack complexity. | LOW: content delivery manageable through HubSpot or primary CMS during transition. | LOW |
+| Uk Postbox Limited | Terminate | Small $670 UK virtual mailbox service; evaluate if required for registered address; if not, terminate; registered address maintainable through primary legal counsel. | Low; registered address manageable through primary legal provider. | LOW |
+| United Flow Ltd (The Goodness Project) | Terminate | Low $2.7K wellness/wellbeing program vendor; supplemental employee wellbeing; non-essential. | No critical dependency. | LOW |
+| Uptime Robot Service Provider Ltd | Consolidate | De minimis $78 uptime monitoring tool; consolidate with primary engineering monitoring stack (Datadog, AWS CloudWatch) to eliminate redundant point solutions. | No impact at this spend level. | LOW |
+| Urbani Eventi D.O.O. | Terminate | Small $851 Croatian events vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Ustanova Za Medicinu Rada I Sporta Dr. Novacki | Consolidate | De minimis $20 third Croatian occupational medicine vendor; consolidate all three occupational health clinics under a single preferred provider for all Croatian employees. | No impact; same service from consolidated provider. | LOW |
+| Ustanova Za Zdravstvenu Skrb P.P. | Consolidate | Small $131 Croatian healthcare provider; consolidate Croatian employee health services under single preferred occupational health provider. | Low; healthcare services manageable through consolidated provider. | LOW |
+| Vector Capital Management Lp | Terminate | Low $32.4K investment/fund management fees; evaluate whether this is a managed fund fee or advisory service; if advisory, consolidate with primary finance advisors. | Low; advisory work absorbable by primary finance partner. | LOW |
+| Veniture D.O.O. | Terminate | Low $39.3K Croatian facilities/catering vendor; significant catering spend for Croatian offices; evaluate whether included in office management contract; renegotiate or terminate to capture material savings. | MEDIUM: if primary Croatian office catering provider, a replacement must be arranged for employees before exiting. | MEDIUM |
+| Visalogic Limited | Consolidate | Low $11.2K immigration/visa services; consolidate immigration services under primary HR/legal provider as part of a global mobility program to reduce fragmentation. | LOW: immigration cases transferable to primary immigration counsel with appropriate notice. | LOW |
+| Vistaprint | Terminate | De minimis $130 print/design service; one-time; not a vendor relationship. | No impact. | LOW |
+| Vitality Works | Terminate | De minimis $182 employee wellness program; minor one-time; not a strategic vendor. | No impact. | LOW |
+| Vivat Fina Vina D.O.O. | Terminate | Small $467 Croatian wine vendor; one-time event/entertainment purchase; not a vendor relationship. | No impact. | LOW |
+| Vodafone (Australian) | Consolidate | Low $3.7K Australian Vodafone mobile; consolidate Australian mobile services under primary telecom agreement for unified billing and policy. | Low; mobile service continues under primary telecom. | LOW |
+| Weking D.O.O. | Terminate | Medium-spend $144K Croatian facilities vendor; evaluate against Zagrebtower ($184K Optimize) to right-size total Croatian office footprint; if duplicating primary Croatian office management, terminate to eliminate overlap. | HIGH: if primary Croatian facilities management provider, immediate termination would disrupt office operations; transition plan required. | HIGH |
+| Westbrook Advisers | Terminate | Low $15.4K financial advisory firm; project-specific engagement; consolidate under primary financial advisors and terminate standalone relationship. | Low; advisory work absorbable by primary finance partner. | LOW |
+| Wework Singapore Pte. Ltd. | Terminate | Medium-spend $64K WeWork Singapore coworking space; evaluate Singapore headcount and workspace needs against cost; consolidate into primary office space or negotiate a flex workspace arrangement at lower cost. | HIGH: if primary Singapore workspace, employees need alternative arrangements before exit. | HIGH |
+| Winmaxi Tours & Travels | Terminate | Low $1K Indian travel agency; consolidate all travel through Navan TripActions travel management platform to enforce travel policy. | No impact; travel managed through Navan. | LOW |
+| Wolt Enterprises Oy | Terminate | De minimis $62 food delivery app; one-time; not a vendor relationship. | No impact. | LOW |
+| Work Easy Space Solutions Private Limited | Terminate | Low $14.9K Indian coworking space; evaluate Indian headcount vs. workspace cost; consolidate into primary Indian office or terminate if headcount does not justify standalone space. | MEDIUM: if workspace for Indian employees, alternative must be secured before exit. | MEDIUM |
+| Workato, Inc. | Consolidate | Low $16.1K integration/automation platform (iPaaS) overlapping with Zapier ($167) and potentially native Salesforce integration; consolidate under primary integration platform to reduce point-to-point tool sprawl. | MEDIUM: active data integrations and workflows may depend on Workato; migration requires integration mapping. | MEDIUM |
+| Xenon Savjetovanje D.O.O. | Terminate | De minimis $164 Croatian consulting; one-time; not a vendor relationship. | No impact. | LOW |
+| Yellow Submarine D.O.O. | Terminate | Small $486 Croatian vendor; one-time; not a vendor relationship. | No impact. | LOW |
+| Yoxel, Inc | Terminate | Low $2K US engineering tools vendor; minor one-time purchase; terminate. | No material impact. | LOW |
+| Zagrebacki Holding D.O.O. | Terminate | Small $143 Zagreb utility/holding company; likely statutory utility or administrative fee; reclassify as regulatory or include in office management contract. | No impact. | LOW |
+| Zagrebtower D.O.O. | Optimize | Medium-high spend $184K Zagreb office tower lease; primary Croatian headquarters facility; negotiate lease renewal terms, evaluate floor plate utilization, and explore sub-leasing of unused floors to reduce occupancy cost. | HIGH: primary Croatian office building; disruption would displace Zagreb-based workforce. | HIGH |
+| Zapier Inc. | Consolidate | De minimis $167 workflow automation; consolidate with Workato ($16K) under the primary integration platform to eliminate redundant automation tools. | No impact at this spend level. | LOW |
+| Zettanet | Consolidate | De minimis $183 network services; consolidate with primary network/connectivity vendor (Telefonica, Cloudcrossing) under unified network strategy. | No impact. | LOW |
+| Zivi Napitak D.O.O. | Terminate | Low $3.7K Croatian beverage vendor; likely office refreshments; evaluate whether covered by office management contract; otherwise terminate. | No impact. | LOW |
+| Zuric I Partneri Odvjetnicko Drustvo D.O.O. | Terminate | Low $24.1K Croatian law firm; consolidate Croatian legal work with primary international counsel; significant legal vendor fragmentation exists in Croatia that warrants rationalization. | LOW: Croatian legal matters transitionable to primary counsel with 30-day notice. | LOW |
+
+---
+
+## Summary Statistics
+
+| Metric | Count |
+|---|---|
+| Total vendors assessed | 386 |
+| Optimize | 22 |
+| Consolidate | 97 |
+| Terminate | 267 |
+| HIGH impact level | 28 |
+| MEDIUM impact level | 35 |
+| LOW impact level | 323 |
+
+---
+
+## Top 3 Cost Optimization Opportunities (Pre-Sized for STEP 09)
+
+| Rank | Vendor / Cluster | Combined Spend | Opportunity |
+|---|---|---|---|
+| 1 | Salesforce UK Ltd | $3,117,226 | License right-sizing + enterprise renegotiation; 10–20% reduction = $311K–$623K savings |
+| 2 | Navan (TripActions + Navan Inc combined) | $415,913 | Consolidate two entities + renegotiate unified contract; 15–25% reduction = $62K–$104K savings |
+| 3 | BDO LLP + RSM UK (audit/advisory consolidation) | $460,159 combined | Multi-year fee negotiation + scope rationalization; 10–15% reduction = $46K–$69K savings |
+
+---
+
+Now saving the updated Step 06 rationale memory.The full **STEP 06 Vendor Decision Rationale Log** is complete — all 386 vendors documented with rationale, 30-day impact statement, and impact level.
+
+**Summary:**
+- **Optimize:** 22 vendors — strategic relationships needing renegotiation or right-sizing
+- **Consolidate:** 97 vendors — duplicate entities, overlapping tools, or fragmented category spend
+- **Terminate:** 267 vendors — long-tail, one-time, or negligible-spend vendors with no operational dependency
+
+**28 HIGH-impact vendors** flagged — these cannot be removed within 30 days without operational disruption. Core examples: Salesforce, AWS, Navan, TOG UK Properties, Cloudcrossing, BDO, Aetna, Jensten Insurance, Zagrebtower, Innovent Spaces, WeWork Singapore.
+
+**Top 3 pre-sized opportunities for STEP 09:**
+1. **Salesforce** ($3.1M) — license right-sizing + enterprise renegotiation: **$311K–$623K** potential savings
+2. **Navan consolidation** ($416K combined) — unify two entities + renegotiate: **$62K–$104K** potential savings
+3. **BDO + RSM audit/advisory** ($460K combined) — fee negotiation + scope rationalization: **$46K–$69K** potential savings

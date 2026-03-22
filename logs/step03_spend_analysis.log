@@ -1,0 +1,60 @@
+Now let me calculate everything and update the memory file.The memory from a prior STEP 03 run exists and is accurate. Let me verify the long-tail count precisely and present the complete analysis.
+
+**Calculating the precise long-tail count:**
+- Low Spend tier (360 vendors) includes 6 vendors just above $50K: Dcirrus ($56,459), Baringa Partners ($55,064), Microsoft Ireland ($54,096), CBRE ($50,581), Fluency Digital ($50,337), Rimini Street ($50,109)
+- Medium Spend tier includes 2 vendors below $50K: Hubspot ($32,187), Workato ($16,101)
+- Precise long-tail count: 360 − 6 + 2 = **356**
+
+The memory file already captures the analysis accurately but uses the sheet's Low Spend tier (360) as a proxy. I'll update it with the exact figure.---
+
+## STEP 03 — Vendor Spend Analysis Results
+
+### Summary Statistics
+
+| Metric | Value |
+|---|---|
+| **Total vendors** | 386 |
+| **Total 12-month spend** | $7,887,360.40 |
+| **Long-tail vendors (spend < $50K)** | 356 |
+| **High-spend strategic vendors (spend ≥ $200K)** | 5 |
+
+---
+
+### Top 10 Vendors by Spend
+
+| Rank | Vendor | Spend (USD) | % of Total |
+|------|--------|-------------|------------|
+| 1 | Salesforce UK Ltd-UK | $3,117,225.89 | 39.52% |
+| 2 | Navan (Tripactions Inc) | $357,983.62 | 4.54% |
+| 3 | BDO LLP | $343,081.39 | 4.35% |
+| 4 | TOG UK Properties Limited | $263,821.16 | 3.34% |
+| 5 | Cloudcrossing BVBA | $208,675.15 | 2.65% |
+| 6 | Zagrebtower D.O.O. | $183,754.42 | 2.33% |
+| 7 | Innovent Spaces Private Limited | $147,347.80 | 1.87% |
+| 8 | Weking D.O.O. | $144,093.20 | 1.83% |
+| 9 | Jensten Insurance Brokers | $142,699.73 | 1.81% |
+| 10 | GPT Space & Co | $133,506.78 | 1.69% |
+| | **Top 10 Combined** | **$5,042,189.14** | **63.93%** |
+
+---
+
+### Spend Tier Distribution
+
+| Tier | Threshold | Vendor Count | Notes |
+|------|-----------|-------------|-------|
+| High Spend | ≥ $200K | **5** | Sheet-defined tier; all 5 are ≥ $200K |
+| Medium Spend | $50K–$200K | 21 | Includes 2 vendors actually below $50K |
+| Low Spend | < $50K | 360 | Sheet tier; 6 are just above $50K |
+| **Long-tail (exact)** | **< $50K** | **356** | Precise count across all tiers |
+
+---
+
+### Key Observations
+
+1. **Extreme concentration:** Salesforce alone = 39.5% of total spend. Top 5 vendors = 54.4%.
+2. **Top 10 dominance:** 10 vendors (2.6% of the roster) account for 63.9% of all spend.
+3. **Long-tail problem:** 356 vendors below $50K hold only ~20% of spend — substantial administrative overhead for minimal value.
+4. **High-spend strategic tier** (≥$200K): 5 vendors — Salesforce, Navan, BDO, TOG UK Properties, Cloudcrossing BVBA.
+5. **Gap below top 5:** After Cloudcrossing ($208K), the next vendor (Zagrebtower, $183K) drops below the $200K threshold — the strategic tier is a tight cluster at the top.
+
+Memory file updated. These findings are ready for use in STEP 09.

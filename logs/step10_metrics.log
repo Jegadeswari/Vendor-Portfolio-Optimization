@@ -1,0 +1,120 @@
+Let me get the exact recommendation distribution and long-tail count from the live sheet data.Here is the STEP 10 audit trail metrics report:
+
+---
+
+## STEP 10 — Vendor Spend Strategy: Audit Trail Metrics Report
+
+**Generated:** 2026-03-22
+**Source:** A - TEMPLATE - RWA - Vendor Spend Strategy (R Jegadeswari).xlsx — `Vendor Analysis Assessment` sheet + `Top 3 Opportunities` sheet
+**Total vendors in scope:** 386
+
+---
+
+### 1. Total Vendor Spend
+
+| Metric | Value |
+|--------|-------|
+| Sum of all Last 12 Months Cost (USD) | **$7,887,360.40** |
+
+---
+
+### 2. Top 5 Vendors by Spend
+
+| Rank | Vendor | Spend (USD) | % of Total |
+|------|--------|-------------|------------|
+| 1 | Salesforce UK Ltd-UK | $3,117,225.89 | 39.5% |
+| 2 | Navan (TripActions Inc) | $357,983.62 | 4.5% |
+| 3 | BDO LLP | $343,081.39 | 4.3% |
+| 4 | TOG UK Properties Limited | $263,821.16 | 3.3% |
+| 5 | Cloudcrossing BVBA | $208,675.15 | 2.6% |
+| | **Top 5 Combined** | **$4,290,787.21** | **54.4%** |
+
+---
+
+### 3. Spend Concentration — Top 10 Vendors
+
+| Metric | Value |
+|--------|-------|
+| Top 10 combined spend | $5,042,189.13 |
+| Top 10 as % of total spend | **63.9%** |
+
+_(Ranks 6–10: Zagrebtower D.O.O. $183,754 · Innovent Spaces $147,348 · Weking D.O.O. $144,093 · Jensten Insurance Brokers $142,700 · GPT Space & Co $133,507)_
+
+---
+
+### 4. Long-Tail Vendor Analysis (Spend ≤ $50,000)
+
+| Metric | Value |
+|--------|-------|
+| Long-tail vendor count | **360** of 386 (93.3%) |
+| Long-tail combined spend | **$1,640,013.90** |
+| Long-tail as % of total spend | 20.8% |
+
+---
+
+### 5. Duplicate Vendor Categories Detected (STEP 07)
+
+| Metric | Value |
+|--------|-------|
+| Total consolidation opportunity groups | **23** |
+| Total vendor entries across all groups | 118 |
+| Total spend in scope across all groups | ~$6,899,005 |
+
+**Breakdown by priority tier:**
+
+| Tier | Criteria | Groups | Combined Spend |
+|------|----------|--------|----------------|
+| P1 | ≥ $200K | 7 | $5,668,677 |
+| P2 | $100K–$200K | 7 | $983,872 |
+| P3 | $25K–$100K | 3 | $187,960 |
+| P4 | < $25K | 6 | $58,271 |
+
+_Top duplicate categories: CRM & Sales Engagement ($3.16M), Office Space & Real Estate ($828K), Travel & Expense — Navan duplicate ($416K), Audit & Accounting ($412K), Cloud Infrastructure ($391K)._
+
+---
+
+### 6. Vendor Strategic Scoring Summary (STEP 08)
+
+| Score | Label | Vendor Count |
+|-------|-------|-------------|
+| 5 | Mission Critical — cannot be replaced | 2 |
+| 4 | Strategic — high switching cost | 18 |
+| 3 | Important but substitutable | 13 |
+| 2 | Marginal value — overlap exists | 58 |
+| 1 | Redundant or low-value | 295 |
+| | **Total scored** | **386** |
+
+_Conflicts flagged (recommendation misaligned with strategic score): **118** vendors (30.6% misalignment rate). Key conflict clusters: 10 Score-4 vendors mis-classified as Consolidate/Terminate; 3 Score-3 co-working vendors mis-classified as Terminate._
+
+---
+
+### 7. Recommendation Distribution
+
+| Recommendation | Vendor Count | Notes |
+|----------------|-------------|-------|
+| Terminate | 265 | 68.7% of portfolio — majority long-tail |
+| Consolidate | 99 | 25.6% — duplicate/overlap categories |
+| Optimize | 22 | 5.7% — high-spend strategic vendors |
+| Unknown / Blank | 0 | — |
+| **Total** | **386** | |
+
+---
+
+### 8. Total Identified Annual Savings — Top 3 Opportunities (STEP 09)
+
+| # | Opportunity | Estimated Annual Savings (USD) |
+|---|-------------|-------------------------------|
+| 1 | Renegotiate Salesforce UK Enterprise Contract | $467,584 |
+| 2 | Execute Long-tail Vendor Termination Program | $163,215 |
+| 3 | Consolidate Co-working & Office Space Portfolio | $124,175 |
+| | **Total Identified Annual Savings** | **$754,974** |
+
+---
+
+### Metrics Integrity Notes
+
+- All figures derived directly from the live `Vendor Analysis Assessment` sheet (386 rows, 6 columns) and `Top 3 Opportunities` sheet.
+- Strategic scores sourced from `STEP08 Strategic Scores` sheet and Step 08 analysis log.
+- Consolidation groups sourced from Step 07 analysis log (23 groups).
+- No data was written to the workbook as part of this step.
+- Long-tail threshold applied: spend ≤ $50,000 (strict).

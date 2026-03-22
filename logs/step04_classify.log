@@ -1,0 +1,409 @@
+Here is the full classification table for all 386 vendors:
+
+| # | Vendor Name | Spend (USD) | Category | Department |
+|---|---|---|---|---|
+| 1 | (Blank) | 137.30 | Other | G&A |
+| 2 | 4I Advisory Services | 71,860.34 | Professional Services | Professional Services |
+| 3 | 4I Management Consulting Private Limited | 12,117.49 | Management Consulting | Professional Services |
+| 4 | 4Imprint Direct Ltd | 2,436.14 | Promotional Products | Marketing |
+| 5 | 6Sense Insights Inc | 75.56 | Marketing Intelligence | Marketing |
+| 6 | Acclime Corporate Services | 5,412.87 | Corporate Services | G&A |
+| 7 | Acclime Usa, Inc | 4,994.98 | Corporate Services | G&A |
+| 8 | Accutrainee Limited | 38,840.80 | Training & Development | G&A |
+| 9 | Adamma Info Services Private Limited | 273.33 | IT Services | Engineering |
+| 10 | Adobe Systems Software | 3,928.65 | Creative Software | Marketing |
+| 11 | Advena | 153.89 | Other | G&A |
+| 12 | Aetna Life And Casualty Ltd | 124,661.46 | Health Insurance | G&A |
+| 13 | Ag Grid Ltd | 2,653.27 | Developer Tools | Engineering |
+| 14 | Agram Life Osiguranje D.O.O. | 24,952.20 | Insurance | G&A |
+| 15 | Aha! Labs Inc | 3,689.33 | Product Management | Product |
+| 16 | Akton D.O.O. | 3,253.58 | Professional Services | Professional Services |
+| 17 | Allianz Australia Workers' Compensation (Victoria) Limited | 6,098.63 | Insurance | G&A |
+| 18 | Allianz Wa | 970.71 | Insurance | G&A |
+| 19 | Amazon (Aus) | 233.31 | E-commerce | G&A |
+| 20 | Amazon Web Services Inc. | 5,153.06 | Cloud Infrastructure | Engineering |
+| 21 | Amazon Web Services Llc | 106,399.24 | Cloud Infrastructure | Engineering |
+| 22 | Amazon.Co.Uk | 1,106.95 | E-commerce | G&A |
+| 23 | Ansar Madovic | 1,731.95 | Freelance / Contractor | G&A |
+| 24 | Apple - Amer | 763.79 | Hardware | G&A |
+| 25 | Apple Distribution International Ltd | 1,913.32 | Hardware | G&A |
+| 26 | Apple Pty Ltd | 2,030.82 | Hardware | G&A |
+| 27 | Apple Retail Uk Ltd | 3,548.08 | Hardware | G&A |
+| 28 | Aquila Remete D.O.O. | 1,706.40 | Facilities | Facilities |
+| 29 | Arena Center Zagreb D.O.O. | 567.10 | Event Venue | Facilities |
+| 30 | Ariba Inc | 1,363.25 | Procurement Software | Finance |
+| 31 | Athlete Service Ltd | 5,284.80 | Employee Wellness | G&A |
+| 32 | Atlassian Pty Ltd | 223.92 | Developer Tools | Engineering |
+| 33 | Australian Payroll Professionals Pty Ltd | 4,399.24 | Payroll Services | G&A |
+| 34 | Australian Taxation Office (Ato) | 122.56 | Government / Tax | Finance |
+| 35 | Avoxi Inc | 177.85 | VoIP / Communications | G&A |
+| 36 | Axil Coffee Roasters | 89.38 | Office Food & Beverage | Facilities |
+| 37 | Axosoft Gitkraken | 54.37 | Developer Tools | Engineering |
+| 38 | Backoffice Associates | 1,079.70 | Data Management Services | Engineering |
+| 39 | Bakemono Bakers Melbourne | 18.43 | Office Food & Beverage | Facilities |
+| 40 | Bb Football Scouting J.D.O.O. | 822.55 | Sports / Entertainment | G&A |
+| 41 | Bdo Llp | 343,081.39 | Accounting / Audit | Finance |
+| 42 | Bella Operation A/S | 240.51 | Catering / Events | Facilities |
+| 43 | Benefit Systems D.O.O. | 16,900.22 | Employee Benefits | G&A |
+| 44 | Big Frontier Pty Ltd (Cult Of Monday) | 66,131.30 | Professional Services | Professional Services |
+| 45 | Bigshare Services Private Limited | 187.98 | Share Registry | Finance |
+| 46 | Bijeli Pijesak Obrt Za Poslovno Savjetovanje | 11,605.18 | Business Consulting | Professional Services |
+| 47 | Bisley Law Ltd | 67,414.26 | Legal Services | Legal |
+| 48 | Blink Events | 664.17 | Event Management | Marketing |
+| 49 | Blitz - Cinestar D.O.O. | 425.75 | Entertainment | G&A |
+| 50 | Boe Croatia D.O.O. | 814.03 | Office Supplies | G&A |
+| 51 | Bonus Opinio D.O.O. | 119.79 | Market Research | Marketing |
+| 52 | British Telecommunications | 1,492.68 | Telecommunications | G&A |
+| 53 | Brodomerkur D.D. | 28.57 | Retail | G&A |
+| 54 | Bupa Australia | 12,462.93 | Health Insurance | G&A |
+| 55 | Bupa- Supplier | 22,799.78 | Health Insurance | G&A |
+| 56 | Bureau Veritas Croatia D.O.O. | 3,199.93 | Testing / Certification | G&A |
+| 57 | Calm Achiever(A Unit Of Mohsin Ali Vakil) | 4,071.01 | Professional Services | Professional Services |
+| 58 | Capitol Services | 119.79 | Corporate Filing | Legal |
+| 59 | Care Health Insurance Company Limited | 24,044.69 | Health Insurance | G&A |
+| 60 | Carrington Communications | 1,654.46 | PR / Communications | Marketing |
+| 61 | Catering Ivić D.O.O. | 669.28 | Catering | Facilities |
+| 62 | Catering Muring | 9,602.80 | Catering | Facilities |
+| 63 | Cayman Islands Government | 56.21 | Government / Regulatory | G&A |
+| 64 | Cbre Limited | 8,395.22 | Facilities Management | Facilities |
+| 65 | Cedar Recruitment Ltd | 18,537.40 | Recruiting | G&A |
+| 66 | Centar Za Sigurnost D.O.O. | 4,991.32 | Security Services | Facilities |
+| 67 | Chamiers Recreation Club | 1,337.70 | Recreation / Wellness | G&A |
+| 68 | Cici Prudential Life Insurance Co. Ltd. | 3,194.82 | Insurance | G&A |
+| 69 | Cigna Sg | 13,248.95 | Health Insurance | G&A |
+| 70 | Cision Pr Newswire | 2,110.01 | PR / Media Distribution | Marketing |
+| 71 | City Pantry Ltd | 2,419.11 | Office Catering | Facilities |
+| 72 | Cleverland Winery Resort | 2,662.64 | Event Venue | G&A |
+| 73 | Click Send Pty Ltd | 55.29 | SMS / Marketing Comms | Marketing |
+| 74 | Clime India Private Limited | 1,678.30 | IT Services | Engineering |
+| 75 | Cloud Technology Solutions Ltd | 60,661.35 | Cloud Infrastructure | Engineering |
+| 76 | Cloudcrossing Bvba | 208,675.15 | Cloud Infrastructure | Engineering |
+| 77 | Cognism Limited | 27,013.13 | Sales Intelligence | Sales |
+| 78 | Coles | 17.51 | Grocery / Office Supplies | Facilities |
+| 79 | Collards Chartered Accountants | 12,878.62 | Accounting | Finance |
+| 80 | Common Desk, Llc | 3,842.29 | Co-working Space | Facilities |
+| 81 | Computershare-Caboodle Technology Limited | 980.93 | Share Registry | Finance |
+| 82 | Crayond Digital Private Limited | 1,645.95 | UX / Digital Design | Product |
+| 83 | Croatia Airlines | 831.91 | Travel | G&A |
+| 84 | Crossland | 2,924.05 | Professional Services | Professional Services |
+| 85 | Crowe Horwath Revizija D.O.O. | 4,061.85 | Accounting / Audit | Finance |
+| 86 | Cupcake Central (Life Is Sweet Bakery) | 35.02 | Office Food & Beverage | Facilities |
+| 87 | Currys Pc World | 30.41 | Electronics Retail | G&A |
+| 88 | Curzon Green Solicitors | 1,158.04 | Legal Services | Legal |
+| 89 | Del Posto D.O.O. | 363.59 | Catering / Restaurant | Facilities |
+| 90 | Dhl | 190.75 | Shipping / Logistics | G&A |
+| 91 | Dhl Express (Uk) Ltd | 118.87 | Shipping / Logistics | G&A |
+| 92 | Digitalna Produkcija J.D.O.O. | 992.85 | Digital Production | Marketing |
+| 93 | Djs For U | 220.23 | Entertainment / Events | G&A |
+| 94 | Dnsimple | 311.65 | DNS Management | Engineering |
+| 95 | Doctor Anywhere Operations Pte Ltd | 346.56 | Telehealth | G&A |
+| 96 | Docusign | 1,307.90 | e-Signature / Legal Tech | Legal |
+| 97 | Dsv Solutions A/S | 1,162.30 | Logistics | G&A |
+| 98 | Dun & Bradstreet D.O.O. | 609.67 | Business Intelligence | Sales |
+| 99 | E-Disti D.O.O. | 458.11 | Distribution | G&A |
+| 100 | Edwardian Pastoria Hotels Ltd (The Londoner) | 433.41 | Hotel / Accommodation | G&A |
+| 101 | Ekupi D.O.O. | 39.62 | E-commerce | G&A |
+| 102 | Elemental Life Solutions Llp | 2,806.54 | HR Consulting | G&A |
+| 103 | Emerge Development Consultancy Ltd | 10,046.31 | Professional Services | Professional Services |
+| 104 | Entrio Tehnologije D.O.O. | 472.58 | Ticketing / Events Tech | Marketing |
+| 105 | Epignosis Llc | 832.77 | eLearning / LMS | G&A |
+| 106 | Escape Art D.O.O. | 132.69 | Team Building / Events | G&A |
+| 107 | Etm Concessions Ltd | 1,418.60 | Office Food & Beverage | Facilities |
+| 108 | Eurofast International Ltd-Greec | 18,164.15 | Corporate Services / Tax | G&A |
+| 109 | Event Ors | 142.83 | Event Planning | Marketing |
+| 110 | Expert-Ing D.O.O. | 224.84 | Engineering Consulting | Engineering |
+| 111 | Fabiola Thistlewhaite | 2,154.29 | Freelance / Contractor | G&A |
+| 112 | Farmacia - Specijalizirana Prodavaonica D.O.O. | 35.94 | Pharmacy / Healthcare | G&A |
+| 113 | Fastspring | 1,179.33 | E-commerce / Payments | Finance |
+| 114 | Fedex Express Uk Transportation Ltd | 47.00 | Shipping / Logistics | G&A |
+| 115 | Fero-Term | 130.85 | HVAC / Facilities | Facilities |
+| 116 | Figma, Inc. | 459.81 | Design / Prototyping | Product |
+| 117 | Floom Ltd | 162.18 | Gifts / Flowers | G&A |
+| 118 | Formswift | 301.43 | Document Software | G&A |
+| 119 | Fortis Trade J.D.O.O. | 94.91 | Trade / Supply | G&A |
+| 120 | Franklin, Gringer & Cohen, P.C. | 426.60 | Legal Services | Legal |
+| 121 | Freepik Company | 202.73 | Stock Images / Creative | Marketing |
+| 122 | Friends Sports Club | 797.00 | Sports / Recreation | G&A |
+| 123 | G S Notary Public Limited | 1,935.46 | Notary / Legal | Legal |
+| 124 | Galop-Prijevoz D.O.O. | 907.70 | Transportation | G&A |
+| 125 | Garaža Firule D.O.O. | 2,930.01 | Parking | Facilities |
+| 126 | Garden City D.O.O. | 45.15 | Facilities / Retail | Facilities |
+| 127 | Gaucho Restaurants | 302.28 | Restaurant / Dining | G&A |
+| 128 | George Anchor | 2,107.46 | Freelance / Contractor | G&A |
+| 129 | Godaddy.Com, Llc | 923.02 | Domain / Web Hosting | Engineering |
+| 130 | Golden Mean, Inc | 1,658.72 | Professional Services | Professional Services |
+| 131 | Golubica Parking D.O.O. | 3,726.16 | Parking | Facilities |
+| 132 | Good Game Global D.O.O. | 2,953.85 | Gaming / Entertainment | G&A |
+| 133 | Google Ireland Limited | 24,797.78 | Digital Advertising | Marketing |
+| 134 | Gophr | 51.61 | Courier / Delivery | G&A |
+| 135 | Goto Technologies Uk Limited | 7,316.45 | Web Conferencing | G&A |
+| 136 | Gpt Space & Co | 133,506.78 | Office Space | Facilities |
+| 137 | Grad Split | 3,482.63 | Municipal Government | G&A |
+| 138 | Grad Zagreb, Gradski Ured Za Prostorno Uređenje,.. | 11,636.65 | Municipal Government | Facilities |
+| 139 | Grafo-Jan | 662.47 | Print Services | Marketing |
+| 140 | Grant Thornton | 46,538.55 | Accounting / Audit | Finance |
+| 141 | Granttree Limited | 13,658.79 | R&D Tax Credits | Finance |
+| 142 | Green Commute Initiative | 5,401.89 | Employee Benefits | G&A |
+| 143 | Greencell Express Private Limited | 457.25 | Transportation | G&A |
+| 144 | Grt Hotels And Resorts P Ltd | 2,031.68 | Hotel / Accommodation | G&A |
+| 145 | Gym4You D.O.O. | 3,692.26 | Employee Wellness | G&A |
+| 146 | Hahn Air | 183.37 | Travel | G&A |
+| 147 | Harissa D.O.O. | 21.19 | Catering / Restaurant | Facilities |
+| 148 | Harmonic Group Limited | 65,417.74 | Financial Advisory | M&A |
+| 149 | Hep Elektra D.O.O. | 3,734.71 | Utilities / Electricity | Facilities |
+| 150 | Hilton Garden Inn - Zagreb City Hotels D.O.O. | 82.01 | Hotel / Accommodation | G&A |
+| 151 | Hotel Laguna D.D. | 189.82 | Hotel / Accommodation | G&A |
+| 152 | Hotel Zonar | 522.82 | Hotel / Accommodation | G&A |
+| 153 | Houlihan Lokey Advisors, Llc | 37,461.23 | Investment Banking | M&A |
+| 154 | Hp Inc Uk Limited | 2,136.41 | Hardware | G&A |
+| 155 | Hr Solution International Gmbh | 80,822.76 | HR Services / Staffing | G&A |
+| 156 | Hrsolution International Ag | 6,987.11 | HR Services | G&A |
+| 157 | Hrvatski Nezavisnici Izvoznici Softvera | 153.89 | Industry Association | G&A |
+| 158 | Hrvatski Telekom D.D. | 18,084.38 | Telecommunications | G&A |
+| 159 | Hubspot Ireland Limited | 32,187.41 | CRM | Sales |
+| 160 | Icare Nsw | 1,150.37 | Workers Compensation | G&A |
+| 161 | Icici Lombard Gic Ltd | 5,972.02 | Insurance | G&A |
+| 162 | Ico | 67.27 | Data Protection / Regulatory | Legal |
+| 163 | Ikea Hrvatska D.O.O. | 3,609.50 | Furniture / Office Supplies | Facilities |
+| 164 | Illunis D.O.O. | 128.09 | IT Services | Engineering |
+| 165 | Induslaw | 596.05 | Legal Services | Legal |
+| 166 | Inet Telecoms Ltd. | 62.66 | Telecommunications | G&A |
+| 167 | Info Edge India Limited | 3,536.27 | Recruiting / Job Board | G&A |
+| 168 | Infodata | 240.97 | Data Services | Engineering |
+| 169 | Infosys | 66,570.42 | IT Services / Outsourcing | Engineering |
+| 170 | Inicijativa Centar Za Edukaciju | 357.63 | Education | G&A |
+| 171 | Innovent Spaces Private Limited | 147,347.80 | Office Space | Facilities |
+| 172 | Inside Edge Novated Leasing | 1,287.47 | Vehicle Leasing | G&A |
+| 173 | Integrated Personnel Services | 1,054.16 | Staffing / Recruiting | G&A |
+| 174 | Inter Continental Chennai Mahabalipuram Resort | 4,392.65 | Hotel / Accommodation | G&A |
+| 175 | Interaction Design Foundation, Inc | 138.22 | Design Education | G&A |
+| 176 | Intertrust Singapore Corporate Services Pte Ltd - Csc | 7,359.63 | Corporate Secretarial | Legal |
+| 177 | Istra Wine | 53.45 | Office Food & Beverage | Facilities |
+| 178 | It London | 2,838.04 | IT Services | Engineering |
+| 179 | Jensten Insurance Brokers | 142,699.73 | Insurance Broker | G&A |
+| 180 | Jetbrains S.R.O. | 4,083.07 | Developer Tools / IDE | Engineering |
+| 181 | John Smith | 2,162.81 | Freelance / Contractor | G&A |
+| 182 | Jones Lang Lasalle (Nsw) Pty Ltd | 16,274.48 | Facilities Management | Facilities |
+| 183 | Kall Kwik Centre 565 | 55.29 | Print Services | G&A |
+| 184 | Kat'S Kitchen D.O.O. | 118.87 | Catering | Facilities |
+| 185 | Kilgannon & Partners Llp | 681.20 | Legal Services | Legal |
+| 186 | Kimble Applications Ltd | 52,825.27 | Professional Services Automation | Professional Services |
+| 187 | Klg - Kalra Legal Group | 681.20 | Legal Services | Legal |
+| 188 | Konzum Plus D.O.O. | 15,683.86 | Grocery / Office Supplies | Facilities |
+| 189 | Kosmaz Technologies Croatia | 195.35 | IT Services | Engineering |
+| 190 | Kryterion, Inc. | 3,541.49 | Online Testing / Certification | G&A |
+| 191 | Lajnap Comedy Booking D.O.O. | 1,536.10 | Entertainment | G&A |
+| 192 | Lancefield Bus Service | 412.13 | Transportation | G&A |
+| 193 | Landu Law Solicitors | 567.95 | Legal Services | Legal |
+| 194 | Lane Ip Limited | 851.50 | IP / Legal Services | Legal |
+| 195 | Lastpass Ireland Limited | 263.11 | Security / Password Management | Engineering |
+| 196 | Lemia D.O.O. | 87.54 | Other | G&A |
+| 197 | Lider Media D.O.O. | 80.17 | Media / Publishing | Marketing |
+| 198 | Limes Plus D.O.O. | 5,623.65 | Facilities Services | Facilities |
+| 199 | Linkedin Ireland Limited | 55,572.69 | Recruiting | G&A |
+| 200 | Livingstone | 40.55 | Other | G&A |
+| 201 | London Waste Management | 85.70 | Waste Management | Facilities |
+| 202 | Lunch Nutrition D.O.O. | 1,011.58 | Catering / Office Food | Facilities |
+| 203 | Lusha | 2,605.59 | Sales Intelligence | Sales |
+| 204 | M&S Simply Food | 19.35 | Grocery | Facilities |
+| 205 | Magazin Raunalni Sistemi D.O.O. | 13,870.30 | IT Systems / Hardware | Engineering |
+| 206 | Magic Mountain Saloon | 523.67 | Restaurant / Bar | G&A |
+| 207 | Make And Grow Ltd | 482.80 | Marketing Services | Marketing |
+| 208 | Maniax Melbourne Cbd | 315.05 | Team Building / Entertainment | G&A |
+| 209 | Müller Trgovina Zagreb D.O.O. | 1,050.75 | Retail | Facilities |
+| 210 | Marvie Hotel - Krupa D.O.O. | 501.53 | Hotel / Accommodation | G&A |
+| 211 | Mason Frank International Ltd | 38,147.72 | IT Recruiting | G&A |
+| 212 | Mcburneys Charted Accountants | 2,711.17 | Accounting | Finance |
+| 213 | Media Promo Plus D.O.O. | 225.76 | Media / Promotion | Marketing |
+| 214 | Meluba Limited | 87.54 | Other | G&A |
+| 215 | Mercer Limited | 5,443.61 | HR Consulting / Benefits | G&A |
+| 216 | Merchandise Ltd | 490.46 | Promotional Merchandise | Marketing |
+| 217 | Mesa Verde | 662.47 | Restaurant | G&A |
+| 218 | Microsoft Ireland Operations Limited | 9,821.63 | Productivity SaaS | G&A |
+| 219 | Mightyhive Ltd | 19,041.66 | Digital Marketing Agency | Marketing |
+| 220 | Mithras Consultants | 77.40 | Professional Services | Professional Services |
+| 221 | Monile J.D.O.O. | 152.04 | Other | G&A |
+| 222 | Mosaic Concept D.O.O. | 5,730.50 | Design / Events | Marketing |
+| 223 | My Foodiverse Llp | 2,488.93 | Office Food Delivery | Facilities |
+| 224 | N S Shastri And Co | 2,194.31 | Accounting / Advisory | Finance |
+| 225 | Nastavni Zavod Za Javno Zdravstvo Dr. Andrija Štampar | 199.04 | Occupational Health | G&A |
+| 226 | National Securities Depository Limited(Nsdl) | 280.99 | Securities / Finance | Finance |
+| 227 | Navan (Tripactions Inc) | 357,983.62 | Travel Management | G&A |
+| 228 | Navan, Inc | 57,929.29 | Travel Management | G&A |
+| 229 | Ncc Services Limited | 3,036.44 | IT Escrow / Testing | Engineering |
+| 230 | Nefron - Obrt Za Poslovne Usluge | 30,613.90 | Business Services | Professional Services |
+| 231 | New Block D.O.O. | 56.21 | Other | G&A |
+| 232 | New Star Networks(Nsn) | 23,886.60 | Network / IT Services | Engineering |
+| 233 | Niva Transport J.D.O.O. | 357.63 | Transportation | G&A |
+| 234 | Notino S.R.O. | 161.26 | Retail | G&A |
+| 235 | Npm Inc | 3,534.91 | Developer Tools | Engineering |
+| 236 | O'Donnell Salzano Lawyers | 3,955.21 | Legal Services | Legal |
+| 237 | Oakberry Jr D.O.O. | 534.74 | Office Food & Beverage | Facilities |
+| 238 | Obiteljski Hoteli D.O.O. | 474.28 | Hotel / Accommodation | G&A |
+| 239 | Obrt Sjaj Sunca | 6,596.30 | Cleaning / Facilities | Facilities |
+| 240 | Obrt Za Ugostiteljstvo Mirakul | 565.40 | Catering | Facilities |
+| 241 | Office Move London | 2,293.09 | Office Relocation | Facilities |
+| 242 | Officeworks | 56.21 | Office Supplies | G&A |
+| 243 | Oladi D.O.O. | 1,064.37 | Catering / Restaurant | Facilities |
+| 244 | Omonia D.O.O. | 9,558.89 | Professional Services | Professional Services |
+| 245 | Orcola D.O.O. | 3,544.79 | IT Consulting | Professional Services |
+| 246 | Orionw Llc | 4,025.26 | Professional Services | Professional Services |
+| 247 | Outreach Corporation | 9,206.13 | Sales Engagement Platform | Sales |
+| 248 | P S Recreation Club | 1,219.35 | Recreation / Wellness | G&A |
+| 249 | Paint & Fun Vl. Martina Milkova Nikolova | 1,654.46 | Team Building / Events | G&A |
+| 250 | Paint&Wine, Vl. Stevo Dosen | 159.42 | Team Building / Events | G&A |
+| 251 | Pan-Pek D.O.O. | 49.76 | Office Food & Beverage | Facilities |
+| 252 | Papertrail Inc | 3,899.86 | Log Management | Engineering |
+| 253 | Parcelforce Worldwide | 154.81 | Shipping / Logistics | G&A |
+| 254 | Peakon Aps | 17,108.07 | Employee Engagement | G&A |
+| 255 | Pepco Croatia D.O.O. | 89.38 | Retail | G&A |
+| 256 | Pepe'S Italian And Liquor | 338.90 | Restaurant | G&A |
+| 257 | Performancepro | 10,017.77 | HR Performance Management | G&A |
+| 258 | Pingo D.O.O. | 14,508.49 | Professional Services | Professional Services |
+| 259 | Pink Ribbon Shop | 2,250.51 | Merchandise / Gifts | G&A |
+| 260 | Pinnacle Partnership Ca | 4,836.16 | Accounting / Tax | Finance |
+| 261 | Pinsent Masons Mpillay Llp | 4,077.83 | Legal Services | Legal |
+| 262 | Pixsy Inc | 613.08 | IP / Image Rights | Legal |
+| 263 | Planful, Inc. | 27,741.34 | FP&A / Financial Planning | Finance |
+| 264 | Platinum Office D.O.O. | 61.74 | Office Supplies | Facilities |
+| 265 | Pluralsight, Llc | 318.46 | Developer Training | Engineering |
+| 266 | Plus Your Business Ltd | 17,073.67 | Digital Marketing | Marketing |
+| 267 | Pluxee India Private Limited | 3,994.38 | Employee Benefits | G&A |
+| 268 | Pmi Global Operations Center | 378.07 | Professional Association | G&A |
+| 269 | Poles Ltd - Hanbury Manor | 10,488.35 | Event Venue / Catering | Marketing |
+| 270 | Porezno Savjetništvo Tuk D.O.O. | 1,812.84 | Tax Advisory | Finance |
+| 271 | Post Office Ltd | 32.25 | Postal Services | G&A |
+| 272 | Potomac D.O.O. | 805.52 | Professional Services | Professional Services |
+| 273 | President Hotel And Tower Co., Ltd | 802.96 | Hotel / Accommodation | G&A |
+| 274 | Pret A Manger | 92.15 | Office Food & Beverage | Facilities |
+| 275 | Prezzee | 63.58 | Gift Cards | G&A |
+| 276 | Pricewaterhousecoopers Llp | 4,878.61 | Professional Services / Audit | M&A |
+| 277 | Profi Bar D.O.O. | 4,916.67 | Catering / Bar | Facilities |
+| 278 | Puducherry Backwater Resort Private Limited | 4,055.99 | Hotel / Accommodation | G&A |
+| 279 | Puzzle Promotion J.D.O.O. | 142.83 | Promotional Events | Marketing |
+| 280 | Quadrant Law Llc | 1,326.63 | Legal Services | Legal |
+| 281 | Radisson Grt - Unit Of Hotels & Resorts Pvt Ltd | 1,405.82 | Hotel / Accommodation | G&A |
+| 282 | Radius Group, Inc | 1,722.58 | Telecom Expense Management | G&A |
+| 283 | Raiffeisenbank Austria D.D. | 919.62 | Banking | Finance |
+| 284 | Ramiro D.O.O. | 11,515.89 | IT Consulting | Professional Services |
+| 285 | Regency Hampers Ltd | 247.88 | Gifts | G&A |
+| 286 | Retriever Llc | 87.54 | Data Services | G&A |
+| 287 | Rhea D.O.O. | 1,253.41 | Professional Services | Professional Services |
+| 288 | Rishi Events And Entainment | 198.12 | Events | G&A |
+| 289 | Roto Dinamic D.O.O. | 511.75 | Facilities / Engineering Services | Facilities |
+| 290 | Rsm Uk Corporate Finance Llp | 117,077.88 | Corporate Finance / M&A | M&A |
+| 291 | Rudan D.O.O. | 472.58 | Other | G&A |
+| 292 | Safestore Ltd | 286.95 | Storage | Facilities |
+| 293 | Sage Uk Limited | 46,894.97 | Accounting / ERP | Finance |
+| 294 | Salesforce Uk Ltd-Uk | 3,117,225.89 | CRM | Sales |
+| 295 | Semrush Inc | 3,729.56 | SEO / Marketing Analytics | Marketing |
+| 296 | Shilton Hospitality Llp | 55.29 | Hotel / Hospitality | G&A |
+| 297 | Shoff Darby Companies | 10,100.47 | Insurance Broker | G&A |
+| 298 | Shree Info System Solutions Pvt Ltd | 22,275.04 | IT Services | Engineering |
+| 299 | Slack Technologies Limited | 1,989.10 | Productivity SaaS | G&A |
+| 300 | Smart Group Services D.O.O. | 16,438.42 | Professional Services | Professional Services |
+| 301 | Smartsheet Inc. | 2,994.72 | Project Management | G&A |
+| 302 | Smashing Media Ag | 849.80 | Tech Education / Media | Engineering |
+| 303 | Snappy Snaps | 58.97 | Photo / Print Services | G&A |
+| 304 | Sniper Systems And Solutions Private Limited | 3,899.01 | IT Services | Engineering |
+| 305 | Sodexo Svc India Private Limited | 17,809.93 | Employee Benefits | G&A |
+| 306 | Soho Kitchen Ltd | 104.13 | Office Food & Beverage | Facilities |
+| 307 | Solarwinds, Inc | 165.87 | IT Monitoring | Engineering |
+| 308 | Spar Hrvatska D.O.O. | 340.60 | Grocery / Office Supplies | Facilities |
+| 309 | Specijalisticka Ordinacija Medicine Rada Helena Blazic | 20.27 | Occupational Medicine | G&A |
+| 310 | Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos | 20.27 | Occupational Medicine | G&A |
+| 311 | Split Tech City | 283.55 | Tech Community / Association | G&A |
+| 312 | Sport Vision D.O.O. | 25.80 | Sports / Retail | G&A |
+| 313 | Sportkart D.O.O. | 140.99 | Team Building / Sports | G&A |
+| 314 | Sportska Udruga Split | 66.35 | Sports Association | G&A |
+| 315 | Ss&C Intralinks Inc | 39,966.40 | M&A Deal Room | M&A |
+| 316 | Starhub Ltd (Supplier) | 2,205.38 | Telecommunications | G&A |
+| 317 | Stillmark Zagreb D.O.O. | 263.11 | PR / Communications | Marketing |
+| 318 | Stipe Piric | 2,301.60 | Freelance / Contractor | G&A |
+| 319 | Streamlinereforms Inc | 482.80 | Process Consulting | Professional Services |
+| 320 | Student Packers & Movers | 371.25 | Moving Services | Facilities |
+| 321 | Studentski Centar - Split | 8,269.34 | Catering / Facilities | Facilities |
+| 322 | Studentski Centar Karlovac | 1,548.88 | Catering / Facilities | Facilities |
+| 323 | Super Odredište D.O.O. | 378.07 | Other | G&A |
+| 324 | Susan Lee | 1,761.75 | Freelance / Contractor | G&A |
+| 325 | Sveučilište U Zagrebu, Studentski Centar | 44,299.04 | Catering / Facilities | Facilities |
+| 326 | Taste Of Health | 258.86 | Office Food & Beverage | Facilities |
+| 327 | Tattu Manchester Limited | 5,366.03 | Restaurant / Events | G&A |
+| 328 | Tau On-Line D.O.O. | 533.89 | Online Services | G&A |
+| 329 | Taxstudio, Ltd. | 14,642.42 | Tax Advisory | Finance |
+| 330 | Teb Poslovno Savjetovanje D.O.O. | 129.01 | Business Consulting | Professional Services |
+| 331 | Technet It Recruitment | 21,952.28 | IT Recruiting | G&A |
+| 332 | Telefónica Compras Electrónicas S.L. | 6,157.18 | Telecommunications | G&A |
+| 333 | Telefonica Global Services Gmbh | 89,879.58 | Telecommunications | G&A |
+| 334 | Telemach Hrvatska D.O.O. | 5,134.03 | Telecommunications | G&A |
+| 335 | Terrapinn Holdings Ltd | 2,838.04 | Events / Conferences | Marketing |
+| 336 | The Cook Kitchen | 122.56 | Catering | Facilities |
+| 337 | The Cycle Gap Adyar | 765.50 | Transportation | G&A |
+| 338 | The Guardian | 8,070.27 | Media / Advertising | Marketing |
+| 339 | The Plant Man | 234.98 | Office Plants / Facilities | Facilities |
+| 340 | The Riding House Cafe | 264.82 | Restaurant | G&A |
+| 341 | The Virtual Legal Counsel Ltd | 4,800.30 | Legal Services | Legal |
+| 342 | Thomas Mansfield Solicitors Limited | 1,135.05 | Legal Services | Legal |
+| 343 | Tiganda J.D.O.O. | 431.71 | Other | G&A |
+| 344 | Till Trade D.O.O. | 93.07 | Trade / Supply | G&A |
+| 345 | Time Out Group | 920.47 | Media / Events | Marketing |
+| 346 | Tm Forum | 510.05 | Telecom Industry Association | G&A |
+| 347 | Tmforum | 57,560.43 | Telecom Industry Association | G&A |
+| 348 | T-Mobile | 3,357.46 | Mobile Telecommunications | G&A |
+| 349 | Tog Uk Properties Limited | 263,821.16 | Office Space | Facilities |
+| 350 | Tp Prime D.O.O. | 13,785.41 | IT Consulting | Professional Services |
+| 351 | Trans-Agram Obrt Za Dostavu | 580.72 | Delivery / Transport | G&A |
+| 352 | Treci Posao D.O.O. | 307.39 | Recruiting / Job Board | G&A |
+| 353 | Trello | 6,673.88 | Project Management | G&A |
+| 354 | Trending Technology Services Gmbh | 961.34 | IT Services | Engineering |
+| 355 | Trocadero (London) Hotel Ltd | 3,867.51 | Hotel / Accommodation | G&A |
+| 356 | Uber *Eats | 49.76 | Food Delivery | Facilities |
+| 357 | Uberflip | 26,091.00 | Content Marketing Platform | Marketing |
+| 358 | Uk Postbox Limited | 670.13 | Virtual Mail / Office | G&A |
+| 359 | United Flow Ltd (The Goodness Project) | 2,744.38 | Employee Wellness | G&A |
+| 360 | Uptime Robot Service Provider Ltd | 78.33 | Website Monitoring | Engineering |
+| 361 | Urbani Eventi D.O.O. | 850.65 | Events | G&A |
+| 362 | Ustanova Za Medicinu Rada I Sporta Dr. Novacki | 20.27 | Occupational Medicine | G&A |
+| 363 | Ustanova Za Zdravstvenu Skrb P.P. | 130.85 | Healthcare | G&A |
+| 364 | Vector Capital Management Lp | 32,426.73 | Investment / M&A Advisory | M&A |
+| 365 | Veniture D.O.O. | 39,342.12 | IT / Tech Consulting | Professional Services |
+| 366 | Visalogic Limited | 11,240.71 | Visa / Immigration Services | G&A |
+| 367 | Vistaprint | 129.93 | Print / Marketing Materials | Marketing |
+| 368 | Vitality Works | 181.53 | Employee Wellness | G&A |
+| 369 | Vivat Fina Vina D.O.O. | 466.62 | Office Food & Beverage | Facilities |
+| 370 | Vodafone (Australian) | 3,671.66 | Mobile Telecommunications | G&A |
+| 371 | Weking D.O.O. | 144,093.20 | IT Services / Outsourcing | Engineering |
+| 372 | Westbrook Advisers | 15,360.38 | Financial Advisory | M&A |
+| 373 | Wework Singapore Pte. Ltd. | 64,373.36 | Co-working Space | Facilities |
+| 374 | Winmaxi Tours & Travels | 1,001.36 | Travel | G&A |
+| 375 | Wolt Enterprises Oy | 61.74 | Food Delivery | Facilities |
+| 376 | Work Easy Space Solutions Private Limited | 14,913.21 | Office Space | Facilities |
+| 377 | Workato, Inc. | 16,101.03 | Integration Platform (iPaaS) | Engineering |
+| 378 | Xenon Savjetovanje D.O.O. | 164.02 | Business Consulting | Professional Services |
+| 379 | Yellow Submarine D.O.O. | 486.21 | Other | G&A |
+| 380 | Yoxel, Inc | 2,043.60 | CRM Integration | Sales |
+| 381 | Zagrebački Holding D.O.O. | 142.83 | Municipal Utilities | Facilities |
+| 382 | Zagrebtower D.O.O. | 183,754.42 | Office Space | Facilities |
+| 383 | Zapier Inc. | 166.79 | Workflow Automation | Engineering |
+| 384 | Zettanet | 183.37 | Network / IT Services | Engineering |
+| 385 | Zivi Napitak D.O.O. | 3,699.58 | Office Food & Beverage | Facilities |
+| 386 | Zuric I Partneri Odvjetnicko Drustvo D.O.O. | 24,135.44 | Legal Services | Legal |
+
+---
+
+**Classification summary by department:**
+
+| Department | Count | Notable vendors |
+|---|---|---|
+| G&A | ~150 | Navan, Aetna, Jensten, HR Solution, LinkedIn |
+| Facilities | ~70 | Tog UK, Zagrebtower, Innovent Spaces, Gpt Space & Co |
+| Engineering | ~45 | AWS LLC, Weking, Cloudcrossing, Telefonica, Infosys |
+| Professional Services | ~35 | BDO, Bisley Law (note: Bisley → Legal), 4I Advisory, Harmonic |
+| Finance | ~25 | BDO, Sage, Planful, RSM, Grant Thornton |
+| Sales | ~7 | Salesforce, HubSpot, Cognism, Outreach, Lusha |
+| Marketing | ~30 | Google, Mightyhive, Uberflip, HubSpot, Plus Your Business |
+| Legal | ~20 | Bisley Law, RSM, Zuric, O'Donnell Salzano |
+| M&A | ~8 | RSM UK, SS&C Intralinks, Harmonic, Houlihan Lokey |
+| Product | ~3 | Aha!, Figma, Crayond |
+
+> **Note on special-character names:** Vendor names containing Croatian/accented characters (rows 61, 125, 138, 209, 225, 270, 323, 325, 332, 381) must be matched exactly as stored in the workbook. The lookup layer should read the raw cell value directly rather than relying on the display string above.

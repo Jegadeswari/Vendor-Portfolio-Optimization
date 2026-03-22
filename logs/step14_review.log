@@ -1,0 +1,33 @@
+Now I have everything I need. Let me analyze the data and apply corrections.## STEP 14 Review Summary — 6 Corrections Applied
+
+---
+
+### Department Corrections (Column B)
+
+| Vendor | Row | Was | Now | Reason |
+|--------|-----|-----|-----|--------|
+| **Houlihan Lokey Advisors, LLC** | 154 | Finance | M&A | Investment banking is M&A advisory, not routine Finance. $37K spend. |
+| **Info Edge India Limited (Naukri.com)** | 168 | M&A | G&A | Naukri.com is a job portal for talent acquisition — misclassified as M&A. Should be G&A (recruiting). |
+| **Livingstone** | 201 | Finance | M&A | Description explicitly states "M&A advisory and investment banking services." |
+| **RSM UK Corporate Finance LLP** | 291 | Finance | M&A | Description explicitly states "M&A advisory and corporate finance services." The "Corporate Finance" division at RSM is the M&A arm. |
+| **SS&C Intralinks Inc** | 316 | Finance | M&A | Virtual data rooms are M&A-specific tools. Description says "Virtual data room for M&A and deal management." $40K spend. |
+
+---
+
+### Recommendation Correction (Column E)
+
+| Vendor | Row | Was | Now | Reason |
+|--------|-----|-----|-----|--------|
+| **Navan, Inc** | 229 | Optimize | Consolidate | Navan, Inc is a duplicate billing entity for Navan (TripActions Inc) in row 228. Both were Optimize, violating the rule that duplicate vendors must have at least one Consolidate. The primary entity ($357K, row 228) stays Optimize; this secondary entity ($57K) is now Consolidate. |
+
+---
+
+### Top 3 Opportunities — No Changes Required
+
+| Opportunity | Verification |
+|------------|-------------|
+| Renegotiate Salesforce UK contract | Savings math confirmed: $3,117,225 × 15% = $467,584 ✓ Salesforce is the #1 vendor at 39.5% of total spend. High-impact and executable. |
+| Long-tail vendor termination | 267 Terminate-rated vendors at ~$1.6M spend. 10% realisation = ~$160–163K in 90 days is realistic. Low-risk, high confidence. |
+| Consolidate co-working / office space | ~$828K across TOG UK, GPT Space, WeWork, Innovent Spaces, Work Easy and others. 15% preferred-operator savings = $124K. Executable and addresses a fragmented high-spend category. |
+
+All three opportunities address high-spend categories with realistic savings assumptions — no replacement needed.

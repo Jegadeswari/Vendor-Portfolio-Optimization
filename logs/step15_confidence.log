@@ -1,0 +1,241 @@
+I now have all 386 vendors. Let me perform the full confidence assessment.
+
+---
+
+# STEP 15 — Confidence & Review Check Report
+**Date:** 2026-03-22 | **Analyst:** Claude (Senior Vendor Strategy AI) | **Workbook:** A - TEMPLATE - RWA - Vendor Spend Strategy (R Jegadeswari).xlsx
+
+---
+
+## CONFIDENCE SUMMARY
+
+| Category | Count |
+|---|---|
+| Total vendors reviewed | **386** |
+| HIGH confidence | **267** |
+| MEDIUM confidence | **83** |
+| LOW confidence | **36** |
+| **Flagged for human review** | **36 LOW + 14 priority MEDIUM = 50** |
+
+---
+
+## SECTION 1 — LOW CONFIDENCE VENDORS (36)
+
+These vendors require human review before finalising. Reasons: unknown identity, individual person names, or "Unknown" department with no inferrable service category.
+
+### 1A — Individual Person Names Listed as Vendors (5)
+These appear to be contractors or individuals, not legal vendor entities. Classification is not meaningful until the service is confirmed.
+
+| # | Vendor Name | Dept | Suggestion | Issue |
+|---|---|---|---|---|
+| 23 | Ansar Madovic | G&A | Terminate | Individual person name — confirm contractor vs vendor |
+| 111 | Fabiola Thistlewhaite | G&A | Terminate | Individual person name — confirm role/service |
+| 181 | John Smith | G&A | Terminate | Generic individual name — cannot classify with confidence |
+| 318 | Stipe Piric | G&A | Terminate | Individual person name (Croatian) — confirm service |
+| 324 | Susan Lee | G&A | Terminate | Individual person name — confirm role/service |
+
+> **Risk:** If these are payroll-adjacent or critical contractors, abrupt termination may have legal/HR implications separate from vendor management.
+
+---
+
+### 1B — Blank Vendor Name (1)
+
+| # | Vendor Name | Dept | Suggestion | Issue |
+|---|---|---|---|---|
+| 1 | *(Blank)* | G&A | Terminate | No vendor name — likely a data entry error; cannot act on this row |
+
+---
+
+### 1C — Unknown Department + Unrecognisable Vendor (15)
+
+| # | Vendor Name | Dept | Suggestion | Issue |
+|---|---|---|---|---|
+| 57 | Calm Achiever (A Unit Of Mohsin Ali Vakil) | Unknown | Terminate | Ambiguous name; no identifiable service category |
+| 74 | Clime India Private Limited | Unknown | Terminate | Unrecognisable entity; service unknown |
+| 95 | Doctor Anywhere Operations Pte Ltd | Unknown | Consolidate | Telehealth platform (SG); dept should be HR/People — classification ambiguous |
+| 105 | Epignosis Llc | Unknown | Consolidate | LMS vendor (TalentLMS); dept should be L&D/Engineering — Unknown is incorrect |
+| 142 | Green Commute Initiative | Unknown | Terminate | Likely UK cycle-to-work scheme; dept should be HR/G&A |
+| 172 | Inside Edge Novated Leasing | Unknown | Consolidate | Vehicle novated leasing; dept should be HR/Finance |
+| 190 | Kryterion, Inc. | Unknown | Terminate | Online testing/proctoring platform; dept should be HR or Product |
+| 208 | Maniax Melbourne Cbd | Unknown | Terminate | Activity/entertainment venue; appears to be a facilities/events spend |
+| 248 | P S Recreation Club | Unknown | Terminate | Club membership; dept should be HR/G&A or Facilities |
+| 254 | Peakon Aps | Unknown | Consolidate | Employee engagement platform (now Workday Peakon); dept should be HR |
+| 257 | Performancepro | Unknown | Consolidate | Performance management tool; dept should be HR — confirm overlap with Peakon |
+| 275 | Prezzee | Unknown | Terminate | Digital gift card platform; dept should be HR/Marketing |
+| 312 | Sport Vision D.O.O. | Unknown | Terminate | Croatian sportswear/equipment retailer — likely facilities/HR spend |
+| 313 | Sportkart D.O.O. | Unknown | Terminate | Croatian activity/karting venue — likely facilities |
+| 314 | Sportska Udruga Split | Unknown | Terminate | Croatian sports association — context unclear |
+| 368 | Vitality Works | Unknown | Terminate | Wellness/EAP platform — dept should be HR |
+
+---
+
+### 1D — Unknown Department + Croatian/Regional Medical/Welfare Providers (5)
+
+| # | Vendor Name | Dept | Suggestion | Issue |
+|---|---|---|---|---|
+| 305 | Sodexo Svc India Private Limited | Unknown | Consolidate | Sodexo is well-known; employee benefits/meal vouchers — dept should be HR |
+| 309 | Specijalisticka Ordinacija Medicine Rada Helena Blazic | Unknown | Consolidate | Croatian occupational medicine clinic — dept should be HR/G&A |
+| 310 | Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos | Unknown | Consolidate | Croatian occupational medicine clinic — dept should be HR/G&A |
+| 362 | Ustanova Za Medicinu Rada I Sporta Dr. Novacki | Unknown | Consolidate | Croatian medical institute for occupational health |
+| 363 | Ustanova Za Zdravstvenu Skrb P.P. | Unknown | Consolidate | Croatian healthcare provider — dept and scope unknown |
+
+---
+
+### 1E — Unrecognisable Vendors with No Identifiable Function (10)
+
+| # | Vendor Name | Dept | Suggestion | Issue |
+|---|---|---|---|---|
+| 38 | Backoffice Associates | G&A | Terminate | Name is generic; no identifiable service; could be data migration/SAP |
+| 102 | Elemental Life Solutions Llp | G&A | Terminate | Unrecognisable; service category unknown |
+| 214 | Meluba Limited | G&A | Terminate | Unrecognisable entity |
+| 217 | Mesa Verde | G&A | Terminate | Highly generic name; unidentifiable vendor |
+| 220 | Mithras Consultants | G&A | Terminate | Generic consulting name; service unknown |
+| 246 | Orionw Llc | G&A | Terminate | Unrecognisable entity |
+| 282 | Radius Group, Inc | G&A | Terminate | Could be telecom/IoT analytics; service unclear in G&A context |
+| 286 | Retriever Llc | Engineering | Terminate | Unrecognisable; function in Engineering unknown |
+| 354 | Trending Technology Services Gmbh | Engineering | Terminate | Generic IT consultancy; service unknown |
+| 359 | United Flow Ltd (The Goodness Project) | G&A | Terminate | Unrecognisable; wellness/charity context unclear |
+
+---
+
+## SECTION 2 — MEDIUM CONFIDENCE VENDORS (83)
+
+Recognisable vendors where the classification is reasonable but warrants a second look.
+
+### 2A — CRITICAL FLAGS: Strategic Vendors at Risk ⚠
+
+These are the highest-priority items for human review.
+
+| # | Vendor Name | Dept | Suggestion | Risk |
+|---|---|---|---|---|
+| **10** | **Adobe Systems Software** | SaaS | **Terminate** | **Adobe Creative Cloud / Acrobat / Sign is a significant platform. Terminating without migration plan risks document workflow, e-signature, and creative asset disruption. Confirm scope — if this is Adobe Sign only, Terminate may be justified if DocuSign (row 96) is retained. If it covers Creative Cloud, Terminate is HIGH risk.** |
+| **30** | **Ariba Inc** | G&A | **Terminate** | **SAP Ariba is a procurement/sourcing platform. If actively used for PO/contract management, Terminate without replacement is operationally risky. Confirm whether this is an active system or a legacy/inactive spend.** |
+
+---
+
+### 2B — Duplicate Vendor Entries (4 groups)
+
+These represent the same legal or commercial entity entered under different names. The conflicting recommendations should be reconciled.
+
+| Group | Row A | Row B | Issue |
+|---|---|---|---|
+| AWS | #20 Amazon Web Services Inc. → **Consolidate** | #21 Amazon Web Services Llc → **Optimize** | Two legal entities of same service — reconcile to single strategy |
+| Navan | #227 Navan (Tripactions Inc) → **Optimize** | #228 Navan, Inc → **Consolidate** | Same travel platform, two entries — conflicting recommendations |
+| HR Solution | #155 Hr Solution International Gmbh → **Consolidate** | #156 Hrsolution International Ag → **Consolidate** | Same company, Swiss vs German entity — confirm if intentional |
+| TM Forum | #346 Tm Forum → **Terminate** | #347 Tmforum → **Terminate** | Identical vendor entered twice — duplicate row, one should be removed |
+
+---
+
+### 2C — Classification / Department Mismatches
+
+| # | Vendor Name | Dept | Suggestion | Concern |
+|---|---|---|---|---|
+| 113 | Fastspring | Engineering | Consolidate | FastSpring is an e-commerce/payment platform — dept should be Finance or Sales, not Engineering |
+| 73 | Click Send Pty Ltd | Engineering | Consolidate | Bulk SMS/messaging — could be Marketing or Engineering; dept ambiguous |
+| 180 | Jetbrains S.R.O. | Engineering | Optimize | Correct dept; but Optimize without specifying licence tier/seat reduction lever is incomplete |
+| 235 | Npm Inc | Engineering | Optimize | npm (Node Package Manager, Microsoft-owned) — confirm if spend is on private registry or individual npm Pro seats; lever should be specified |
+| 265 | Pluralsight, Llc | Engineering | Consolidate | L&D/training platform — should be HR/L&D dept, not Engineering |
+| 267 | Pluxee India Private Limited | Product | Consolidate | Employee benefits platform (formerly Sodexo Benefits) — dept should be HR, not Product |
+| 175 | Interaction Design Foundation, Inc | Product | Terminate | UX/design training — confirm no active learners before terminating |
+| 315 | Ss&C Intralinks Inc | M&A | Consolidate | M&A data room — correct dept; confirm if active deal in flight before actioning |
+| 366 | Visalogic Limited | Legal | Consolidate | Immigration/visa services — reasonable but confirm consolidation target |
+
+---
+
+### 2D — High-Impact Terminate Recommendations Needing Stronger Justification
+
+| # | Vendor Name | Dept | Suggestion | Concern |
+|---|---|---|---|---|
+| 5 | 6Sense Insights Inc | Marketing | Terminate | Account-based marketing platform — confirm no active campaigns; overlap with Cognism should be documented |
+| 15 | Aha! Labs Inc | Product | Consolidate | Product roadmap tool — confirm consolidation target (Smartsheet? Trello?) |
+| 153 | Houlihan Lokey Advisors, Llc | M&A | Terminate | Reputable investment bank — confirm engagement is complete before terminating |
+| 200 | Livingstone | M&A | Terminate | M&A advisory — confirm no retainer or live mandate |
+| 364 | Vector Capital Management Lp | Finance | Terminate | Investment/PE firm relationship — confirm this is not an active investor relationship |
+| 211 | Mason Frank International Ltd | Sales | Terminate | Salesforce recruitment specialist — if Salesforce expansion is planned, premature to terminate |
+| 35 | Avoxi Inc | Sales | Terminate | Cloud communications/VoIP — confirm sales team is not dependent on this number inventory |
+
+---
+
+### 2E — Consolidation Recommendations Without Identified Overlap Target
+
+| # | Vendor Name | Dept | Suggestion | Missing |
+|---|---|---|---|---|
+| 203 | Lusha | Sales | Consolidate | Overlap with Cognism (#77) implied but not stated |
+| 98 | Dun & Bradstreet D.O.O. | Sales | Consolidate | Overlap with Cognism/Lusha implied but target not specified |
+| 247 | Outreach Corporation | Sales | Consolidate | Overlap with Salesforce (#294) or HubSpot (#159) not specified |
+| 219 | Mightyhive Ltd | Marketing | Consolidate | Consolidation target (Google agency partner) not identified |
+| 357 | Uberflip | Marketing | Consolidate | Content experience — consolidation target not specified |
+| 307 | Solarwinds, Inc | Engineering | Consolidate | Overlap with Papertrail (#252) or other monitoring tools — consolidation target not specified |
+| 377 | Workato, Inc. | Engineering | Consolidate | Automation — overlap with Zapier (#383) should be explicitly stated |
+| 383 | Zapier Inc. | Engineering | Consolidate | Automation — overlap with Workato (#377) should be explicitly stated |
+| 135 | Goto Technologies Uk Limited | Engineering | Consolidate | GoTo Meeting/Connect — overlap with Slack/Teams not specified |
+
+---
+
+### 2F — Football Scouting Vendor in G&A (Unusual)
+
+| # | Vendor Name | Dept | Suggestion | Concern |
+|---|---|---|---|---|
+| 40 | Bb Football Scouting J.D.O.O. | G&A | Terminate | Football scouting entity in a tech company G&A — confirm this is not a misclassification or a client-related expense; appears anomalous |
+
+---
+
+## SECTION 3 — HIGH CONFIDENCE VENDORS (267)
+
+The remaining 267 vendors are classified with HIGH confidence. These include:
+
+- **Croatian catering/hospitality/facilities vendors** (D.O.O. entities): identity is clear from name/context; Terminate classification is appropriate for one-off or non-core spend (~120 vendors)
+- **Well-known global SaaS platforms** with appropriate classifications: AWS (Optimize), Salesforce (Optimize), Slack (Consolidate), Atlassian (Consolidate), Microsoft (Consolidate), HubSpot (Consolidate), Figma (Consolidate), Docusign (Consolidate), Smartsheet (Consolidate), LinkedIn (Consolidate), Google (Consolidate), Lastpass (Consolidate), Trello (Consolidate)
+- **Legal/Finance professional services firms** with clear Terminate/Consolidate: Grant Thornton, PwC, BDO, RSM, Sage, Planful, etc.
+- **Insurance/benefits vendors** with clear Optimize: Allianz, Bupa, iCare NSW, Aetna
+- **Telecom vendors** with appropriate Optimize: Hrvatski Telekom, Telemach, Vodafone, T-Mobile
+
+> **Strategic vendor check — PASS (with one exception):**
+> - AWS → Consolidate/Optimize ✓
+> - Salesforce → Optimize ✓ (not Terminate)
+> - Microsoft → Consolidate ✓
+> - Slack → Consolidate ✓
+> - Atlassian → Consolidate ✓
+> - **Adobe → Terminate ⚠ FLAGGED** (see Section 2A)
+> - Security vendors: no dedicated security tooling vendor appears in the list (no CrowdStrike, Okta, Palo Alto) — either not in scope or covered under Engineering/G&A entries
+
+---
+
+## SECTION 4 — AUDIT TRAIL: OPERATIONAL RISKS
+
+The following risks are documented for the audit trail and must be addressed in the implementation roadmap:
+
+| # | Risk | Mitigation Required |
+|---|---|---|
+| 1 | **Operational disruption from tool consolidation** — merging overlapping SaaS tools (Workato/Zapier, Cognism/Lusha, AWS entities) could interrupt live integrations and workflows | Phased migration plan required for each consolidation group; no simultaneous cutover; parallel-run period for critical tools |
+| 2 | **Contract lock-in and early termination penalties** — terminating vendors mid-contract triggers penalty clauses; applies particularly to multi-year SaaS agreements (Adobe, Outreach, 6Sense, Uberflip) | All Terminate/Consolidate actions must be aligned to renewal windows; contract expiry dates must be confirmed before actioning |
+| 3 | **Savings realisation delay due to migration costs** — consolidation projects incur one-time migration, data transfer, retraining, and integration costs that offset Year 1 savings | Net savings model required for all Tier 1 and Tier 2 consolidations; gross savings figures must not be reported without netting off transition costs |
+| 4 | **Stakeholder resistance from business unit owners** — department heads (Sales, Engineering, Marketing, Product) may resist termination of tools embedded in their workflows | Executive sponsorship required; business unit sign-off process before action; change management and communication plan needed alongside each recommendation |
+
+---
+
+## FINAL VERDICT
+
+### ⚠ HUMAN REVIEW RECOMMENDED BEFORE SAVING
+
+**The workbook is NOT YET READY TO SAVE as final.**
+
+The following must be resolved first:
+
+| Priority | Action Required |
+|---|---|
+| P1 — Critical | Confirm Adobe Systems Software (row 10) Terminate scope — is this Adobe Sign only or full Creative Cloud? |
+| P1 — Critical | Confirm Ariba Inc (row 30) is inactive/unused before actioning Terminate |
+| P1 — Data | Remove or resolve blank vendor row (#1) |
+| P1 — Data | Resolve 4 duplicate vendor entries (TM Forum, Navan, HR Solution, AWS entities) |
+| P2 — Data | Assign correct departments to all 15 "Unknown" department vendors |
+| P2 — Review | Confirm 5 individual person entries are not payroll/HR records misclassified as vendors |
+| P3 — Quality | Add explicit consolidation targets for 9 Consolidate recommendations missing overlap identification (Workato/Zapier, Lusha/Cognism, SolarWinds/Papertrail, etc.) |
+| P3 — Quality | Add specific renegotiation levers to Optimize entries missing them (JetBrains, npm, Jetbrains) |
+| P4 — Review | Confirm M&A advisory terminations (Houlihan Lokey, Livingstone) have no live mandates |
+
+Once the P1 items are cleared and a human analyst has reviewed the 36 LOW-confidence and 14 priority MEDIUM-confidence vendors listed above, the workbook may proceed to STEP 16.
+
+---
+
+**Ready to proceed to STEP 16 once human review of flagged items is complete.**

@@ -1,0 +1,44 @@
+Here is the full validation report for STEP 13:
+
+---
+
+## Validation Report — Vendor Analysis Assessment
+
+**Root cause of all failures:** 51 vendors had `"HR"` as their Department value, which is not in the valid department list.
+
+**Corrected Department assignments (51 total):**
+
+| Corrected To | Count | Basis |
+|---|---|---|
+| `Unknown` | 27 | No keyword match in vendor name/description |
+| `G&A` | 13 | Insurance, payroll, compliance, corporate admin keywords |
+| `Professional Services` | 3 | Recruiting/consulting keywords |
+| `Engineering` | 2 | Software/development keywords |
+| `Legal` | 2 | Contract/counsel keywords |
+| `Sales` | 1 | Mason Frank International |
+| `Product` | 2 | Interaction Design Foundation, Pluxee India |
+| `M&A` | 1 | Info Edge India |
+
+All 51 corrections were written back to the workbook. No Description or Suggestion fields required repair.
+
+---
+
+## Other Sheets Confirmation
+
+| Sheet | Status | Notes |
+|---|---|---|
+| Top 3 Opportunities | **PASS** | 3 rows populated (Salesforce $468K, Vendor termination $163K, Office space $124K) |
+| Methodology | **PASS** | Content present |
+| CEOCFO Recommendations | **PASS** | Memo present in A3 (starts: "MEMORANDUM TO: CEO \| CFO FROM: R. Jegadeswari…") |
+
+---
+
+## Final Summary
+
+```
+Total rows validated : 386
+Passed               : 335
+Failed and corrected :  51
+```
+
+Workbook saved. No formatting, column widths, or unaffected cells were modified.
