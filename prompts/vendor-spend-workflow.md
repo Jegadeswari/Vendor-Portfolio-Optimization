@@ -589,8 +589,8 @@ RE: Vendor Spend Rationalisation — Findings & Recommendations
 
 3. TOP 3 OPPORTUNITIES
   - Opportunities structured across Immediate and Parallel Strategic tracks to maximise speed, feasibility, and minimise operational risk
-  - [Opportunity 1 title]: [action] — est. $[savings]
-  - [Opportunity 2 title]: [action] — est. $[savings]
+  - [Opportunity 1 title] (Immediate): [action] — est. $[savings]
+  - [Opportunity 2 title] (Parallel Strategic): [action] — est. $[savings]
   - [Opportunity 3 title]: [action] — est. $[savings]
   Total estimated savings: $[total]
 
@@ -601,20 +601,19 @@ RE: Vendor Spend Rationalisation — Findings & Recommendations
   - Payback on implementation effort: under 6 months
 
 5. IMPLEMENTATION ROADMAP
-- Month 1–2: [one action, max 10 words]
-- Month 3–4: [one action, max 10 words]
-- Month 4–6: [one action, max 10 words]
-- Month 6+: [one action, max 10 words]
+  - Month 1–2: [one concise, specific action including vendor/category where relevant; execute immediate actions and initiate strategic work in parallel]
+  - Month 3–4: [continue consolidation or optimisation actions; advance strategic initiatives]
+  - Month 4–6: [complete major strategic initiatives and embed controls]
+  - Month 6+: [institutionalise vendor governance and prevent spend creep]
+
+Use specific vendors, categories, or quantified actions from the analysis where relevant. Avoid generic phrasing.
 
 6. RISKS AND MITIGATIONS
-- [Risk 1]: [mitigation in 8 words]
-- [Risk 2]: [mitigation in 8 words]
-- [Risk 3]: [mitigation in 8 words]
+  - [Risk 1]: [mitigation in 8 words]
+  - [Risk 2]: [mitigation in 8 words]
+  - [Risk 3]: [mitigation in 8 words]
 
-Recommended next step: [one sentence from the perspective of a senior procurement leader —
-reference the specific commercial lever, negotiation timing, or consolidation action
-that will unlock the largest saving fastest. Name the vendor, the renewal window or
-contract event, and the internal owner who must act.]
+Recommended next step: [one sentence that prioritises the highest-impact action while explicitly initiating parallel execution of immediate opportunities. Include vendor, timing, owner, and secondary parallel action.]
 
 Tone: executive, data-driven, no hedging.
 

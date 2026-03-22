@@ -1,22 +1,50 @@
-Now I have all the data. Let me review the key numbers before writing the memo:
+Now I have all the data I need. Let me compile the numbers and write the memo to A3.
 
-- **Opportunity 2 savings in the sheet**: $163,215 (the existing A3 draft incorrectly used $232,000)
-- **Correct total**: $467,584 + $163,215 + $124,175 = **$754,974**
-- **Year 1 at 60% midpoint**: ~$453,000
+**Key data:**
+- 386 vendors, $7.89M LTM | Terminate: 265 ($1.48M, 18.7%) | Optimize: 22 ($4.90M, 62.1%) | Consolidate: 99 ($1.51M, 19.2%)
+- Top 10 = 63.9% of spend
+- Top 3 savings: $467,584 + $163,215 + $124,175 = **$754,974**; Year 1 at 60% = ~$453KSTEP 12 is complete. The memo has been written to **A3** of the `CEOCFO Recommendations` sheet. A1 and A2 are untouched.
 
-Let me now write the corrected memo to A3.STEP 12 complete. The memo is written to A3 with A1 and A2 intact.
+Here's what was written:
 
-**Key corrections made vs. the prior draft in A3:**
+---
 
-| Item | Prior (incorrect) | Corrected |
-|---|---|---|
-| Opportunity 2 savings | $232,000 | **$163,000** (from Top 3 Opportunities sheet: $163,215) |
-| Total estimated savings | $821,000 | **$755,000** ($468K + $163K + $124K) |
-| Total as % of LTM spend | 10.4% | **9.6%** |
-| Year 1 realisable | $493,000 | **$453,000** (60% midpoint, not high-end) |
+**MEMORANDUM**
+TO: Chief Executive Officer | Chief Financial Officer
+FROM: R. Jegadeswari, Procurement & Finance
+DATE: 23 March 2026
+RE: Vendor Spend Rationalisation — Findings & Recommendations
 
-**Memo summary:**
-- **386 vendors**, $7.89M LTM spend; top 10 = 63.9% (concentration risk flagged)
-- **3 opportunities**: Salesforce renegotiation ($468K), long-tail termination ($163K), co-working consolidation ($124K)
-- **Total savings**: $755,000 (9.6% of spend); Year 1 realisable: $453,000
-- **Recommended next step**: CPO engages Salesforce UK in Q2 2026 at enterprise renewal to negotiate 15% reduction — unlocks $468K and addresses the single largest concentration risk
+**1. VENDOR SPEND OVERVIEW**
+- 386 active vendors | Total LTM spend: $7.89M
+- Breakdown: 265 vendors for Termination ($1.48M, 18.7%); 22 for Optimisation ($4.90M, 62.1%); 99 for Consolidation ($1.51M, 19.2%)
+- Top 10 vendors account for 63.9% of total spend — acute concentration risk
+
+**3. TOP 3 OPPORTUNITIES**
+- Opportunities structured across Immediate and Parallel Strategic tracks to maximise speed, feasibility, and minimise operational risk
+- Salesforce UK Contract Renegotiation (Immediate): right-size licences and secure multi-year pricing — est. $467,584
+- Long-tail Vendor Termination Program (Parallel Strategic): cancel 265 Terminate-rated vendors, prioritising Score-1 SaaS first — est. $163,215
+- Co-working & Office Space Consolidation: rationalise 8 vendors ($828K portfolio) to 1–2 preferred operators — est. $124,175
+Total estimated savings: $754,974
+
+**4. ESTIMATED SAVINGS SUMMARY**
+- Total identified savings: $754,974 (9.6% of total LTM spend)
+- Year 1 conservatively realisable: $453,000 (60% of identified savings)
+- Payback on implementation effort: under 6 months
+
+**5. IMPLEMENTATION ROADMAP**
+- Month 1–2: Launch Salesforce renegotiation with procurement lead; activate 265-vendor termination program targeting Score-1 SaaS cancellations first
+- Month 3–4: Continue vendor termination closures; issue co-working RFP and consolidate 8 operators to preferred panel of 1–2
+- Month 4–6: Execute final Salesforce contract amendment; complete co-working consolidation and migrate headcount to retained locations
+- Month 6+: Institutionalise quarterly vendor governance reviews; enforce category ownership to prevent tail-spend creep
+
+**6. RISKS AND MITIGATIONS**
+- Salesforce service disruption: Negotiate phased licence reduction with no-downtime SLA protection
+- Departmental resistance to terminations: Engage budget owners early to pre-empt escalations
+- Co-working lease break penalties: Review break clauses before issuing termination notices
+
+Recommended next step: Assign procurement lead to initiate Salesforce UK renegotiation by 30 April 2026, while simultaneously activating the 265-vendor termination program in Week 1 to capture quick-win savings in parallel.
+
+---
+
+Note: The template (A1) asks for a **Google Doc link** to be added below the memo — you'll need to paste that manually once you've created the Google Doc version.
